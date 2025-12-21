@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "projects": "Projects",
+    "blogs": "Blogs",
+    "certificates": "Certificates"
+  },
+  "hero": {
+    "greeting": "Hello! 👋",
+    "iam": "I am",
+    "title": "Software Engineering in Vietnam",
+    "description": "I am a 4th-year Software Engineering student, always seeking ways to apply knowledge to real projects and coursework.",
+    "viewPortfolio": "View Portfolio",
+    "downloadCV": "Download CV",
+    "stats": {
+      "skills": "Skills: C++, C#, Java, Python",
+      "projects": "Projects: 10+ projects",
+      "achievement": "Academic: Excellent"
+    }
+  },
+  "services": {
+    "badge": "What I Do",
+    "title": "The <accent>fields</accent> I work in",
+    "description": "Applying learned knowledge to build practical software products, focusing on efficiency, usability, and scalability.",
+    "viewMore": "View More",
+    "items": {
+      "webDev": {
+        "title": "Website Development",
+        "description": "Building websites and web applications with ASP.NET Core, PHP, REST API; focusing on clear structure, performance, and scalability."
+      },
+      "mobileDev": {
+        "title": "Mobile App Development",
+        "description": "Developing basic mobile applications with Flutter, focusing on friendly interface and user experience."
+      },
+      "businessAnalysis": {
+        "title": "Business Analysis",
+        "description": "Completing coursework and personal projects, practicing requirement analysis, system design, and problem-solving skills."
+      }
+    }
+  },
+  "about": {
+    "badge": "About Me",
+    "title": "Who is <accent>Vo Thanh Luan</accent>?",
+    "description": "I am a 4th-year Software Engineering student with a passion for developing web applications, mobile apps, and backend systems. During my studies, I have participated in many coursework and personal projects to apply theoretical knowledge into practice, while constantly learning new technologies to enhance my professional skills.",
+    "downloadCV": "Download CV",
+    "skillTags": ["Business Analyst", "Web Development", "Application Development", "DevOps", "UI/UX Design"],
+    "cvDialog": {
+      "title": "Choose CV Language",
+      "description": "Please select the language version of the CV you want to download.",
+      "cancel": "Cancel",
+      "vietnamese": "Vietnamese",
+      "english": "English"
+    }
+  },
+  "tools": {
+    "badge": "Skills and Tools",
+    "title": "Exploring the <accent>Tools</accent> Behind My Products",
+    "description": "Mastering the latest design tools to turn creative vision into reality"
+  },
+  "journey": {
+    "badge": "My Journey",
+    "title": "Education & <accent>Self Development</accent>",
+    "description": "My learning process, skill development and experience accumulation through coursework and personal projects.",
+    "education": "Education",
+    "work": "Experience"
+  },
+  "portfolio": {
+    "badge": "My Projects",
+    "title": "My Latest <accent> Projects</accent>",
+    "description": "Explore some of the standout projects I've completed, showcasing my skills and creativity in software development.",
+    "viewDetails": "View Details",
+    "allCategories": "All"
+  },
+  "blog": {
+    "badge": "My Blog",
+    "title": "Our Lastest <accent>Blogs</accent>",
+    "description": "Insights, tips and stories from a Software Engineering student",
+    "readMore": "Read More",
+    "searchPlaceholder": "Search articles...",
+    "showing": "Showing",
+    "articles": "articles",
+    "noResults": "No articles found",
+    "categories": {
+      "all": "All",
+      "Java": "Java",
+      "JavaScript": "JavaScript",
+      "Chia sẻ": "Sharing"
+    }
+  },
+  "certificates": {
+    "badge": "Certificates",
+    "title": "My<accent> Certificates </accent>",
+    "description": "Certificates earned throughout my learning and skill development journey",
+    "viewCertificate": "View Certificate",
+    "credentialID": "ID"
+  },
+  "footer": {
+    "description": "Creating excellent technology products, focusing on user experience and creative design.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Information",
+    "email": "luandangnhap@gmail.com",
+    "phone": "+84 392 574 033",
+    "location": "Ho Chi Minh City, Vietnam",
+    "copyright": "© 2025 Thanh Luan. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Not found"
+  }
+}
