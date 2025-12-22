@@ -31,7 +31,7 @@ export const portfolioDataEN: PortfolioData = {
       title: "English Learning App",
       category: "App Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
-      videoUrl: "https://www.youtube.com/watch?v=bl3DUWE2c9s",
+      videoUrl: "https://youtu.be/jZRlIM3-Jk0",
       tags: ["UI/UX", "App", "Education", "Mobile"],
       details: {
         description: "A mobile application that helps English learners practice vocabulary, grammar, and personalized learning paths through an initial assessment. The app is designed with a friendly interface, easy to use for all ages.",
@@ -67,7 +67,7 @@ export const portfolioDataEN: PortfolioData = {
       title: "Rental & Room Management Website",
       category: "Web Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20222151.png?raw=true",
-      videoUrl: "https://www.youtube.com/watch?v=bl3DUWE2c9s",
+      videoUrl: "https://youtu.be/FCghzKwk6qk",
       tags: ["Web", "UI/UX", "Backend", "E-commerce"],
       details: {
         description: "A web system that allows landlords to post rental listings, manage contracts, payments, and utilities. Tenants can search for suitable rooms, schedule viewings, and make online payments.",

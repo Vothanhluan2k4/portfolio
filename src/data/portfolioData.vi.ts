@@ -31,7 +31,7 @@ export const portfolioData: PortfolioData = {
       title: "Ứng dụng ôn luyện Tiếng Anh",
       category: "App Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
-      videoUrl: "https://www.youtube.com/watch?v=bl3DUWE2c9s",
+      videoUrl: "https://youtu.be/jZRlIM3-Jk0",
       tags: ["UI/UX", "App", "Education", "Mobile"],
       details: {
         description: "Ứng dụng mobile giúp người học tiếng Anh luyện tập từ vựng, ngữ pháp và lộ trình dành riêng cho bạn thông qua bài đánh giá đầu vào. Ứng dụng được thiết kế với giao diện thân thiện, dễ sử dụng cho mọi lứa tuổi.",
@@ -67,7 +67,7 @@ export const portfolioData: PortfolioData = {
       title: "Website Cho thuê & Quản lý Phòng Trọ",
       category: "Web Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20222151.png?raw=true",
-      videoUrl: "https://www.youtube.com/watch?v=bl3DUWE2c9s",
+      videoUrl: "https://youtu.be/FCghzKwk6qk",
       tags: ["Web", "UI/UX", "Backend", "E-commerce"],
       details: {
         description: "Hệ thống web cho phép chủ trọ đăng tin cho thuê phòng, quản lý hợp đồng, thanh toán và các tiện ích. Người thuê có thể tìm kiếm phòng trọ phù hợp, đặt lịch xem phòng và thanh toán online.",

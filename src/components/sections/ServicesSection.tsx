@@ -50,12 +50,12 @@ const ServicesSection = () => {
                 <h3 className="text-xl font-bold font-poppins text-primary mb-4 group-hover:text-accent transition-colors duration-300">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="text-muted-foreground mb-4 leading-relaxed">
                   {service.description}
                 </p>
 
                 {/* Link */}
-                <a
+                {/* <a
                   href="#"
                   className="inline-flex items-center gap-2 text-accent font-semibold group/link"
                 >
@@ -64,7 +64,7 @@ const ServicesSection = () => {
                     size={18}
                     className="transition-transform duration-300 group-hover/link:translate-x-2"
                   />
-                </a>
+                </a> */}
               </div>
             );
           })}
