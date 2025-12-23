@@ -61,7 +61,7 @@ const BlogSection = () => {
     <section id="blogs" className="py-20 lg:py-28 bg-secondary">
       <div className="container mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-up">
+        <div className="text-center mb-16" data-aos="fade-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-4 block">
             {t("blog.badge")}
           </span>
@@ -200,8 +200,9 @@ const BlogCard = ({ blog, index }: BlogCardProps) => {
   return (
     <article
       onClick={handleClick}
-      className="group bg-card rounded-3xl overflow-hidden shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 hover:-translate-y-2 animate-fade-up h-full cursor-pointer"
-      style={{ animationDelay: `${index * 0.1}s` }}
+      className="group bg-card rounded-3xl overflow-hidden shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 hover:-translate-y-2 h-full cursor-pointer"
+      data-aos="fade-up"
+      data-aos-delay={index * 100}
     >
       {/* Image */}
       <div className="relative aspect-[16/10] overflow-hidden">

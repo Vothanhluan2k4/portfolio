@@ -44,7 +44,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="order-2 lg:order-1 animate-fade-up">
+          <div className="order-2 lg:order-1" data-aos="fade-up" data-aos-delay="100">
             <span className="inline-block text-accent font-semibold text-4xl mb-4 animate-bounce-gentle">
               {t("hero.greeting")}
             </span>
@@ -91,7 +91,7 @@ const HeroSection = () => {
 
           </div>
           
-       <div className="order-1 lg:order-2 relative animate-slide-in-right flex justify-center">
+       <div className="order-1 lg:order-2 relative flex justify-center" data-aos="fade-left" data-aos-delay="200">
         {/* Background Shape */}
         <div className="absolute inset-0 flex justify-center">
           <div className="w-full max-w-sm bg-gradient-to-br from-accent/20 to-primary/10 rounded-[3rem] transform rotate-3 scale-95" />

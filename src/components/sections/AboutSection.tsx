@@ -44,7 +44,7 @@ const AboutSection = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left - Image */}
-          <div className="relative animate-slide-in-left">
+          <div className="relative" data-aos="zoom-in" data-aos-delay="100">
             {/* Main Image */}
             <div className="relative z-10">
               <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-8 border-card shadow-2xl">
@@ -88,7 +88,7 @@ const AboutSection = () => {
           </div>
 
           {/* Right - Content */}
-          <div className="animate-slide-in-right">
+          <div data-aos="fade-up" data-aos-delay="200">
             <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-4 block">
               {t("about.badge")}
             </span>

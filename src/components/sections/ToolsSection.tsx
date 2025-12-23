@@ -10,7 +10,7 @@ const ToolsSection = () => {
     <section className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-up">
+        <div className="text-center mb-16" data-aos="fade-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-4 block">
             {t("tools.badge")}
           </span>
@@ -27,8 +27,9 @@ const ToolsSection = () => {
           {portfolioData.skills.map((skill, index) => (
             <div
               key={skill.id}
-              className="group bg-secondary rounded-full px-6 py-4 flex items-center gap-4 hover:bg-card hover:shadow-xl transition-all duration-300 hover:-translate-y-1 animate-fade-up"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="group bg-secondary rounded-full px-6 py-4 flex items-center gap-4 hover:bg-card hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+              data-aos="flip-up"
+              data-aos-delay={index * 40}
             >
               <img
                 src={skill.logo}

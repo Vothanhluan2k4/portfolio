@@ -13,7 +13,7 @@ const PortfolioSection = () => {
     <section id="projects" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-up">
+        <div className="text-center mb-16" data-aos="fade-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-4 block">
             {t("portfolio.badge")}
           </span>
@@ -34,8 +34,9 @@ const PortfolioSection = () => {
                 navigate(`/project/${project.id}`);
                 window.scrollTo({ top: 0, behavior: 'smooth' });
               }}
-              className="group relative rounded-3xl overflow-hidden shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 animate-fade-up cursor-pointer"
-              style={{ animationDelay: `${index * 0.1}s` }}
+              className="group relative rounded-3xl overflow-hidden shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 cursor-pointer"
+              data-aos="zoom-in"
+              data-aos-delay={index * 100}
             >
               {/* Image */}
               <div className="aspect-[4/3] overflow-hidden">

@@ -19,7 +19,7 @@ const ServicesSection = () => {
     <section id="services" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-up">
+        <div className="text-center mb-16" data-aos="fade-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-4 block">
             {t("services.badge")}
           </span>
@@ -38,8 +38,9 @@ const ServicesSection = () => {
             return (
               <div
                 key={service.id}
-                className="group bg-card rounded-3xl p-8 shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 hover:-translate-y-2 border-2 border-transparent hover:border-accent animate-fade-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
+                className="group bg-card rounded-3xl p-8 shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 hover:-translate-y-2 border-2 border-transparent hover:border-accent"
+                data-aos="fade-up"
+                data-aos-delay={index * 100}
               >
                 {/* Icon */}
                 <div className="w-16 h-16 bg-secondary rounded-2xl flex items-center justify-center mb-6 group-hover:bg-accent/10 transition-colors duration-300">

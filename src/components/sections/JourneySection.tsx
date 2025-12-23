@@ -13,7 +13,7 @@ const JourneySection = () => {
     <section className="py-20 lg:py-28 bg-secondary">
       <div className="container mx-auto px-6">
         {/* Section Header */}
-        <div className="text-center mb-16 animate-fade-up">
+        <div className="text-center mb-16" data-aos="fade-up">
           <span className="text-accent font-semibold text-sm uppercase tracking-wider mb-4 block">
             {t("journey.badge")}
           </span>
@@ -28,7 +28,7 @@ const JourneySection = () => {
         {/* Timeline Grid */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
           {/* Education Column */}
-          <div className="animate-slide-in-left">
+          <div data-aos="fade-right" data-aos-delay="100">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center">
                 <GraduationCap className="text-accent-foreground" size={24} />
@@ -57,7 +57,7 @@ const JourneySection = () => {
           </div>
 
           {/* Work Column */}
-          <div className="animate-slide-in-right">
+          <div data-aos="fade-left" data-aos-delay="200">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
                 <Briefcase className="text-primary-foreground" size={24} />
