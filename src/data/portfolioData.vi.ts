@@ -31,7 +31,7 @@ export const portfolioData: PortfolioData = {
       title: "Ứng dụng ôn luyện Tiếng Anh",
       category: "App Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
-      videoUrl: "https://youtu.be/jZRlIM3-Jk0",
+      videoUrl: "https://youtu.be/V6-YM7v8DBg",
       tags: ["UI/UX", "App", "Education", "Mobile"],
       details: {
         description: "Ứng dụng mobile giúp người học tiếng Anh luyện tập từ vựng, ngữ pháp và lộ trình dành riêng cho bạn thông qua bài đánh giá đầu vào. Ứng dụng được thiết kế với giao diện thân thiện, dễ sử dụng cho mọi lứa tuổi.",
@@ -66,8 +66,8 @@ export const portfolioData: PortfolioData = {
       id: 2,
       title: "Website Cho thuê & Quản lý Phòng Trọ",
       category: "Web Development",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20222151.png?raw=true",
-      videoUrl: "https://youtu.be/FCghzKwk6qk",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/avatar_webphong.png?raw=true",
+      videoUrl: "https://drive.google.com/file/d/1zrayXT4bXH46KgRGrJOgTzTqs0yrS7Xj/view?usp=sharing",
       tags: ["Web", "UI/UX", "Backend", "E-commerce"],
       details: {
         description: "Hệ thống web cho phép chủ trọ đăng tin cho thuê phòng, quản lý hợp đồng, thanh toán và các tiện ích. Người thuê có thể tìm kiếm phòng trọ phù hợp, đặt lịch xem phòng và thanh toán online.",
@@ -200,7 +200,7 @@ export const portfolioData: PortfolioData = {
       id: 6,
       title: "IPsec VPN Site-to-Site",
       category: "Cybersecurity",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/sitetosite.jpg?raw=true",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/A_sitetosite.png?raw=true",
       images: [
         "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/sitetosite.jpg?raw=true",
         "https://raw.githubusercontent.com/Vothanhluan2k4/portfolio-assets/7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/siteA.jpg",

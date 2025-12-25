@@ -31,7 +31,7 @@ export const portfolioDataEN: PortfolioData = {
       title: "English Learning App",
       category: "App Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
-      videoUrl: "https://youtu.be/jZRlIM3-Jk0",
+      videoUrl: "https://youtu.be/V6-YM7v8DBg",
       tags: ["UI/UX", "App", "Education", "Mobile"],
       details: {
         description: "A mobile application that helps English learners practice vocabulary, grammar, and personalized learning paths through an initial assessment. The app is designed with a friendly interface, easy to use for all ages.",
@@ -66,8 +66,8 @@ export const portfolioDataEN: PortfolioData = {
       id: 2,
       title: "Rental & Room Management Website",
       category: "Web Development",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20222151.png?raw=true",
-      videoUrl: "https://youtu.be/FCghzKwk6qk",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/avatar_webphong.png?raw=true",
+      videoUrl: "https://drive.google.com/file/d/1zrayXT4bXH46KgRGrJOgTzTqs0yrS7Xj/view?usp=sharing",
       tags: ["Web", "UI/UX", "Backend", "E-commerce"],
       details: {
         description: "A web system that allows landlords to post rental listings, manage contracts, payments, and utilities. Tenants can search for suitable rooms, schedule viewings, and make online payments.",
@@ -200,7 +200,7 @@ export const portfolioDataEN: PortfolioData = {
       id: 6,
       title: "IPsec VPN Site-to-Site",
       category: "Cybersecurity",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/sitetosite.jpg?raw=true",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/A_sitetosite.png?raw=true",
       images: [
         "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/sitetosite.jpg?raw=true",
         "https://raw.githubusercontent.com/Vothanhluan2k4/portfolio-assets/7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/siteA.jpg",

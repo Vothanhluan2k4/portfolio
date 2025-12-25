@@ -18,9 +18,17 @@ const ProjectDetail = () => {
   const portfolioData = i18n.language === "en" ? portfolioDataEN : portfolioDataVI;
   const project = portfolioData.projects.find((p) => p.id === Number(id));
 
-  // Convert YouTube URL to embed format
+  // Convert YouTube or Google Drive URL to embed format
   const getEmbedUrl = (url: string) => {
     if (!url) return "";
+    
+    // Handle Google Drive URLs
+    const driveMatch = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+    if (driveMatch) {
+      const fileId = driveMatch[1];
+      // Convert to preview format for embedding
+      return `https://drive.google.com/file/d/${fileId}/preview`;
+    }
     
     // Already embed URL
     if (url.includes("youtube.com/embed/")) {
