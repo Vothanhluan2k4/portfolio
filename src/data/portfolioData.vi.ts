@@ -842,7 +842,7 @@ let y = 10;`
   "id": 9,
   "title": "Array, Set và Map Methods trong JavaScript",
   "excerpt": "So sánh Map vs Object, Set vs Array và các method hữu ích của Array.",
-  "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/image.png?raw=true",
+  "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-20%20174654.png?raw=true",
   "date": "18/11/2025",
   "category": "JavaScript",
   "content": [

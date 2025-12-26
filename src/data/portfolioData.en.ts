@@ -840,7 +840,7 @@ let y = 10;`
       id: 9,
       title: "Array, Set, and Map Methods in JavaScript",
       excerpt: "Compare Map vs Object, Set vs Array, and useful Array methods.",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/image.png?raw=true",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-20%20174654.png?raw=true",
       date: "Nov 18, 2025",
       category: "JavaScript",
       content: [
