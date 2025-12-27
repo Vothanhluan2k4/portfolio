@@ -82,6 +82,8 @@
     "showing": "Hiển thị",
     "articles": "bài viết",
     "noResults": "Không tìm thấy bài viết nào phù hợp",
+    "relatedPosts": "Bài viết liên quan",
+    "noRelatedPosts": "Chưa có bài viết liên quan nào",
     "categories": {
       "all": "Tất cả",
       "Java": "Java",
@@ -94,7 +96,10 @@
     "title": "<accent>Chứng Chỉ</accent> của tôi",
     "description": "Các chứng chỉ trong quá trình học tập và phát triển kỹ năng",
     "viewCertificate": "Xem chứng chỉ",
-    "credentialID": "ID"
+    "credentialID": "ID",
+    "date": "Ngày cấp",
+    "issuer": "Đơn vị cấp",
+    "skills": "Kỹ năng"
   },
   "footer": {
     "description": "Tạo ra những sản phẩm công nghệ xuất sắc, tập trung vào trải nghiệm người dùng và thiết kế sáng tạo.",

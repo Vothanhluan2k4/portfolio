@@ -250,14 +250,7 @@ export const portfolioData: PortfolioData = {
     period: "2021 - Hiện tại",
     description: "Học các môn nền tảng CNTT, lập trình Web,ứng dụng di động, CSDL, phân tích & thiết kế hệ thống."
   },
-    {
-      id: 3,
-      type: "work",
-      title: "Senior Product Designer",
-      organization: "Google Inc.",
-      period: "2022 - Present",
-      description: "Leading design for Google Workspace products and mentoring junior designers.",
-    },
+  
  
   ],
   skills: [
@@ -280,7 +273,7 @@ export const portfolioData: PortfolioData = {
       "Chia sẻ ngắn về bản thân, định hướng nghề nghiệp và con đường học Java & JavaScript của tôi.",
     image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
     date: "20/09/2025",
-    category: "Giới thiệu",
+    category: "Chia sẻ",
     content: [
       { type: "heading", content: "Xin chào! Tôi là Võ Thành Luận" },
       { type: "text", content: "Tôi là sinh viên năm 4 ngành Kỹ thuật Phần mềm tại Đại học Công nghệ TP.HCM (HUTECH). Với niềm đam mê về lập trình và công nghệ, tôi đã dành 3 năm để học hỏi và rèn luyện kỹ năng trong lĩnh vực phát triển phần mềm." },
@@ -297,7 +290,7 @@ export const portfolioData: PortfolioData = {
           "Mobile: Flutter "
         ]
       },
-      { type: "heading", content: "Định hướng nghề nghiệp" },
+      { type: "heading", content: "3. Định hướng nghề nghiệp" },
       { type: "text", content: "Tôi đang hướng tới vị trí Backend Developer, đặc biệt quan tâm đến việc xây dựng các hệ thống API hiệu quả và bảo mật. Tôi tin rằng một backend vững chắc là nền tảng cho mọi ứng dụng thành công." }
     ]
   },
@@ -310,9 +303,9 @@ export const portfolioData: PortfolioData = {
     date: "03/10/2025",
     category: "Java",
     content: [
-      { type: "heading", content: "Java là gì?" },
+      { type: "heading", content: "1. Java là gì?" },
       { type: "text", content: "Java là ngôn ngữ lập trình hướng đối tượng (OOP) được phát triển bởi Sun Microsystems vào năm 1995. Với phương châm 'Write Once, Run Anywhere' (Viết một lần, chạy mọi nơi), Java đã trở thành một trong những ngôn ngữ phổ biến nhất thế giới." },
-      { type: "heading", content: "Ưu điểm của Java" },
+      { type: "heading", content: "2. Ưu điểm của Java" },
       { 
         type: "list",
         content: "Những ưu điểm nổi bật:",
@@ -324,7 +317,7 @@ export const portfolioData: PortfolioData = {
           "Hiệu suất tốt với garbage collection tự động"
         ]
       },
-      { type: "heading", content: "Ví dụ Hello World" },
+      { type: "heading", content: "3. Ví dụ Hello World" },
       { 
         type: "code", 
         language: "java",
@@ -425,9 +418,9 @@ export const portfolioData: PortfolioData = {
     date: "15/10/2025",
     category: "Java",
     content: [
-      { type: "heading", content: "Exception là gì?" },
+      { type: "heading", content: "1. Exception là gì?" },
       { type: "text", content: "Exception (ngoại lệ) là sự kiện bất thường xảy ra trong quá trình thực thi chương trình, làm gián đoạn luồng bình thường của chương trình." },
-      { type: "heading", content: "Try-Catch-Finally" },
+      { type: "heading", content: "2. Try-Catch-Finally" },
       { type: "text", content: "Cấu trúc try-catch-finally giúp bắt và xử lý exception một cách an toàn." },
       {
         type: "code",
@@ -446,7 +439,7 @@ export const portfolioData: PortfolioData = {
     }
 }`
       },
-      { type: "heading", content: "Multiple Catch Blocks" },
+      { type: "heading", content: "3. Multiple Catch Blocks" },
       {
         type: "code",
         language: "java",
@@ -513,7 +506,7 @@ export const portfolioData: PortfolioData = {
         },
         {
             "type": "heading",
-            "content": "Ví dụ so sánh cùng một chức năng"
+            "content": "3. Ví dụ so sánh cùng một chức năng"
         },
         {
             "type": "subheading",
@@ -559,7 +552,7 @@ export const portfolioData: PortfolioData = {
         },
         {
             "type": "heading",
-            "content": "Khi nào dùng ngôn ngữ nào?"
+            "content": "4. Khi nào dùng ngôn ngữ nào?"
         },
         {
             "type": "text",
@@ -588,7 +581,7 @@ export const portfolioData: PortfolioData = {
     date: "11/03/2025",
     category: "JavaScript",
     content: [
-      { type: "heading", content: "Variables và Scope" },
+      { type: "heading", content: "1. Variables và Scope" },
       { type: "text", content: "JavaScript có 3 cách khai báo biến: var, let, và const. Mỗi cách có scope khác nhau." },
       {
         type: "code",
@@ -617,7 +610,7 @@ function testLet() {
 const PI = 3.14159;
 // PI = 3.14; // Error!`
       },
-      { type: "heading", content: "Functions và Arrow Functions" },
+      { type: "heading", content: "2. Functions và Arrow Functions" },
       {
         type: "code",
         language: "javascript",
@@ -641,7 +634,7 @@ console.log(add(5, 3));        // 8
 console.log(multiply(5, 3));   // 15
 console.log(divide(10, 2));    // 5`
       },
-      { type: "heading", content: "Hoisting" },
+      { type: "heading", content: "3. Hoisting" },
       { type: "text", content: "Hoisting là cơ chế JavaScript đưa khai báo biến và function lên đầu scope trước khi code thực thi." },
       {
         type: "code",
@@ -924,7 +917,7 @@ let y = 10;`
     date: "01/12/2025",
     category: "Chia sẻ",
     content: [
-      { type: "heading", content: "Lời khuyên từ kinh nghiệm cá nhân" },
+      { type: "heading", content: "1. Lời khuyên từ kinh nghiệm cá nhân" },
       { type: "text", content: "Sau gần 4 năm học và làm việc với code, tôi muốn chia sẻ một số kinh nghiệm giúp bạn tự học lập trình hiệu quả hơn." },
       {
         type: "list",
@@ -937,7 +930,7 @@ let y = 10;`
           "Không ngại làm lại từ đầu khi cần"
         ]
       },
-      { type: "heading", content: "Tài nguyên học tập" },
+      { type: "heading", content: "2. Tài nguyên học tập" },
       {
         type: "list",
         content: "Nguồn tài liệu tôi hay dùng:",
@@ -949,9 +942,9 @@ let y = 10;`
           "Community: Stack Overflow, Reddit"
         ]
       },
-      { type: "heading", content: "Lộ trình học của tôi" },
+      { type: "heading", content: "3. Lộ trình học của tôi" },
       { type: "text", content: "Bắt đầu với C để hiểu cơ bản về lập trình. Sau đó học Java để nắm vững OOP. Tiếp theo là JavaScript cho web development. Cuối cùng là các framework như Spring Boot, React." },
-      { type: "heading", content: "Sai lầm cần tránh" },
+      { type: "heading", content: "4. Sai lầm cần tránh" },
       {
         type: "list",
         content: "",
@@ -961,6 +954,448 @@ let y = 10;`
           "Sợ làm sai nên không dám thử",
           "Copy-paste code mà không hiểu",
           "Bỏ qua kiến thức nền tảng để học framework"
+        ]
+      }
+    ]
+  },
+  {
+    id: 11,
+    title: "TCP vs UDP – Hiểu nhanh giao thức truyền dữ liệu phổ biến nhất",
+    excerpt:
+      "Tìm hiểu sự khác biệt giữa giao thức TCP và UDP, khi nào nên dùng từng loại và ứng dụng thực tế trong lập trình mạng.",
+    image: "https://image.vietnix.vn/wp-content/uploads/2022/07/UDP-va-TCP.webp",
+    date: "15/12/2025",
+    category: "Java",
+    content: [
+      {
+        type: "heading",
+        content: "1. Giới thiệu chung"
+      },
+      {
+        type: "text",
+        content: "Khi bạn gửi tin nhắn Zalo hay xem video YouTube, dữ liệu không tự nhiên xuất hiện mà được truyền qua các giao thức mạng, trong đó phổ biến nhất là TCP và UDP."
+      },
+      {
+        type: "subheading",
+        content: "TCP và UDP là gì?"
+      },
+      {
+        type: "text",
+        content: "TCP (Transmission Control Protocol) và UDP (User Datagram Protocol) là hai giao thức chính ở tầng Transport (Tầng 4) trong mô hình OSI và mô hình TCP/IP. Chúng đảm nhiệm việc truyền dữ liệu giữa các ứng dụng trên mạng."
+      },
+      {
+        type: "subheading",
+        content: "Vì sao cần nhiều giao thức truyền dữ liệu?"
+      },
+      {
+        type: "text",
+        content: "Các ứng dụng khác nhau có yêu cầu khác nhau: có ứng dụng cần độ chính xác cao (ngân hàng, email), có ứng dụng cần tốc độ (game, video call). Vì vậy, việc có nhiều giao thức giúp ta lựa chọn phù hợp với từng tình huống."
+      },
+      {
+        type: "heading",
+        content: "2. Giao thức TCP là gì?"
+      },
+      {
+        type: "text",
+        content: "TCP là giao thức hướng kết nối (connection-oriented), đảm bảo dữ liệu được truyền đầy đủ và đúng thứ tự."
+      },
+      {
+        type: "subheading",
+        content: "Đặc điểm TCP:"
+      },
+      {
+        type: "list",
+        content: "Những đặc điểm chính của TCP:",
+        items: [
+          "Có kết nối (3-way handshake)",
+          "Đảm bảo dữ liệu đầy đủ, đúng thứ tự",
+          "Có kiểm soát lỗi và kiểm soát tắc nghẽn",
+          "Chậm hơn UDP do cơ chế kiểm tra",
+          "Sử dụng cơ chế xác nhận (ACK) để đảm bảo nhận dữ liệu"
+        ]
+      },
+      {
+        type: "subheading",
+        content: "TCP 3-way handshake (Bắt tay 3 bước):"
+      },
+      {
+        type: "code",
+        language: "text",
+        content: "Bước 1: Client → SYN (Synchronize)\nBước 2: Server → SYN-ACK (Synchronize-Acknowledge)\nBước 3: Client → ACK (Acknowledge)\n\n→ Kết nối được thiết lập, có thể bắt đầu truyền dữ liệu"
+      },
+      {
+        type: "subheading",
+        content: "Ví dụ thực tế:"
+      },
+      {
+        type: "list",
+        content: "TCP được dùng trong:",
+        items: [
+          "Web (HTTP/HTTPS)",
+          "Email (SMTP, IMAP, POP3)",
+          "Truyền file (FTP)",
+          "Giao dịch ngân hàng, thanh toán",
+          "Kết nối từ xa (SSH)"
+        ]
+      },
+      {
+        type: "heading",
+        content: "3. Giao thức UDP là gì?"
+      },
+      {
+        type: "text",
+        content: "UDP là giao thức không kết nối (connectionless), không đảm bảo dữ liệu nhưng rất nhanh và độ trễ thấp."
+      },
+      {
+        type: "subheading",
+        content: "Đặc điểm UDP:"
+      },
+      {
+        type: "list",
+        content: "Những đặc điểm chính của UDP:",
+        items: [
+          "Không cần thiết lập kết nối",
+          "Không đảm bảo dữ liệu đến đủ",
+          "Nhanh, độ trễ thấp",
+          "Không kiểm soát lỗi",
+          "Đơn giản, nhẹ hơn TCP"
+        ]
+      },
+      {
+        type: "text",
+        content: "Ví dụ dễ hiểu: UDP giống như nói chuyện trực tiếp - nghe không rõ thì bỏ qua, không cần nói lại."
+      },
+      {
+        type: "subheading",
+        content: "Ví dụ thực tế:"
+      },
+      {
+        type: "list",
+        content: "UDP được dùng trong:",
+        items: [
+          "Video call (Zoom, Teams)",
+          "Game online",
+          "Livestream",
+          "DNS (tra cứu tên miền)",
+          "VoIP (thoại qua IP)"
+        ]
+      },
+      {
+        type: "heading",
+        content: "4. Bảng so sánh TCP vs UDP"
+      },
+      {
+        type: "table",
+        content: "Sự khác biệt chính giữa TCP và UDP",
+        columns: ["Tiêu chí", "TCP", "UDP"],
+        rows: [
+          ["Kết nối", "Có kết nối", "Không kết nối"],
+          ["Đảm bảo dữ liệu", "Có", "Không"],
+          ["Tốc độ", "Chậm hơn", "Nhanh"],
+          ["Kiểm soát lỗi", "Có", "Không"],
+          ["Đảm bảo thứ tự", "Có", "Không"],
+          ["Overhead", "Cao", "Thấp"],
+          ["Ứng dụng", "Web, Email, File", "Game, Video, Streaming"]
+        ]
+      },
+      {
+        type: "heading",
+        content: "5. Khi nào nên dùng TCP? Khi nào dùng UDP?"
+      },
+      {
+        type: "subheading",
+        content: "Dùng TCP khi:"
+      },
+      {
+        type: "list",
+        content: "",
+        items: [
+          "Cần dữ liệu chính xác",
+          "Không được mất gói tin",
+          "Thứ tự dữ liệu quan trọng",
+          "Ví dụ: đăng nhập, thanh toán, tải file"
+        ]
+      },
+      {
+        type: "subheading",
+        content: "Dùng UDP khi:"
+      },
+      {
+        type: "list",
+        content: "",
+        items: [
+          "Cần tốc độ",
+          "Chấp nhận mất dữ liệu",
+          "Cần giao tiếp thời gian thực",
+          "Ví dụ: gọi video, game, livestream"
+        ]
+      },
+      {
+        type: "heading",
+        content: "6. Ví dụ code đơn giản"
+      },
+      {
+        type: "subheading",
+        content: "1. TCP Server (Java)"
+      },
+      {
+        type: "code",
+        language: "java",
+        content: "import java.io.*;\nimport java.net.*;\n\npublic class TCPServer {\n    public static void main(String[] args) {\n        try {\n            // Tạo server socket trên cổng 8080\n            ServerSocket serverSocket = new ServerSocket(8080);\n            System.out.println(\"TCP Server đã khởi động trên port 8080\");\n            \n            // Chờ client kết nối\n            Socket clientSocket = serverSocket.accept();\n            System.out.println(\"Client đã kết nối!\");\n            \n            // Đọc dữ liệu từ client\n            BufferedReader in = new BufferedReader(\n                new InputStreamReader(clientSocket.getInputStream())\n            );\n            \n            // Gửi dữ liệu cho client\n            PrintWriter out = new PrintWriter(\n                clientSocket.getOutputStream(), true\n            );\n            \n            String message = in.readLine();\n            System.out.println(\"Nhận được: \" + message);\n            \n            // Phản hồi lại client\n            out.println(\"Server đã nhận: \" + message);\n            \n            // Đóng kết nối\n            clientSocket.close();\n            serverSocket.close();\n        } catch (IOException e) {\n            e.printStackTrace();\n        }\n    }\n}"
+      },
+      {
+        type: "subheading",
+        content: "2. UDP Server (Java)"
+      },
+      {
+        type: "code",
+        language: "java",
+        content: "import java.net.*;\n\npublic class UDPServer {\n    public static void main(String[] args) {\n        try {\n            // Tạo UDP socket trên cổng 9090\n            DatagramSocket socket = new DatagramSocket(9090);\n            System.out.println(\"UDP Server đã khởi động trên port 9090\");\n            \n            byte[] buffer = new byte[1024];\n            \n            // Nhận dữ liệu\n            DatagramPacket receivePacket = new DatagramPacket(buffer, buffer.length);\n            socket.receive(receivePacket);\n            \n            String message = new String(receivePacket.getData(), 0, receivePacket.getLength());\n            System.out.println(\"Nhận được: \" + message);\n            \n            // Gửi phản hồi\n            String reply = \"Server đã nhận: \" + message;\n            byte[] sendData = reply.getBytes();\n            \n            DatagramPacket sendPacket = new DatagramPacket(\n                sendData, \n                sendData.length, \n                receivePacket.getAddress(), \n                receivePacket.getPort()\n            );\n            \n            socket.send(sendPacket);\n            socket.close();\n        } catch (Exception e) {\n            e.printStackTrace();\n        }\n    }\n}"
+      },
+      {
+        type: "heading",
+        content: "Kết luận"
+      },
+      {
+        type: "text",
+        content: "TCP và UDP đều có ưu điểm riêng và phù hợp với các trường hợp sử dụng khác nhau:"
+      },
+      {
+        type: "list",
+        content: "Tóm tắt:",
+        items: [
+          "TCP = chính xác, an toàn, phù hợp dữ liệu quan trọng",
+          "UDP = nhanh, linh hoạt, phù hợp ứng dụng thời gian thực",
+          "Tùy bài toán mà chọn giao thức phù hợp",
+          "Trong thực tế, nhiều ứng dụng sử dụng kết hợp cả hai giao thức"
+        ]
+      },
+      {
+        type: "text",
+        content: "Hiểu rõ TCP và UDP giúp bạn thiết kế ứng dụng mạng tốt hơn và lựa chọn giao thức phù hợp cho từng tình huống. Đây là kiến thức nền tảng quan trọng cho bất kỳ lập trình viên nào!"
+      }
+    ]
+  },
+  {
+    id: 12,
+    title: "Tối ưu hiệu suất mạng với Java NIO (Non-blocking I/O)",
+    excerpt:
+      "Tìm hiểu cách xử lý hàng nghìn kết nối đồng thời với Java NIO, Selector và Non-blocking I/O để xây dựng server hiệu suất cao.",
+    image: "https://i.ytimg.com/vi/FRY9BjU2W5s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDU6kOPcqFngjUqGqf8f7PcJxv6ZQ",
+    date: "20/12/2025",
+    category: "Java",
+    content: [
+      {
+        type: "text",
+        content: "Trong các hệ thống hiện đại như chat server, game server, hệ thống realtime, việc xử lý hàng nghìn kết nối đồng thời là yêu cầu bắt buộc. Nếu sử dụng Socket truyền thống (Blocking I/O), mỗi kết nối thường gắn với một thread, dẫn đến tiêu tốn rất nhiều tài nguyên. Java NIO (New I/O) ra đời để giải quyết bài toán đó bằng cơ chế Non-blocking I/O."
+      },
+      {
+        type: "heading",
+        content: "1. Blocking I/O – Vấn đề của Socket truyền thống"
+      },
+      {
+        type: "text",
+        content: "Trong Java IO truyền thống, mỗi client tương ứng với 1 thread. Thread bị block khi chờ dữ liệu hoặc chờ kết nối. Khi số lượng client tăng cao, hệ thống sẽ gặp nhiều vấn đề."
+      },
+      {
+        type: "list",
+        content: "Các vấn đề của Blocking I/O:",
+        items: [
+          "Mỗi client cần 1 thread riêng biệt",
+          "Thread bị block khi chờ dữ liệu",
+          "Tốn RAM khi số client tăng cao",
+          "Context switching nhiều, giảm hiệu suất",
+          "Server dễ quá tải: 5.000 client → 5.000 thread"
+        ]
+      },
+      {
+        type: "heading",
+        content: "2. Java NIO là gì?"
+      },
+      {
+        type: "text",
+        content: "Java NIO (New I/O) là bộ API giúp xử lý I/O theo kiểu Non-blocking và Event-driven. Thay vì 'chờ', server sẽ 'kiểm tra xét kênh nào sẵn sàng thì mới xử lý'."
+      },
+      {
+        type: "list",
+        content: "Ưu điểm chính:",
+        items: [
+          "Non-blocking: không chặn thread",
+          "Event-driven: chỉ xử lý khi có sự kiện",
+          "Ít thread nhưng xử lý được nhiều kết nối",
+          "Tiết kiệm tài nguyên hệ thống"
+        ]
+      },
+      {
+        type: "heading",
+        content: "3. Ba thành phần cốt lõi của Java NIO"
+      },
+      {
+        type: "subheading",
+        content: "Channel – Kênh truyền dữ liệu"
+      },
+      {
+        type: "text",
+        content: "Channel giống như 'đường ống' truyền dữ liệu 2 chiều. Khác với Socket truyền thống, Channel có thể non-blocking và làm việc trực tiếp với Buffer."
+      },
+      {
+        type: "list",
+        content: "Các loại Channel phổ biến:",
+        items: [
+          "ServerSocketChannel: lắng nghe kết nối",
+          "SocketChannel: kết nối client",
+          "DatagramChannel: UDP",
+          "FileChannel: file I/O"
+        ]
+      },
+      {
+        type: "subheading",
+        content: "Buffer – Vùng đệm dữ liệu"
+      },
+      {
+        type: "text",
+        content: "Buffer dùng để ghi dữ liệu từ Channel vào và đọc dữ liệu từ Buffer ra. Quy trình: Channel đọc → Buffer → Xử lý → Buffer ghi → Channel."
+      },
+      {
+        type: "code",
+        language: "java",
+        content: "// Tạo buffer với kích thước 1024 bytes\nByteBuffer buffer = ByteBuffer.allocate(1024);\n\n// Đọc dữ liệu từ channel vào buffer\nchannel.read(buffer);\n\n// Chuyển sang chế độ đọc\nbuffer.flip();\n\n// Đọc dữ liệu từ buffer\nbyte[] data = new byte[buffer.remaining()];\nbuffer.get(data);\n\n// Xóa buffer cho lần sử dụng tiếp theo\nbuffer.clear();"
+      },
+      {
+        type: "subheading",
+        content: "Selector – Trái tim của Non-blocking I/O"
+      },
+      {
+        type: "text",
+        content: "Selector cho phép 1 thread theo dõi nhiều Channel cùng lúc. Nó biết Channel nào sẵn sàng accept, có dữ liệu để read, hoặc có thể write."
+      },
+      {
+        type: "list",
+        content: "Các sự kiện (SelectionKey):",
+        items: [
+          "OP_ACCEPT: sẵn sàng chấp nhận kết nối mới",
+          "OP_CONNECT: kết nối đang hoàn tất",
+          "OP_READ: có dữ liệu để đọc",
+          "OP_WRITE: sẵn sàng ghi dữ liệu"
+        ]
+      },
+      {
+        type: "heading",
+        content: "4. Cách Java NIO xử lý hàng nghìn kết nối"
+      },
+      {
+        type: "text",
+        content: "Mô hình hoạt động: 1 Thread → Selector → Nhiều Channel (Client). Thread không bị block, chỉ xử lý khi có sự kiện."
+      },
+      {
+        type: "list",
+        content: "Luồng xử lý:",
+        items: [
+          "Client kết nối → OP_ACCEPT",
+          "Client gửi dữ liệu → OP_READ",
+          "Server phản hồi → OP_WRITE",
+          "Chỉ 1 thread xử lý nhiều client"
+        ]
+      },
+      {
+        type: "heading",
+        content: "5. Ví dụ đơn giản: Server dùng Selector"
+      },
+      {
+        type: "code",
+        language: "java",
+        content: "import java.nio.channels.*;\nimport java.nio.*;\nimport java.net.*;\nimport java.util.*;\n\npublic class NIOServer {\n    public static void main(String[] args) throws Exception {\n        // Tạo Selector\n        Selector selector = Selector.open();\n        \n        // Tạo ServerSocketChannel\n        ServerSocketChannel serverChannel = ServerSocketChannel.open();\n        serverChannel.bind(new InetSocketAddress(8080));\n        serverChannel.configureBlocking(false);\n        \n        // Đăng ký với Selector\n        serverChannel.register(selector, SelectionKey.OP_ACCEPT);\n        System.out.println(\"Server khởi động tại port 8080\");\n        \n        while (true) {\n            // Chờ sự kiện\n            selector.select();\n            \n            // Duyệt các sự kiện\n            Iterator<SelectionKey> keys = selector.selectedKeys().iterator();\n            \n            while (keys.hasNext()) {\n                SelectionKey key = keys.next();\n                keys.remove();\n                \n                // Xử lý kết nối mới\n                if (key.isAcceptable()) {\n                    SocketChannel client = serverChannel.accept();\n                    client.configureBlocking(false);\n                    client.register(selector, SelectionKey.OP_READ);\n                    System.out.println(\"Client kết nối: \" + client.getRemoteAddress());\n                }\n                \n                // Xử lý đọc dữ liệu\n                if (key.isReadable()) {\n                    SocketChannel client = (SocketChannel) key.channel();\n                    ByteBuffer buffer = ByteBuffer.allocate(1024);\n                    \n                    int bytesRead = client.read(buffer);\n                    if (bytesRead == -1) {\n                        client.close();\n                    } else {\n                        buffer.flip();\n                        // Echo lại cho client\n                        client.write(buffer);\n                    }\n                }\n            }\n        }\n    }\n}"
+      },
+      {
+        type: "text",
+        content: "Chỉ với 1 thread, server có thể xử lý hàng nghìn client đồng thời một cách hiệu quả!"
+      },
+      {
+        type: "heading",
+        content: "6. So sánh Blocking I/O vs Java NIO"
+      },
+      {
+        type: "table",
+        content: "Sự khác biệt giữa Blocking I/O và Java NIO",
+        columns: ["Tiêu chí", "Blocking I/O", "Java NIO"],
+        rows: [
+          ["Cách xử lý", "1 thread / 1 client", "1 thread / nhiều client"],
+          ["Hiệu suất", "Thấp khi tải cao", "Cao"],
+          ["Khả năng mở rộng", "Kém", "Rất tốt"],
+          ["Độ phức tạp", "Dễ", "Phức tạp hơn"],
+          ["Tài nguyên", "Tốn nhiều RAM", "Tiết kiệm"],
+          ["Ứng dụng", "App nhỏ, ít kết nối", "Server lớn, nhiều kết nối"]
+        ]
+      },
+      {
+        type: "heading",
+        content: "7. Khi nào nên dùng Java NIO?"
+      },
+      {
+        type: "subheading",
+        content: "Nên dùng khi:"
+      },
+      {
+        type: "list",
+        content: "",
+        items: [
+          "Server cần xử lý nhiều kết nối đồng thời",
+          "Ứng dụng realtime (chat, game, streaming)",
+          "Xây dựng proxy, gateway, load balancer",
+          "Microservices cần hiệu suất cao",
+          "Hệ thống phân tán, event-driven"
+        ]
+      },
+      {
+        type: "subheading",
+        content: "Không cần dùng khi:"
+      },
+      {
+        type: "list",
+        content: "",
+        items: [
+          "Ứng dụng nhỏ, ít kết nối",
+          "Logic đơn giản, không cần tối ưu",
+          "Team chưa có kinh nghiệm với NIO",
+          "Thời gian phát triển hạn chế"
+        ]
+      },
+      {
+        type: "heading",
+        content: "8. Java NIO trong thực tế"
+      },
+      {
+        type: "text",
+        content: "Nhiều framework nổi tiếng sử dụng Java NIO làm nền tảng:"
+      },
+      {
+        type: "list",
+        content: "Các framework sử dụng Java NIO:",
+        items: [
+          "Netty: framework async event-driven cho network applications",
+          "Spring WebFlux: reactive programming trong Spring",
+          "Vert.x: toolkit xây dựng reactive applications",
+          "Apache Kafka: message broker hiệu suất cao",
+          "Elasticsearch: search engine phân tán"
+        ]
+      },
+      {
+        type: "text",
+        content: "Hiểu Java NIO giúp bạn hiểu gốc rễ các framework backend hiện đại và có thể tối ưu hệ thống tốt hơn."
+      },
+      {
+        type: "heading",
+        content: "9. Kết luận"
+      },
+      {
+        type: "list",
+        content: "Tóm tắt:",
+        items: [
+          "Java NIO giúp xử lý I/O hiệu quả và scalable",
+          "Selector là chìa khóa để 1 thread xử lý nhiều kết nối",
+          "Phù hợp cho hệ thống lớn, tải cao",
+          "Là kiến thức quan trọng với Backend Developer",
+          "Java NIO = Non-blocking + Selector + Channel → Hiệu suất cao"
         ]
       }
     ]

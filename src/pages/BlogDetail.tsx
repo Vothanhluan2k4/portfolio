@@ -13,7 +13,7 @@ import { useTranslation } from "react-i18next";
 const BlogDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   const portfolioData = i18n.language === "en" ? portfolioDataEN : portfolioDataVI;
   const blog = portfolioData.blogs.find((b) => b.id === Number(id));
@@ -110,38 +110,44 @@ const BlogDetail = () => {
 
           {/* Related Posts Section */}
           <div className="mt-16 pt-16 border-t border-border">
-            <h3 className="text-2xl font-bold text-primary mb-8">Bài viết liên quan</h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              {portfolioData.blogs
-                .filter((b) => b.category === blog.category && b.id !== blog.id)
-                .slice(0, 2)
-                .map((relatedBlog) => (
-                  <div
-                    key={relatedBlog.id}
-                    onClick={() => {
-                      navigate(`/blog/${relatedBlog.id}`);
-                      window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }}
-                    className="group cursor-pointer bg-card rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
-                  >
-                    <div className="aspect-[16/9] overflow-hidden">
-                      <img
-                        src={relatedBlog.image}
-                        alt={relatedBlog.title}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
+            <h3 className="text-2xl font-bold text-primary mb-8">{t("blog.relatedPosts")}</h3>
+            {portfolioData.blogs.filter((b) => b.category === blog.category && b.id !== blog.id).length === 0 ? (
+              <div className="text-center py-12">
+                <p className="text-muted-foreground text-lg">{t("blog.noRelatedPosts")}</p>
+              </div>
+            ) : (
+              <div className="grid md:grid-cols-2 gap-6">
+                {portfolioData.blogs
+                  .filter((b) => b.category === blog.category && b.id !== blog.id)
+                  .slice(0, 2)
+                  .map((relatedBlog) => (
+                    <div
+                      key={relatedBlog.id}
+                      onClick={() => {
+                        navigate(`/blog/${relatedBlog.id}`);
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                      }}
+                      className="group cursor-pointer bg-card rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
+                    >
+                      <div className="aspect-[16/9] overflow-hidden">
+                        <img
+                          src={relatedBlog.image}
+                          alt={relatedBlog.title}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
+                      </div>
+                      <div className="p-4">
+                        <h4 className="font-bold text-lg text-primary group-hover:text-accent transition-colors line-clamp-2">
+                          {relatedBlog.title}
+                        </h4>
+                        <p className="text-sm text-muted-foreground mt-2 line-clamp-2">
+                          {relatedBlog.excerpt}
+                        </p>
+                      </div>
                     </div>
-                    <div className="p-4">
-                      <h4 className="font-bold text-lg text-primary group-hover:text-accent transition-colors line-clamp-2">
-                        {relatedBlog.title}
-                      </h4>
-                      <p className="text-sm text-muted-foreground mt-2 line-clamp-2">
-                        {relatedBlog.excerpt}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-            </div>
+                  ))}
+              </div>
+            )}
           </div>
         </div>
       </article>

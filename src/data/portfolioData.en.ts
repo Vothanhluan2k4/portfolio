@@ -251,14 +251,7 @@ export const portfolioDataEN: PortfolioData = {
       period: "2021 - Present",
       description: "Studied IT fundamentals, web programming, mobile applications, databases, system analysis & design."
     },
-    {
-      id: 3,
-      type: "work",
-      title: "Senior Product Designer",
-      organization: "Google Inc.",
-      period: "2022 - Present",
-      description: "Leading design for Google Workspace products and mentoring junior designers.",
-    },
+ 
   ],
 
   skills: [
@@ -283,9 +276,9 @@ export const portfolioDataEN: PortfolioData = {
       date: "Sep 20, 2025",
       category: "Chia sẻ",
       content: [
-        { type: "heading", content: "Hello! I'm Vo Thanh Luan" },
+        { type: "heading", content: "1. Hello! I'm Vo Thanh Luan" },
         { type: "text", content: "I'm a 4th-year Software Engineering student at Ho Chi Minh City University of Technology (HUTECH). With a passion for programming and technology, I've spent 3 years learning and honing my skills in software development." },
-        { type: "heading", content: "My Programming Journey" },
+        { type: "heading", content: "2. My Programming Journey" },
         { type: "text", content: "Starting from first year with basic C, I gradually approached Java, JavaScript, and modern frameworks. Each language brings its own challenges but also helps me develop comprehensive programming thinking." },
         { 
           type: "list", 
@@ -298,7 +291,7 @@ export const portfolioDataEN: PortfolioData = {
             "Mobile: Flutter"
           ]
         },
-        { type: "heading", content: "Career Direction" },
+        { type: "heading", content: "3. Career Direction" },
         { type: "text", content: "I'm aiming for a Backend Developer position, particularly interested in building efficient and secure API systems. I believe a solid backend is the foundation for every successful application." }
       ]
     },
@@ -310,9 +303,9 @@ export const portfolioDataEN: PortfolioData = {
       date: "Oct 03, 2025",
       category: "Java",
       content: [
-        { type: "heading", content: "What is Java?" },
+        { type: "heading", content: "1. What is Java?" },
         { type: "text", content: "Java is an object-oriented programming (OOP) language developed by Sun Microsystems in 1995. With the motto 'Write Once, Run Anywhere', Java has become one of the most popular languages in the world." },
-        { type: "heading", content: "Java Advantages" },
+        { type: "heading", content: "2. Java Advantages" },
         { 
           type: "list",
           content: "Key advantages:",
@@ -324,7 +317,7 @@ export const portfolioDataEN: PortfolioData = {
             "Good performance with automatic garbage collection"
           ]
         },
-        { type: "heading", content: "Hello World Example" },
+        { type: "heading", content: "3. Hello World Example" },
         { 
           type: "code", 
           language: "java",
@@ -424,9 +417,9 @@ export const portfolioDataEN: PortfolioData = {
       date: "Oct 15, 2025",
       category: "Java",
       content: [
-        { type: "heading", content: "What is an Exception?" },
+        { type: "heading", content: "1. What is an Exception?" },
         { type: "text", content: "An exception is an abnormal event that occurs during program execution, disrupting the normal flow of the program." },
-        { type: "heading", content: "Try-Catch-Finally" },
+        { type: "heading", content: "2. Try-Catch-Finally" },
         { type: "text", content: "The try-catch-finally structure helps catch and handle exceptions safely." },
         {
           type: "code",
@@ -445,7 +438,7 @@ export const portfolioDataEN: PortfolioData = {
     }
 }`
         },
-        { type: "heading", content: "Multiple Catch Blocks" },
+        { type: "heading", content: "3. Multiple Catch Blocks" },
         {
           type: "code",
           language: "java",
@@ -483,7 +476,7 @@ export const portfolioDataEN: PortfolioData = {
       content: [
         {
           type: "heading",
-          content: "What is JavaScript?"
+          content: "1. What is JavaScript?"
         },
         {
           type: "text",
@@ -491,7 +484,7 @@ export const portfolioDataEN: PortfolioData = {
         },
         {
           type: "heading",
-          content: "Java vs JavaScript Comparison"
+          content: "2. Java vs JavaScript Comparison"
         },
         {
           type: "table",
@@ -512,7 +505,7 @@ export const portfolioDataEN: PortfolioData = {
         },
         {
           type: "heading",
-          content: "Example Comparing Same Functionality"
+          content: "3. Example Comparing Same Functionality"
         },
         {
           type: "subheading",
@@ -558,7 +551,7 @@ export const portfolioDataEN: PortfolioData = {
         },
         {
           type: "heading",
-          content: "When to Use Which Language?"
+          content: "4. When to Use Which Language?"
         },
         {
           type: "text",
@@ -586,7 +579,7 @@ export const portfolioDataEN: PortfolioData = {
       date: "Mar 11, 2025",
       category: "JavaScript",
       content: [
-        { type: "heading", content: "Variables and Scope" },
+        { type: "heading", content: "1. Variables and Scope" },
         { type: "text", content: "JavaScript has 3 ways to declare variables: var, let, and const. Each has different scope." },
         {
           type: "code",
@@ -615,7 +608,7 @@ function testLet() {
 const PI = 3.14159;
 // PI = 3.14; // Error!`
         },
-        { type: "heading", content: "Functions and Arrow Functions" },
+        { type: "heading", content: "2. Functions and Arrow Functions" },
         {
           type: "code",
           language: "javascript",
@@ -639,7 +632,7 @@ console.log(add(5, 3));        // 8
 console.log(multiply(5, 3));   // 15
 console.log(divide(10, 2));    // 5`
         },
-        { type: "heading", content: "Hoisting" },
+        { type: "heading", content: "3. Hoisting" },
         { type: "text", content: "Hoisting is JavaScript's mechanism of moving declarations to the top of the scope before code execution." },
         {
           type: "code",
@@ -782,7 +775,7 @@ let y = 10;`
       content: [
         {
           type: "heading",
-          content: "What is a Closure?"
+          content: "1. What is a Closure?"
         },
         {
           type: "text",
@@ -795,7 +788,7 @@ let y = 10;`
         },
         {
           type: "heading",
-          content: "Practical Example: Counter"
+          content: "2. Practical Example: Counter"
         },
         {
           type: "code",
@@ -804,7 +797,7 @@ let y = 10;`
         },
         {
           type: "heading",
-          content: "Loop Issue"
+          content: "3. Loop Issue"
         },
         {
           type: "code",
@@ -822,7 +815,7 @@ let y = 10;`
         },
         {
           type: "heading",
-          content: "Summary"
+          content: "5. Summary"
         },
         {
           type: "list",
@@ -921,7 +914,7 @@ let y = 10;`
       date: "Dec 01, 2025",
       category: "Chia sẻ",
       content: [
-        { type: "heading", content: "Advice from Personal Experience" },
+        { type: "heading", content: "1. Advice from Personal Experience" },
         { type: "text", content: "After nearly 4 years of studying and working with code, I want to share some experiences to help you self-learn programming more effectively." },
         {
           type: "list",
@@ -934,7 +927,7 @@ let y = 10;`
             "Don't be afraid to start over when needed"
           ]
         },
-        { type: "heading", content: "Learning Resources" },
+        { type: "heading", content: "2. Learning Resources" },
         {
           type: "list",
           content: "Resources I frequently use:",
@@ -946,9 +939,9 @@ let y = 10;`
             "Community: Stack Overflow, Reddit"
           ]
         },
-        { type: "heading", content: "My Learning Path" },
+        { type: "heading", content: "3. My Learning Path" },
         { type: "text", content: "Started with basic C to understand programming fundamentals. Then learned Java to master OOP. Next was JavaScript for web development. Finally, frameworks like Spring Boot, React." },
-        { type: "heading", content: "Mistakes to Avoid" },
+        { type: "heading", content: "4. Mistakes to Avoid" },
         {
           type: "list",
           content: "",
@@ -958,6 +951,447 @@ let y = 10;`
             "Being afraid to try for fear of mistakes",
             "Copy-pasting code without understanding",
             "Skipping fundamental knowledge to learn frameworks"
+          ]
+        }
+      ]
+    },
+    {
+      id: 11,
+      title: "TCP vs UDP – Quick Guide to Popular Data Transfer Protocols",
+      excerpt: "Understanding the differences between TCP and UDP protocols, when to use each, and practical applications in network programming.",
+      image: "https://image.vietnix.vn/wp-content/uploads/2022/07/UDP-va-TCP.webp",
+      date: "Dec 15, 2025",
+      category: "Java",
+      content: [
+        {
+          type: "heading",
+          content: "1. Introduction"
+        },
+        {
+          type: "text",
+          content: "When you send a message on Zalo or watch a YouTube video, data doesn't magically appear – it's transmitted through network protocols, with TCP and UDP being the most popular."
+        },
+        {
+          type: "subheading",
+          content: "What are TCP and UDP?"
+        },
+        {
+          type: "text",
+          content: "TCP (Transmission Control Protocol) and UDP (User Datagram Protocol) are two main protocols at the Transport layer (Layer 4) in the OSI model and TCP/IP model. They are responsible for transferring data between applications on the network."
+        },
+        {
+          type: "subheading",
+          content: "Why do we need multiple data transfer protocols?"
+        },
+        {
+          type: "text",
+          content: "Different applications have different requirements: some need accuracy (banking, email), others need speed (gaming, video calls). Therefore, having multiple protocols allows us to choose the most suitable one for each situation."
+        },
+        {
+          type: "heading",
+          content: "2. What is TCP Protocol?"
+        },
+        {
+          type: "text",
+          content: "TCP is a connection-oriented protocol, ensuring data is delivered completely and in the correct order."
+        },
+        {
+          type: "subheading",
+          content: "TCP Characteristics:"
+        },
+        {
+          type: "list",
+          content: "Key features of TCP:",
+          items: [
+            "Connection-oriented (3-way handshake)",
+            "Guarantees complete data delivery in correct order",
+            "Has error control and congestion control",
+            "Slower than UDP due to checking mechanisms",
+            "Uses acknowledgment (ACK) to confirm data receipt"
+          ]
+        },
+        {
+          type: "subheading",
+          content: "TCP 3-Way Handshake:"
+        },
+        {
+          type: "code",
+          language: "text",
+          content: "Step 1: Client → SYN (Synchronize)\nStep 2: Server → SYN-ACK (Synchronize-Acknowledge)\nStep 3: Client → ACK (Acknowledge)\n\n→ Connection established, can start sending data"
+        },
+        {
+          type: "subheading",
+          content: "Real-world Examples:"
+        },
+        {
+          type: "list",
+          content: "TCP is used in:",
+          items: [
+            "Web browsing (HTTP/HTTPS)",
+            "Email (SMTP, IMAP, POP3)",
+            "File transfer (FTP)",
+            "Banking and payment transactions",
+            "SSH remote connections"
+          ]
+        },
+        {
+          type: "heading",
+          content: "3. What is UDP Protocol?"
+        },
+        {
+          type: "text",
+          content: "UDP is a connectionless protocol, not guaranteeing data delivery but very fast and low latency."
+        },
+        {
+          type: "subheading",
+          content: "UDP Characteristics:"
+        },
+        {
+          type: "list",
+          content: "Key features of UDP:",
+          items: [
+            "No connection establishment needed",
+            "Does not guarantee complete data delivery",
+            "Fast, low latency",
+            "No error control",
+            "Simpler and lighter than TCP"
+          ]
+        },
+        {
+          type: "text",
+          content: "Easy analogy: UDP is like talking face-to-face – if you don't hear clearly, you skip it without asking to repeat."
+        },
+        {
+          type: "subheading",
+          content: "Real-world Examples:"
+        },
+        {
+          type: "list",
+          content: "UDP is used in:",
+          items: [
+            "Video calls (Zoom, Teams)",
+            "Online gaming",
+            "Livestreaming",
+            "DNS queries",
+            "VoIP (Voice over IP)"
+          ]
+        },
+        {
+          type: "heading",
+          content: "4. TCP vs UDP Comparison Table"
+        },
+        {
+          type: "table",
+          content: "Key differences between TCP and UDP",
+          columns: ["Criteria", "TCP", "UDP"],
+          rows: [
+            ["Connection", "Connection-oriented", "Connectionless"],
+            ["Data Guarantee", "Guarantees delivery", "No guarantee"],
+            ["Speed", "Slower", "Faster"],
+            ["Error Control", "Yes", "No"],
+            ["Order Guarantee", "Yes", "No"],
+            ["Overhead", "High", "Low"],
+            ["Use Cases", "Web, Email, File Transfer", "Gaming, Video, Streaming"]
+          ]
+        },
+        {
+          type: "heading",
+          content: "5. When to Use TCP? When to Use UDP?"
+        },
+        {
+          type: "subheading",
+          content: "Use TCP when:"
+        },
+        {
+          type: "list",
+          content: "",
+          items: [
+            "Need accurate data",
+            "Cannot afford packet loss",
+            "Order of data matters",
+            "Examples: login, payment, file download"
+          ]
+        },
+        {
+          type: "subheading",
+          content: "Use UDP when:"
+        },
+        {
+          type: "list",
+          content: "",
+          items: [
+            "Need speed",
+            "Can tolerate some data loss",
+            "Real-time communication required",
+            "Examples: video calls, gaming, livestreaming"
+          ]
+        },
+        {
+          type: "heading",
+          content: "6. Simple Code Examples"
+        },
+        {
+          type: "subheading",
+          content: "1. TCP Server Example (Java)"
+        },
+        {
+          type: "code",
+          language: "java",
+          content: "import java.io.*;\nimport java.net.*;\n\npublic class TCPServer {\n    public static void main(String[] args) {\n        try {\n            // Create server socket on port 8080\n            ServerSocket serverSocket = new ServerSocket(8080);\n            System.out.println(\"TCP Server started on port 8080\");\n            \n            // Wait for client connection\n            Socket clientSocket = serverSocket.accept();\n            System.out.println(\"Client connected!\");\n            \n            // Read data from client\n            BufferedReader in = new BufferedReader(\n                new InputStreamReader(clientSocket.getInputStream())\n            );\n            \n            // Send data to client\n            PrintWriter out = new PrintWriter(\n                clientSocket.getOutputStream(), true\n            );\n            \n            String message = in.readLine();\n            System.out.println(\"Received: \" + message);\n            \n            // Reply to client\n            out.println(\"Server received: \" + message);\n            \n            // Close connections\n            clientSocket.close();\n            serverSocket.close();\n        } catch (IOException e) {\n            e.printStackTrace();\n        }\n    }\n}"
+        },
+        {
+          type: "subheading",
+          content: "2. UDP Server Example (Java)"
+        },
+        {
+          type: "code",
+          language: "java",
+          content: "import java.net.*;\n\npublic class UDPServer {\n    public static void main(String[] args) {\n        try {\n            // Create UDP socket on port 9090\n            DatagramSocket socket = new DatagramSocket(9090);\n            System.out.println(\"UDP Server started on port 9090\");\n            \n            byte[] buffer = new byte[1024];\n            \n            // Receive data\n            DatagramPacket receivePacket = new DatagramPacket(buffer, buffer.length);\n            socket.receive(receivePacket);\n            \n            String message = new String(receivePacket.getData(), 0, receivePacket.getLength());\n            System.out.println(\"Received: \" + message);\n            \n            // Send reply\n            String reply = \"Server received: \" + message;\n            byte[] sendData = reply.getBytes();\n            \n            DatagramPacket sendPacket = new DatagramPacket(\n                sendData, \n                sendData.length, \n                receivePacket.getAddress(), \n                receivePacket.getPort()\n            );\n            \n            socket.send(sendPacket);\n            socket.close();\n        } catch (Exception e) {\n            e.printStackTrace();\n        }\n    }\n}"
+        },
+        {
+          type: "heading",
+          content: "Conclusion"
+        },
+        {
+          type: "text",
+          content: "Both TCP and UDP have their own strengths and use cases:"
+        },
+        {
+          type: "list",
+          content: "Summary:",
+          items: [
+            "TCP = accurate, safe, suitable for important data",
+            "UDP = fast, flexible, suitable for real-time applications",
+            "Choose the protocol based on your specific requirements",
+            "In practice, many applications use both protocols simultaneously"
+          ]
+        },
+        {
+          type: "text",
+          content: "Understanding TCP and UDP helps you design better network applications and choose the right protocol for each situation. This is fundamental knowledge for any software developer!"
+        }
+      ]
+    },
+    {
+      id: 12,
+      title: "Optimizing Network Performance with Java NIO (Non-blocking I/O)",
+      excerpt:
+        "Learn how to handle thousands of concurrent connections with Java NIO, Selector, and Non-blocking I/O to build high-performance servers.",
+      image: "https://i.ytimg.com/vi/FRY9BjU2W5s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDU6kOPcqFngjUqGqf8f7PcJxv6ZQ",
+      date: "Dec 20, 2025",
+      category: "Java",
+      content: [
+        {
+          type: "text",
+          content: "In modern systems like chat servers, game servers, and realtime applications, handling thousands of concurrent connections is mandatory. Using traditional Socket (Blocking I/O), each connection typically binds to one thread, leading to excessive resource consumption. Java NIO (New I/O) was created to solve this problem with Non-blocking I/O mechanism."
+        },
+        {
+          type: "heading",
+          content: "1. Blocking I/O – Problems with Traditional Sockets"
+        },
+        {
+          type: "text",
+          content: "In traditional Java IO, each client corresponds to 1 thread. The thread is blocked when waiting for data or waiting for a connection. When the number of clients increases, the system will face many problems."
+        },
+        {
+          type: "list",
+          content: "Problems with Blocking I/O:",
+          items: [
+            "Each client requires a separate thread",
+            "Thread is blocked when waiting for data",
+            "Consumes RAM when client count increases",
+            "Excessive context switching reduces performance",
+            "Server easily overloaded: 5,000 clients → 5,000 threads"
+          ]
+        },
+        {
+          type: "heading",
+          content: "2. What is Java NIO?"
+        },
+        {
+          type: "text",
+          content: "Java NIO (New I/O) is an API set that helps process I/O in Non-blocking and Event-driven style. Instead of 'waiting', the server will 'check which channel is ready and then process'."
+        },
+        {
+          type: "list",
+          content: "Main advantages:",
+          items: [
+            "Non-blocking: doesn't block threads",
+            "Event-driven: only processes when events occur",
+            "Few threads but handles many connections",
+            "Saves system resources"
+          ]
+        },
+        {
+          type: "heading",
+          content: "3. Three Core Components of Java NIO"
+        },
+        {
+          type: "subheading",
+          content: "Channel – Data Transfer Channel"
+        },
+        {
+          type: "text",
+          content: "Channel is like a 'pipeline' for bidirectional data transfer. Unlike traditional Socket, Channel can be non-blocking and works directly with Buffer."
+        },
+        {
+          type: "list",
+          content: "Common Channel types:",
+          items: [
+            "ServerSocketChannel: listens for connections",
+            "SocketChannel: client connections",
+            "DatagramChannel: UDP",
+            "FileChannel: file I/O"
+          ]
+        },
+        {
+          type: "subheading",
+          content: "Buffer – Data Buffer Area"
+        },
+        {
+          type: "text",
+          content: "Buffer is used to write data from Channel and read data from Buffer. Process: Channel reads → Buffer → Process → Buffer writes → Channel."
+        },
+        {
+          type: "code",
+          language: "java",
+          content: "// Create buffer with size 1024 bytes\nByteBuffer buffer = ByteBuffer.allocate(1024);\n\n// Read data from channel into buffer\nchannel.read(buffer);\n\n// Switch to read mode\nbuffer.flip();\n\n// Read data from buffer\nbyte[] data = new byte[buffer.remaining()];\nbuffer.get(data);\n\n// Clear buffer for next use\nbuffer.clear();"
+        },
+        {
+          type: "subheading",
+          content: "Selector – The Heart of Non-blocking I/O"
+        },
+        {
+          type: "text",
+          content: "Selector allows 1 thread to monitor multiple Channels simultaneously. It knows which Channel is ready to accept, has data to read, or can write."
+        },
+        {
+          type: "list",
+          content: "Events (SelectionKey):",
+          items: [
+            "OP_ACCEPT: ready to accept new connection",
+            "OP_CONNECT: connection completing",
+            "OP_READ: has data to read",
+            "OP_WRITE: ready to write data"
+          ]
+        },
+        {
+          type: "heading",
+          content: "4. How Java NIO Handles Thousands of Connections"
+        },
+        {
+          type: "text",
+          content: "Operation model: 1 Thread → Selector → Multiple Channels (Clients). Thread is not blocked, only processes when events occur."
+        },
+        {
+          type: "list",
+          content: "Processing flow:",
+          items: [
+            "Client connects → OP_ACCEPT",
+            "Client sends data → OP_READ",
+            "Server responds → OP_WRITE",
+            "Only 1 thread handles multiple clients"
+          ]
+        },
+        {
+          type: "heading",
+          content: "5. Simple Example: Server Using Selector"
+        },
+        {
+          type: "code",
+          language: "java",
+          content: "import java.nio.channels.*;\nimport java.nio.*;\nimport java.net.*;\nimport java.util.*;\n\npublic class NIOServer {\n    public static void main(String[] args) throws Exception {\n        // Create Selector\n        Selector selector = Selector.open();\n        \n        // Create ServerSocketChannel\n        ServerSocketChannel serverChannel = ServerSocketChannel.open();\n        serverChannel.bind(new InetSocketAddress(8080));\n        serverChannel.configureBlocking(false);\n        \n        // Register with Selector\n        serverChannel.register(selector, SelectionKey.OP_ACCEPT);\n        System.out.println(\"Server started on port 8080\");\n        \n        while (true) {\n            // Wait for events\n            selector.select();\n            \n            // Iterate events\n            Iterator<SelectionKey> keys = selector.selectedKeys().iterator();\n            \n            while (keys.hasNext()) {\n                SelectionKey key = keys.next();\n                keys.remove();\n                \n                // Handle new connections\n                if (key.isAcceptable()) {\n                    SocketChannel client = serverChannel.accept();\n                    client.configureBlocking(false);\n                    client.register(selector, SelectionKey.OP_READ);\n                    System.out.println(\"Client connected: \" + client.getRemoteAddress());\n                }\n                \n                // Handle reading data\n                if (key.isReadable()) {\n                    SocketChannel client = (SocketChannel) key.channel();\n                    ByteBuffer buffer = ByteBuffer.allocate(1024);\n                    \n                    int bytesRead = client.read(buffer);\n                    if (bytesRead == -1) {\n                        client.close();\n                    } else {\n                        buffer.flip();\n                        // Echo back to client\n                        client.write(buffer);\n                    }\n                }\n            }\n        }\n    }\n}"
+        },
+        {
+          type: "text",
+          content: "With just 1 thread, the server can efficiently handle thousands of clients simultaneously!"
+        },
+        {
+          type: "heading",
+          content: "6. Comparing Blocking I/O vs Java NIO"
+        },
+        {
+          type: "table",
+          content: "Differences between Blocking I/O and Java NIO",
+          columns: ["Criteria", "Blocking I/O", "Java NIO"],
+          rows: [
+            ["Processing", "1 thread / 1 client", "1 thread / multiple clients"],
+            ["Performance", "Low under high load", "High"],
+            ["Scalability", "Poor", "Very good"],
+            ["Complexity", "Easy", "More complex"],
+            ["Resources", "Consumes much RAM", "Efficient"],
+            ["Use Cases", "Small apps, few connections", "Large servers, many connections"]
+          ]
+        },
+        {
+          type: "heading",
+          content: "7. When to Use Java NIO?"
+        },
+        {
+          type: "subheading",
+          content: "Use when:"
+        },
+        {
+          type: "list",
+          content: "",
+          items: [
+            "Server needs to handle many concurrent connections",
+            "Realtime applications (chat, gaming, streaming)",
+            "Building proxy, gateway, load balancer",
+            "Microservices requiring high performance",
+            "Distributed systems, event-driven architecture"
+          ]
+        },
+        {
+          type: "subheading",
+          content: "Don't need when:"
+        },
+        {
+          type: "list",
+          content: "",
+          items: [
+            "Small applications, few connections",
+            "Simple logic, no optimization needed",
+            "Team lacks NIO experience",
+            "Limited development time"
+          ]
+        },
+        {
+          type: "heading",
+          content: "8. Java NIO in Practice"
+        },
+        {
+          type: "text",
+          content: "Many popular frameworks use Java NIO as foundation:"
+        },
+        {
+          type: "list",
+          content: "Frameworks using Java NIO:",
+          items: [
+            "Netty: async event-driven framework for network applications",
+            "Spring WebFlux: reactive programming in Spring",
+            "Vert.x: toolkit for building reactive applications",
+            "Apache Kafka: high-performance message broker",
+            "Elasticsearch: distributed search engine"
+          ]
+        },
+        {
+          type: "text",
+          content: "Understanding Java NIO helps you grasp the fundamentals of modern backend frameworks and optimize systems better."
+        },
+        {
+          type: "heading",
+          content: "9. Conclusion"
+        },
+        {
+          type: "list",
+          content: "Summary:",
+          items: [
+            "Java NIO enables efficient and scalable I/O processing",
+            "Selector is key to having 1 thread handle multiple connections",
+            "Suitable for large systems with high load",
+            "Essential knowledge for Backend Developers",
+            "Java NIO = Non-blocking + Selector + Channel → High performance"
           ]
         }
       ]

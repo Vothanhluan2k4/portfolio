@@ -26,14 +26,14 @@ const JourneySection = () => {
         </div>
 
         {/* Timeline Grid */}
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+        <div className="max-w-3xl mx-auto">
           {/* Education Column */}
-          <div data-aos="fade-right" data-aos-delay="100">
-            <div className="flex items-center gap-3 mb-8">
-              <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center">
-                <GraduationCap className="text-accent-foreground" size={24} />
-              </div>
-              <h3 className="text-2xl font-bold font-poppins text-primary">{t("journey.education")}</h3>
+          <div data-aos="fade-up" data-aos-delay="100">
+            <div className="flex items-center gap-3 mb-4 pb-4 border-b border-border">
+                <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center">
+                  <GraduationCap className="text-accent-foreground" size={24} />
+                </div>
+                <h3 className="text-2xl font-bold font-poppins text-primary">{t("journey.education")}</h3>
             </div>
 
             <div className="relative pl-8 border-l-2 border-accent/30">
@@ -56,8 +56,8 @@ const JourneySection = () => {
             </div>
           </div>
 
-          {/* Work Column */}
-          <div data-aos="fade-left" data-aos-delay="200">
+          {/* Work Column - Hidden temporarily */}
+          {/* <div data-aos="fade-left" data-aos-delay="200">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
                 <Briefcase className="text-primary-foreground" size={24} />
@@ -71,7 +71,6 @@ const JourneySection = () => {
                   key={exp.id}
                   className="relative pb-10 last:pb-0"
                 >
-                  {/* Dot */}
                   <div className="absolute -left-[25px] top-1 w-4 h-4 bg-accent rounded-full border-4 border-background" />
                   
                   <div className="bg-card rounded-2xl p-6 shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-300">
@@ -83,7 +82,7 @@ const JourneySection = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

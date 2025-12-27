@@ -82,6 +82,8 @@
     "showing": "Showing",
     "articles": "articles",
     "noResults": "No articles found",
+    "relatedPosts": "Related Posts",
+    "noRelatedPosts": "No related articles yet",
     "categories": {
       "all": "All",
       "Java": "Java",
@@ -94,7 +96,10 @@
     "title": "My<accent> Certificates </accent>",
     "description": "Certificates earned throughout my learning and skill development journey",
     "viewCertificate": "View Certificate",
-    "credentialID": "ID"
+    "credentialID": "ID",
+    "date": "Date",
+    "issuer": "Issuer",
+    "skills": "Skills"
   },
   "footer": {
     "description": "Creating excellent technology products, focusing on user experience and creative design.",

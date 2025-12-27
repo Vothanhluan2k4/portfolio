@@ -1,18 +1,26 @@
-import { Award, Calendar, ChevronLeft, ChevronRight } from "lucide-react";
+import { Award, Calendar, ChevronLeft, ChevronRight, X } from "lucide-react";
 import { portfolioData as portfolioDataVI } from "@/data/portfolioData.vi";
 import { portfolioDataEN } from "@/data/portfolioData.en";
 import { useState, useRef, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { useTranslation } from "react-i18next";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 const CertificatesSection = () => {
   const { t, i18n } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedCert, setSelectedCert] = useState<any>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const portfolioData = i18n.language === "en" ? portfolioDataEN : portfolioDataVI;
   const certificates = portfolioData.certificates;
   const itemsPerView = 3;
   const maxIndex = Math.max(0, certificates.length - itemsPerView);
+
+  const handleCertClick = (cert: any) => {
+    setSelectedCert(cert);
+    setIsModalOpen(true);
+  };
 
   // Scroll to specific index
   const scrollToIndex = (index: number) => {
@@ -76,14 +84,12 @@ const CertificatesSection = () => {
           // Grid Layout (when 3 or fewer certificates)
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {certificates.map((cert, index) => (
-              <CertificateCard key={cert.id} cert={cert} index={index} />
+              <CertificateCard key={cert.id} cert={cert} index={index} onCertClick={handleCertClick} />
             ))}
           </div>
         ) : (
           // Carousel Layout (when more than 3 certificates)
           <div className="relative">
-            
-
             {/* Scrollable Container */}
             <div
               ref={scrollContainerRef}
@@ -98,7 +104,7 @@ const CertificatesSection = () => {
                   key={cert.id}
                   className="flex-shrink-0 w-full md:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.5rem)] snap-start"
                 >
-                  <CertificateCard cert={cert} index={index} />
+                  <CertificateCard cert={cert} index={index} onCertClick={handleCertClick} />
                 </div>
               ))}
             </div>
@@ -121,34 +127,96 @@ const CertificatesSection = () => {
                 />
               ))}
             </div>
+
             {/* Navigation Buttons */}
             <div className="hidden lg:flex flex-col items-center gap-4 mt-12">
-                <div className="flex gap-4">
-                    <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={handlePrev}
-                    disabled={currentIndex === 0}
-                    className="rounded-full"
-                    >
-                    <ChevronLeft size={20} />
-                    </Button>
-                    <Button
-                    variant="outline"
-                    size="icon"
-                    onClick={handleNext}
-                    disabled={currentIndex >= maxIndex}
-                    className="rounded-full"
-                    >
-                    <ChevronRight size={20} />
-                    </Button>
-                </div>
+              <div className="flex gap-4">
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={handlePrev}
+                  disabled={currentIndex === 0}
+                  className="rounded-full"
+                >
+                  <ChevronLeft size={20} />
+                </Button>
+                <Button
+                  variant="outline"
+                  size="icon"
+                  onClick={handleNext}
+                  disabled={currentIndex >= maxIndex}
+                  className="rounded-full"
+                >
+                  <ChevronRight size={20} />
+                </Button>
+              </div>
               <div className="text-muted-foreground text-sm">
                 {currentIndex + 1} / {certificates.length - itemsPerView + 1}
               </div>
             </div>
           </div>
         )}
+
+        {/* Certificate Detail Modal */}
+        <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
+          <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+            {selectedCert && (
+              <div className="space-y-6">
+                <DialogHeader>
+                  <DialogTitle className="text-2xl font-bold font-poppins text-primary">
+                    {selectedCert.title}
+                  </DialogTitle>
+                </DialogHeader>
+
+                {/* Full Size Image */}
+                <div className="relative w-full aspect-[16/10] overflow-hidden rounded-xl bg-gradient-to-br from-accent/10 to-primary/10">
+                  <img
+                    src={selectedCert.image}
+                    alt={selectedCert.title}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+
+                {/* Certificate Details */}
+                <div className="space-y-4">
+                  <div className="flex items-center gap-2 text-muted-foreground">
+                    <Calendar size={20} className="text-accent" />
+                    <span className="font-semibold">{t("certificates.date")}:</span>
+                    <span>{selectedCert.date}</span>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    <Award size={20} className="text-accent" />
+                    <span className="font-semibold text-muted-foreground">{t("certificates.issuer")}:</span>
+                    <span className="text-primary font-semibold">{selectedCert.issuer}</span>
+                  </div>
+
+                  {selectedCert.credentialId && (
+                    <div className="flex items-start gap-2">
+                      <span className="font-semibold text-muted-foreground">{t("certificates.credentialID")}:</span>
+                      <span className="text-primary break-all">{selectedCert.credentialId}</span>
+                    </div>
+                  )}
+
+                  {/* Skills */}
+                  <div className="space-y-2">
+                    <h4 className="font-semibold text-primary">{t("certificates.skills")}:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedCert.skills.map((skill: string, idx: number) => (
+                        <span
+                          key={idx}
+                          className="px-4 py-2 bg-accent/10 text-accent text-sm font-semibold rounded-full"
+                        >
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </DialogContent>
+        </Dialog>
       </div>
     </section>
   );
@@ -166,14 +234,16 @@ interface CertificateCardProps {
     skills: string[];
   };
   index: number;
+  onCertClick: (cert: any) => void;
 }
 
-const CertificateCard = ({ cert, index }: CertificateCardProps) => {
+const CertificateCard = ({ cert, index, onCertClick }: CertificateCardProps) => {
   const { t } = useTranslation();
   
   return (
     <article
-      className="group bg-card rounded-3xl overflow-hidden shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 hover:-translate-y-2"
+      onClick={() => onCertClick(cert)}
+      className="group bg-card rounded-3xl overflow-hidden shadow-[0_4px_20px_-4px_hsl(200_80%_24%_/_0.1)] hover:shadow-[0_20px_40px_-10px_hsl(200_80%_24%_/_0.15)] transition-all duration-500 hover:-translate-y-2 cursor-pointer"
       data-aos="zoom-in"
       data-aos-delay={index * 100}
     >
