@@ -844,6 +844,10 @@ let y = 10;`
       "content": "1. Map - Key/Value Collection"
     },
     {
+      "type": "text",
+      "content": "Map là cấu trúc dữ liệu lưu trữ cặp key-value, tương tự Object nhưng linh hoạt hơn. Map cho phép key có thể là bất kỳ kiểu dữ liệu nào (object, function, primitive), giữ nguyên thứ tự các phần tử được thêm vào và có nhiều method tiện ích để thao tác dữ liệu."
+    },
+    {
       "type": "code",
       "language": "javascript",
       "content": "// Tạo Map\nconst map = new Map();\n\n// Thêm dữ liệu\nmap.set('name', 'Luận');\nmap.set('age', 22);\nmap.set({ id: 1 }, 'Object key'); // key là object\n\n// Lấy dữ liệu\nconsole.log(map.get('name')); // 'Luận'\n\n// Kiểm tra\nconsole.log(map.has('age')); // true\nconsole.log(map.size); // 3\n\n// Duyệt Map\nfor (let [key, value] of map) {\n  console.log(key, value);\n}\n\n// Chuyển thành Array\nconsole.log([...map]); // [['name', 'Luận'], ...]"
@@ -851,6 +855,10 @@ let y = 10;`
     {
       "type": "heading",
       "content": "2. Set - Unique Values"
+    },
+    {
+      "type": "text",
+      "content": "Set là collection chỉ chứa các giá trị duy nhất, không cho phép trùng lặp. Set rất hữu ích khi bạn cần loại bỏ các phần tử trùng lặp trong mảng hoặc kiểm tra sự tồn tại của một giá trị một cách nhanh chóng. Khác với Array, Set không có index và tự động bỏ qua các giá trị trùng lặp khi thêm vào."
     },
     {
       "type": "code",
@@ -862,8 +870,16 @@ let y = 10;`
       "content": "3. Array Methods"
     },
     {
+      "type": "text",
+      "content": "Array trong JavaScript có rất nhiều method hữu ích giúp xử lý dữ liệu dễ dàng hơn. Các method này được chia thành nhiều nhóm theo chức năng: biến đổi dữ liệu, tìm kiếm, và các thao tác khác. Hiểu rõ từng nhóm method sẽ giúp bạn viết code ngắn gọn và dễ đọc hơn."
+    },
+    {
       "type": "subheading",
       "content": "Transform Methods"
+    },
+    {
+      "type": "text",
+      "content": "Nhóm method này giúp biến đổi dữ liệu trong mảng. map() dùng để chuyển đổi từng phần tử, filter() để lọc các phần tử thỏa điều kiện, và reduce() để gộp tất cả phần tử thành một giá trị duy nhất (như tính tổng, tích)."
     },
     {
       "type": "code",
@@ -875,6 +891,10 @@ let y = 10;`
       "content": "Search Methods"
     },
     {
+      "type": "text",
+      "content": "Nhóm method tìm kiếm giúp bạn tìm phần tử trong mảng theo điều kiện. find() trả về phần tử đầu tiên thỏa điều kiện, findIndex() trả về vị trí của phần tử đó. some() kiểm tra có ít nhất một phần tử thỏa điều kiện hay không, còn every() kiểm tra tất cả phần tử có thỏa hay không."
+    },
+    {
       "type": "code",
       "language": "javascript",
       "content": "const users = [\n  { id: 1, name: 'Luận' },\n  { id: 2, name: 'Nam' },\n  { id: 3, name: 'Hùng' }\n];\n\n// find - tìm theo điều kiện\nconst user = users.find(u => u.id === 2);\nconsole.log(user); // { id: 2, name: 'Nam' }\n\n// findIndex - tìm vị trí\nconst index = users.findIndex(u => u.name === 'Hùng');\nconsole.log(index); // 2\n\n// some - có ít nhất 1\nconst hasNam = users.some(u => u.name === 'Nam');\nconsole.log(hasNam); // true\n\n// every - tất cả\nconst allHaveId = users.every(u => u.id > 0);\nconsole.log(allHaveId); // true"
@@ -882,6 +902,10 @@ let y = 10;`
     {
       "type": "subheading",
       "content": "Other Useful Methods"
+    },
+    {
+      "type": "text",
+      "content": "Các method hữu ích khác bao gồm: includes() để kiểm tra sự tồn tại của phần tử, slice() để cắt mảng mà không thay đổi mảng gốc, splice() để thêm/xóa phần tử và thay đổi mảng gốc, và sort() để sắp xếp mảng. Lưu ý splice() và sort() sẽ thay đổi mảng gốc, còn các method khác thường trả về mảng mới."
     },
     {
       "type": "code",

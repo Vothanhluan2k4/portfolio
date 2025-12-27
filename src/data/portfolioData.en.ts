@@ -842,6 +842,10 @@ let y = 10;`
           content: "1. Map - Key/Value Collection"
         },
         {
+          type: "text",
+          content: "Map is a data structure that stores key-value pairs, similar to Object but more flexible. Map allows keys to be any data type (object, function, primitive), preserves the order of elements as they are added, and provides many useful methods for data manipulation."
+        },
+        {
           type: "code",
           language: "javascript",
           content: "// Create Map\nconst map = new Map();\n\n// Add data\nmap.set('name', 'Luan');\nmap.set('age', 22);\nmap.set({ id: 1 }, 'Object key'); // key is object\n\n// Get data\nconsole.log(map.get('name')); // 'Luan'\n\n// Check\nconsole.log(map.has('age')); // true\nconsole.log(map.size); // 3\n\n// Iterate Map\nfor (let [key, value] of map) {\n  console.log(key, value);\n}\n\n// Convert to Array\nconsole.log([...map]); // [['name', 'Luan'], ...]"
@@ -849,6 +853,10 @@ let y = 10;`
         {
           type: "heading",
           content: "2. Set - Unique Values"
+        },
+        {
+          type: "text",
+          content: "Set is a collection that only contains unique values, not allowing duplicates. Set is very useful when you need to remove duplicate elements from an array or quickly check the existence of a value. Unlike Array, Set has no index and automatically ignores duplicate values when adding."
         },
         {
           type: "code",
@@ -860,8 +868,16 @@ let y = 10;`
           content: "3. Array Methods"
         },
         {
+          type: "text",
+          content: "Arrays in JavaScript have many useful methods that make data processing easier. These methods are divided into groups by functionality: transforming data, searching, and other operations. Understanding each group of methods will help you write more concise and readable code."
+        },
+        {
           type: "subheading",
           content: "Transform Methods"
+        },
+        {
+          type: "text",
+          content: "This group of methods helps transform data in arrays. map() is used to transform each element, filter() to filter elements that meet a condition, and reduce() to fold all elements into a single value (like sum, product)."
         },
         {
           type: "code",
@@ -873,6 +889,10 @@ let y = 10;`
           content: "Search Methods"
         },
         {
+          type: "text",
+          content: "Search methods help you find elements in an array by condition. find() returns the first element that meets the condition, findIndex() returns the position of that element. some() checks if at least one element meets the condition, while every() checks if all elements meet it."
+        },
+        {
           type: "code",
           language: "javascript",
           content: "const users = [\n  { id: 1, name: 'Luan' },\n  { id: 2, name: 'Nam' },\n  { id: 3, name: 'Hung' }\n];\n\n// find - find by condition\nconst user = users.find(u => u.id === 2);\nconsole.log(user); // { id: 2, name: 'Nam' }\n\n// findIndex - find position\nconst index = users.findIndex(u => u.name === 'Hung');\nconsole.log(index); // 2\n\n// some - at least one\nconst hasNam = users.some(u => u.name === 'Nam');\nconsole.log(hasNam); // true\n\n// every - all\nconst allHaveId = users.every(u => u.id > 0);\nconsole.log(allHaveId); // true"
@@ -880,6 +900,10 @@ let y = 10;`
         {
           type: "subheading",
           content: "Other Useful Methods"
+        },
+        {
+          type: "text",
+          content: "Other useful methods include: includes() to check element existence, slice() to cut an array without changing the original, splice() to add/remove elements and modify the original array, and sort() to sort an array. Note that splice() and sort() will modify the original array, while other methods usually return a new array."
         },
         {
           type: "code",
