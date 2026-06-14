@@ -6,8 +6,10 @@ const MusicPlayer = () => {
   // Load saved state from localStorage
   const [isPlaying, setIsPlaying] = useState(() => {
     const saved = localStorage.getItem("musicPlayerIsPlaying");
-    return saved === "true";
+    // Tự động phát nhạc nếu chưa có cài đặt trước đó
+    return saved !== "false";
   });
+  const [isBlocked, setIsBlocked] = useState(false);
   const [isMuted, setIsMuted] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -15,22 +17,59 @@ const MusicPlayer = () => {
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = 0.2;
-      
+
       // Restore playback position
       const savedTime = localStorage.getItem("musicPlayerCurrentTime");
       if (savedTime) {
         audioRef.current.currentTime = parseFloat(savedTime);
       }
-      
+
       // Restore playing state
       if (isPlaying) {
         audioRef.current.play().catch(() => {
+          // Bị trình duyệt chặn autoplay
           setIsPlaying(false);
-          localStorage.setItem("musicPlayerIsPlaying", "false");
+          setIsBlocked(true);
         });
       }
     }
   }, []);
+
+  // Thử phát nhạc lại ngay khi người dùng tương tác với trang web
+  useEffect(() => {
+    if (!isBlocked) return;
+
+    const handleInteraction = () => {
+      if (audioRef.current) {
+        const playPromise = audioRef.current.play();
+        if (playPromise !== undefined) {
+          playPromise
+            .then(() => {
+              setIsPlaying(true);
+              setIsBlocked(false);
+              localStorage.setItem("musicPlayerIsPlaying", "true");
+              removeListeners(); // Chỉ gỡ bỏ listener khi đã phát thành công
+            })
+            .catch(() => {
+              // Vẫn bị chặn (ví dụ do event không hợp lệ), giữ nguyên listener
+            });
+        }
+      }
+    };
+
+    const removeListeners = () => {
+      document.removeEventListener("click", handleInteraction);
+      document.removeEventListener("keydown", handleInteraction);
+      document.removeEventListener("touchstart", handleInteraction);
+    };
+
+    // Đăng ký các sự kiện tương tác hợp lệ để mở khóa autoplay
+    document.addEventListener("click", handleInteraction);
+    document.addEventListener("keydown", handleInteraction);
+    document.addEventListener("touchstart", handleInteraction);
+
+    return removeListeners;
+  }, [isBlocked]);
 
   // Save current time periodically when playing
   useEffect(() => {
@@ -52,11 +91,13 @@ const MusicPlayer = () => {
         // Save current time when pausing
         localStorage.setItem("musicPlayerCurrentTime", audioRef.current.currentTime.toString());
         setIsPlaying(false);
+        setIsBlocked(false);
         localStorage.setItem("musicPlayerIsPlaying", "false");
       } else {
         audioRef.current.play()
           .then(() => {
             setIsPlaying(true);
+            setIsBlocked(false);
             localStorage.setItem("musicPlayerIsPlaying", "true");
           })
           .catch(() => {
@@ -80,6 +121,7 @@ const MusicPlayer = () => {
       <audio
         ref={audioRef}
         loop
+        autoPlay
         src="/audio/moonlightdrive.mp3"
       />
 

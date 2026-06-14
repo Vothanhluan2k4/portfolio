@@ -23,6 +23,7 @@ export interface Project {
   images?: string[];
   tags: string[];
   videoUrl?: string;
+  demoUrl?: string;
   details?: ProjectDetail;
 }
 

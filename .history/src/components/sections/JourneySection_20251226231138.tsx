@@ -26,7 +26,7 @@ const JourneySection = () => {
         </div>
 
         {/* Timeline Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-6xl mx-auto">
+        <div className="max-w-3xl mx-auto">
           {/* Education Column */}
           <div data-aos="fade-up" data-aos-delay="100">
             <div className="flex items-center gap-3 mb-4 pb-4 border-b border-border">
@@ -56,9 +56,9 @@ const JourneySection = () => {
             </div>
           </div>
 
-          {/* Work Column */}
-          <div data-aos="fade-left" data-aos-delay="200">
-            <div className="flex items-center gap-3 mb-4 pb-4 border-b border-border">
+          {/* Work Column - Hidden temporarily */}
+          {/* <div data-aos="fade-left" data-aos-delay="200">
+            <div className="flex items-center gap-3 mb-8">
               <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
                 <Briefcase className="text-primary-foreground" size={24} />
               </div>
@@ -82,7 +82,7 @@ const JourneySection = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

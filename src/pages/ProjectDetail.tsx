@@ -1,7 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { portfolioData as portfolioDataVI } from "@/data/portfolioData.vi";
 import { portfolioDataEN } from "@/data/portfolioData.en";
-import { ArrowLeft, Calendar, Tag, Code2, Target, CheckCircle2, Zap, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowLeft, Calendar, Tag, Code2, Target, CheckCircle2, Zap, ChevronLeft, ChevronRight, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -292,6 +292,24 @@ const ProjectDetail = () => {
               {/* Sidebar - 1 column */}
               <div className="lg:col-span-1">
                 <div className="sticky top-28 space-y-6">
+                  {/* Demo Link */}
+                  {project.demoUrl && (
+                    <div className="bg-card rounded-2xl p-6 shadow-lg border border-border">
+                      <h3 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">
+                        <ExternalLink size={20} className="text-accent" />
+                        Demo trải nghiệm
+                      </h3>
+                      <a
+                        href={project.demoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 w-full py-3 px-4 bg-accent hover:bg-accent/90 text-white rounded-xl transition-colors font-medium"
+                      >
+                        Truy cập ứng dụng <ExternalLink size={16} />
+                      </a>
+                    </div>
+                  )}
+
                   {/* Technologies */}
                   <div className="bg-card rounded-2xl p-6 shadow-lg border border-border">
                     <h3 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">

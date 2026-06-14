@@ -29,12 +29,11 @@ export const portfolioData: PortfolioData = {
 
     {
       "id": 1,
-      "title": "LunQuiz - Nơi thi đấu trắc nghiệm thời gian thực",
+      "title": "LunQuiz - Nơi",
       "category": "Web Development",
-      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202026-06-14%20223304.png?raw=true",
+      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/lunquiz-demo.png?raw=true",
       "videoUrl": "",
-      "demoUrl": "https://www.lunquiz.site/",
-      "tags": ["React", "TypeScript", "Node.js", "UI/UX"],
+      "tags": ["React", "TypeScript", "Node.js", "Socket.IO", "Game", "Real-time", "Education", "UI/UX"],
       "details": {
         "description": "LunQuiz là một nền tảng thi trắc nghiệm trực tuyến thời gian thực (real-time) với thiết kế hiện đại. Hệ thống cho phép người dùng tạo các bài trắc nghiệm, tham gia phòng chơi chung (room-based quiz), cũng như hệ thống thi đấu đối kháng (PvP) 1vs1 hoặc 2vs2 xếp hạng bằng điểm Elo kịch tính.",
         "currentStatus": "Dự án đã hoàn thiện các tính năng cốt lõi bao gồm thi đấu thời gian thực qua WebSockets, hệ thống xếp hạng Elo, và bảng điều khiển quản trị (Admin Dashboard) mạnh mẽ.",
@@ -296,24 +295,20 @@ export const portfolioData: PortfolioData = {
       period: "2021 - Hiện tại",
       description: "Học các môn nền tảng CNTT, lập trình Web,ứng dụng di động, CSDL, phân tích & thiết kế hệ thống."
     },
-    {
-      id: 2,
-      type: "work",
-      title: "Thực tập sinh Full Stack",
-      organization: "Công ty TNHH Phần mềm DUDI",
-      period: "03/2026 - 06/2026",
-      description: "Tham gia phát triển các tính năng frontend và backend cho ứng dụng web, làm việc với ReactJS và Node.js."
-    }
+
+
   ],
   skills: [
     { id: 1, name: "GitHub", logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg", percentage: 90 },
-    { id: 2, name: "Visual Studio Code", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png", percentage: 90 },
+    { id: 2, name: "Visual Studio Code", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png", percentage: 90 },
     { id: 3, name: "Visual Studio 2022", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", percentage: 88 },
-    { id: 4, name: "StartUML", logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/3/32/Staruml_logo.png/250px-Staruml_logo.png", percentage: 85 },
+    { id: 4, name: "StartUML", logo: "https://p1.hiclipart.com/preview/240/352/17/star-symbol-staruml-unified-modeling-language-uml-tool-diagram-computer-software-java-umlet-png-clipart.jpg", percentage: 85 },
     { id: 5, name: "SQL Server", logo: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg", percentage: 80 },
     { id: 6, name: "PostgreSQL", logo: "https://images.icon-icons.com/2415/PNG/512/postgresql_plain_wordmark_logo_icon_146390.png", percentage: 75 },
     { id: 7, name: "Cisco packet tracer", logo: "https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png", percentage: 75 },
-    { id: 8, name: "Laragon", logo: "https://cdn.worldvectorlogo.com/logos/laragon.svg", percentage: 75 },
+    { id: 8, name: "NetBeans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1776px-Apache_NetBeans_Logo.svg.png", percentage: 75 },
+    { id: 9, name: "Laragon", logo: "https://cdn.worldvectorlogo.com/logos/laragon.svg", percentage: 75 },
+    { id: 10, name: "VMware", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/2051px-Vmware_workstation_16_icon.svg.png", percentage: 70 },
   ],
   blogs: [
     {

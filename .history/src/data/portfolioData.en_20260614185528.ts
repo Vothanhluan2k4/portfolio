@@ -30,9 +30,8 @@ export const portfolioDataEN: PortfolioData = {
       "id": 1,
       "title": "LunQuiz - Real-time Multiplayer Quiz Platform",
       "category": "Web Development",
-      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202026-06-14%20223304.png?raw=true",
+      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/lunquiz-demo.png?raw=true",
       "videoUrl": "",
-      "demoUrl": "https://www.lunquiz.site/",
       "tags": ["React", "TypeScript", "Node.js", "Socket.IO", "Game", "Real-time", "Education", "UI/UX"],
       "details": {
         "description": "LunQuiz is a real-time online quiz platform with a modern design. The system allows users to create quizzes, join room-based quizzes, and participate in competitive 1vs1 or 2vs2 PvP matches ranked by a thrilling Elo rating system.",
@@ -72,7 +71,7 @@ export const portfolioDataEN: PortfolioData = {
     },
 
     {
-      id: 2,
+      id: 1,
       title: "English Learning App",
       category: "App Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
@@ -108,7 +107,7 @@ export const portfolioDataEN: PortfolioData = {
       }
     },
     {
-      id: 3,
+      id: 2,
       title: "Rental & Room Management Website",
       category: "Web Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/avatar_webphong.png?raw=true",
@@ -296,25 +295,20 @@ export const portfolioDataEN: PortfolioData = {
       period: "2021 - Present",
       description: "Studied IT fundamentals, web programming, mobile applications, databases, system analysis & design."
     },
-    {
-      id: 2,
-      type: "work",
-      title: "Full Stack Intern",
-      organization: "DUDI Software",
-      period: "03/2026 - 06/2026",
-      description: "Participated in developing frontend and backend features for web applications, working with ReactJS and Node.js."
-    }
+
   ],
 
   skills: [
     { id: 1, name: "GitHub", logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg", percentage: 90 },
-    { id: 2, name: "Visual Studio Code", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png", percentage: 90 },
+    { id: 2, name: "Visual Studio Code", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png", percentage: 90 },
     { id: 3, name: "Visual Studio 2022", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", percentage: 88 },
-    { id: 4, name: "StartUML", logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/3/32/Staruml_logo.png/250px-Staruml_logo.png", percentage: 85 },
+    { id: 4, name: "StartUML", logo: "https://p1.hiclipart.com/preview/240/352/17/star-symbol-staruml-unified-modeling-language-uml-tool-diagram-computer-software-java-umlet-png-clipart.jpg", percentage: 85 },
     { id: 5, name: "SQL Server", logo: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg", percentage: 80 },
     { id: 6, name: "PostgreSQL", logo: "https://images.icon-icons.com/2415/PNG/512/postgresql_plain_wordmark_logo_icon_146390.png", percentage: 75 },
     { id: 7, name: "Cisco packet tracer", logo: "https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png", percentage: 75 },
-    { id: 8, name: "Laragon", logo: "https://cdn.worldvectorlogo.com/logos/laragon.svg", percentage: 75 },
+    { id: 8, name: "NetBeans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1776px-Apache_NetBeans_Logo.svg.png", percentage: 75 },
+    { id: 9, name: "Laragon", logo: "https://cdn.worldvectorlogo.com/logos/laragon.svg", percentage: 75 },
+    { id: 10, name: "VMware", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/2051px-Vmware_workstation_16_icon.svg.png", percentage: 70 },
   ],
 
   blogs: [

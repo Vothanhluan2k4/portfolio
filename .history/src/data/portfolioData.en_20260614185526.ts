@@ -27,52 +27,51 @@ export const portfolioDataEN: PortfolioData = {
 
   projects: [
     {
-      "id": 1,
-      "title": "LunQuiz - Real-time Multiplayer Quiz Platform",
-      "category": "Web Development",
-      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202026-06-14%20223304.png?raw=true",
-      "videoUrl": "",
-      "demoUrl": "https://www.lunquiz.site/",
-      "tags": ["React", "TypeScript", "Node.js", "Socket.IO", "Game", "Real-time", "Education", "UI/UX"],
-      "details": {
-        "description": "LunQuiz is a real-time online quiz platform with a modern design. The system allows users to create quizzes, join room-based quizzes, and participate in competitive 1vs1 or 2vs2 PvP matches ranked by a thrilling Elo rating system.",
-        "currentStatus": "The project has completed its core features, including real-time multiplayer gameplay via WebSockets, an Elo ranking system, and a powerful Admin Dashboard.",
-        "objectives": [
-          "Build a smooth and highly interactive online quiz platform",
-          "Implement a real-time PvP matchmaking system",
-          "Calculate and rank players fairly through an Elo rating system",
-          "Create a premium and fluid UI/UX experience with GSAP Animations"
-        ],
-        "features": [
-          "Authentication System: Login, Register, Forgot Password, User Profile Management",
-          "Normal Quiz Mode: Create rooms, join via room code, waiting rooms, and live gameplay",
-          "Template Management (My Templates): Users can create, edit, and manage their own question sets",
-          "Real-time PvP System: Supports 1V1 and 2V2 modes with matchmaking and match-ready lobbies",
-          "PvP Gameplay: Real-time synchronization, speed bonus scoring, and answer locking",
-          "PvP Statistics: Match history, detailed match results, and global or topic-based leaderboards",
-          "Admin Dashboard: Comprehensive management interface (Users, Feedback, Statistics, Categories)",
-          "Quiz & PvP Management: PvP question pool management, import questions from quizzes, manage distinct PvP categories",
-          "Premium Animations: Integrated GSAP library to create smooth micro-interactions during gameplay"
-        ],
-        "technologies": [
-          "Node.js (Backend)",
-          "React",
-          "TypeScript",
-          "Vite",
-          "Socket.IO (Client)",
-          "Tailwind CSS",
-          "Shadcn UI",
-          "GSAP (Animation)",
-          "Zustand (State Management)",
-          "React Query"
-        ],
-        "challenges": "The biggest challenge was handling state synchronization between players in real-time PvP mode via Socket.IO, ensuring fairness regarding network latency for accurate speed bonus calculations. Additionally, designing a UI/UX with smooth GSAP animations while maintaining high performance (60fps) required meticulous optimization.",
-        "outcomes": "The project resulted in a highly polished product, both in terms of real-time logic and interface design. The platform operates stably during intense PvP matches and provides an excellent user experience."
-      }
-    },
+  "id": 1,
+  "title": "LunQuiz - Real-time Multiplayer Quiz Platform",
+  "category": "Web Development",
+  "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/lunquiz-demo.png?raw=true",
+  "videoUrl": "",
+  "tags": ["React", "TypeScript", "Node.js", "Socket.IO", "Game", "Real-time", "Education", "UI/UX"],
+  "details": {
+    "description": "LunQuiz is a real-time online quiz platform with a modern design. The system allows users to create quizzes, join room-based quizzes, and participate in competitive 1vs1 or 2vs2 PvP matches ranked by a thrilling Elo rating system.",
+    "currentStatus": "The project has completed its core features, including real-time multiplayer gameplay via WebSockets, an Elo ranking system, and a powerful Admin Dashboard.",
+    "objectives": [
+      "Build a smooth and highly interactive online quiz platform",
+      "Implement a real-time PvP matchmaking system",
+      "Calculate and rank players fairly through an Elo rating system",
+      "Create a premium and fluid UI/UX experience with GSAP Animations"
+    ],
+    "features": [
+      "Authentication System: Login, Register, Forgot Password, User Profile Management",
+      "Normal Quiz Mode: Create rooms, join via room code, waiting rooms, and live gameplay",
+      "Template Management (My Templates): Users can create, edit, and manage their own question sets",
+      "Real-time PvP System: Supports 1V1 and 2V2 modes with matchmaking and match-ready lobbies",
+      "PvP Gameplay: Real-time synchronization, speed bonus scoring, and answer locking",
+      "PvP Statistics: Match history, detailed match results, and global or topic-based leaderboards",
+      "Admin Dashboard: Comprehensive management interface (Users, Feedback, Statistics, Categories)",
+      "Quiz & PvP Management: PvP question pool management, import questions from quizzes, manage distinct PvP categories",
+      "Premium Animations: Integrated GSAP library to create smooth micro-interactions during gameplay"
+    ],
+    "technologies": [
+      "Node.js (Backend)",
+      "React",
+      "TypeScript",
+      "Vite",
+      "Socket.IO (Client)",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "GSAP (Animation)",
+      "Zustand (State Management)",
+      "React Query"
+    ],
+    "challenges": "The biggest challenge was handling state synchronization between players in real-time PvP mode via Socket.IO, ensuring fairness regarding network latency for accurate speed bonus calculations. Additionally, designing a UI/UX with smooth GSAP animations while maintaining high performance (60fps) required meticulous optimization.",
+    "outcomes": "The project resulted in a highly polished product, both in terms of real-time logic and interface design. The platform operates stably during intense PvP matches and provides an excellent user experience."
+  }
+},
 
     {
-      id: 2,
+      id: 1,
       title: "English Learning App",
       category: "App Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
@@ -108,7 +107,7 @@ export const portfolioDataEN: PortfolioData = {
       }
     },
     {
-      id: 3,
+      id: 2,
       title: "Rental & Room Management Website",
       category: "Web Development",
       image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/avatar_webphong.png?raw=true",
@@ -296,25 +295,20 @@ export const portfolioDataEN: PortfolioData = {
       period: "2021 - Present",
       description: "Studied IT fundamentals, web programming, mobile applications, databases, system analysis & design."
     },
-    {
-      id: 2,
-      type: "work",
-      title: "Full Stack Intern",
-      organization: "DUDI Software",
-      period: "03/2026 - 06/2026",
-      description: "Participated in developing frontend and backend features for web applications, working with ReactJS and Node.js."
-    }
+ 
   ],
 
   skills: [
     { id: 1, name: "GitHub", logo: "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg", percentage: 90 },
-    { id: 2, name: "Visual Studio Code", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/960px-Visual_Studio_Code_1.35_icon.svg.png", percentage: 90 },
+    { id: 2, name: "Visual Studio Code", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png", percentage: 90 },
     { id: 3, name: "Visual Studio 2022", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg", percentage: 88 },
-    { id: 4, name: "StartUML", logo: "https://upload.wikimedia.org/wikipedia/fr/thumb/3/32/Staruml_logo.png/250px-Staruml_logo.png", percentage: 85 },
+    { id: 4, name: "StartUML", logo: "https://p1.hiclipart.com/preview/240/352/17/star-symbol-staruml-unified-modeling-language-uml-tool-diagram-computer-software-java-umlet-png-clipart.jpg", percentage: 85 },
     { id: 5, name: "SQL Server", logo: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg", percentage: 80 },
     { id: 6, name: "PostgreSQL", logo: "https://images.icon-icons.com/2415/PNG/512/postgresql_plain_wordmark_logo_icon_146390.png", percentage: 75 },
     { id: 7, name: "Cisco packet tracer", logo: "https://hurbad.com/wp-content/uploads/2021/12/Cisco-Packet-Tracer.png", percentage: 75 },
-    { id: 8, name: "Laragon", logo: "https://cdn.worldvectorlogo.com/logos/laragon.svg", percentage: 75 },
+    { id: 8, name: "NetBeans", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Apache_NetBeans_Logo.svg/1776px-Apache_NetBeans_Logo.svg.png", percentage: 75 },
+    { id: 9, name: "Laragon", logo: "https://cdn.worldvectorlogo.com/logos/laragon.svg", percentage: 75 },
+    { id: 10, name: "VMware", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Vmware_workstation_16_icon.svg/2051px-Vmware_workstation_16_icon.svg.png", percentage: 70 },
   ],
 
   blogs: [
@@ -330,8 +324,8 @@ export const portfolioDataEN: PortfolioData = {
         { type: "text", content: "I'm a 4th-year Software Engineering student at Ho Chi Minh City University of Technology (HUTECH). With a passion for programming and technology, I've spent 3 years learning and honing my skills in software development." },
         { type: "heading", content: "2. My Programming Journey" },
         { type: "text", content: "Starting from first year with basic C, I gradually approached Java, JavaScript, and modern frameworks. Each language brings its own challenges but also helps me develop comprehensive programming thinking." },
-        {
-          type: "list",
+        { 
+          type: "list", 
           content: "My main skills learned:",
           items: [
             "Programming languages: C, C#",
@@ -356,7 +350,7 @@ export const portfolioDataEN: PortfolioData = {
         { type: "heading", content: "1. What is Java?" },
         { type: "text", content: "Java is an object-oriented programming (OOP) language developed by Sun Microsystems in 1995. With the motto 'Write Once, Run Anywhere', Java has become one of the most popular languages in the world." },
         { type: "heading", content: "2. Java Advantages" },
-        {
+        { 
           type: "list",
           content: "Key advantages:",
           items: [
@@ -368,8 +362,8 @@ export const portfolioDataEN: PortfolioData = {
           ]
         },
         { type: "heading", content: "3. Hello World Example" },
-        {
-          type: "code",
+        { 
+          type: "code", 
           language: "java",
           content: `public class HelloWorld {
     public static void main(String[] args) {
