@@ -10,6 +10,7 @@ const HeroSection = () => {
   const [displayedName, setDisplayedName] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [titleMain, titleLocation] = t("hero.title").split(" tại ");
 
   useEffect(() => {
     const typingSpeed = isDeleting ? 100 : 150;
@@ -42,17 +43,28 @@ const HeroSection = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       
       <div className="container mx-auto px-6 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.85fr)] gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
-          <div className="order-2 lg:order-1 min-w-0 lg:min-w-[720px]" data-aos="fade-up" data-aos-delay="100">
+          <div className="order-2 lg:order-1" data-aos="fade-up" data-aos-delay="100">
             <span className="inline-block text-accent font-semibold text-4xl mb-4 animate-bounce-gentle">
               {t("hero.greeting")}
             </span>
             
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-poppins text-primary leading-tight mb-6">
-              {t("hero.iam")} <span className="inline-block text-accent min-w-[300px] md:min-w-[400px]">{displayedName}<span className="animate-pulse">|</span></span>
-              <br />
-              {t("hero.title")}
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold font-poppins text-primary leading-[1.05] mb-6">
+              <span className="block whitespace-nowrap">{t("hero.iam")}</span>
+              <span className="block text-accent whitespace-nowrap min-w-[300px] md:min-w-[400px]">
+                {displayedName}
+                <span className="animate-pulse">|</span>
+              </span>
+              <span className="block whitespace-nowrap">
+                {titleMain}
+                {titleLocation ? (
+                  <>
+                    <br className="md:hidden" />
+                    <span className="whitespace-nowrap"> tại {titleLocation}</span>
+                  </>
+                ) : null}
+              </span>
             </h1>
             
             <p className="text-muted-foreground text-lg mb-8 max-w-lg leading-relaxed">

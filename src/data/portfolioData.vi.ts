@@ -318,160 +318,159 @@ export const portfolioData: PortfolioData = {
   blogs: [
     {
       id: 1,
-      title: "Giới thiệu về tôi và hành trình học lập trình",
+      title: "Hành trình từ số 0 HUTECH đến Full Stack Intern xịn sò",
       excerpt:
-        "Chia sẻ ngắn về bản thân, định hướng nghề nghiệp và con đường học Java & JavaScript của tôi.",
+        "Nhìn lại chặng đường 4 năm thanh xuân ở HUTECH, những đêm thức trắng debug cùng mì tôm và cơ duyên làm Full Stack Intern tại DUDI Software.",
       image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&h=400&fit=crop",
       date: "20/09/2025",
       category: "Chia sẻ",
       content: [
-        { type: "heading", content: "Xin chào! Tôi là Võ Thành Luận" },
-        { type: "text", content: "Tôi là sinh viên năm 4 ngành Kỹ thuật Phần mềm tại Đại học Công nghệ TP.HCM (HUTECH). Với niềm đam mê về lập trình và công nghệ, tôi đã dành 3 năm để học hỏi và rèn luyện kỹ năng trong lĩnh vực phát triển phần mềm." },
-        { type: "heading", content: "Hành trình học lập trình" },
-        { type: "text", content: "Bắt đầu từ năm nhất với ngôn ngữ C cơ bản, tôi dần tiếp cận với Java, JavaScript và các framework hiện đại. Mỗi ngôn ngữ đều mang đến những thử thách riêng nhưng cũng giúp tôi phát triển tư duy lập trình toàn diện." },
+        { type: "heading", content: "Xin chào! Mình là Võ Thành Luận" },
+        { type: "text", content: "Chào các bạn! Mình là Võ Thành Luận, hiện là sinh viên năm 4 chuyên ngành Kỹ thuật Phần mềm tại Đại học Công nghệ TP.HCM (HUTECH). Nếu bạn đang tìm kiếm một chiếc profile bóng bẩy kiểu siêu nhân thì... lộn tiệm rồi. Mình chỉ là một gã dev đam mê gõ code, thích ngắm bug chạy và đang thực tập vị trí Full Stack tại DUDI Software." },
+        { type: "heading", content: "Bắt đầu từ số 0 tròn trĩnh tại HUTECH" },
+        { type: "text", content: "Nhớ hồi năm nhất, bước chân vào HUTECH với hành trang là con số 0 tròn trĩnh về lập trình. Ngôn ngữ C chào đón mình bằng những lỗi cú pháp 'mất dấu chấm phẩy bay màu cả bài'. Từ đó, mình bén duyên với Java, ASP.NET Core, rồi dấn thân sang JavaScript và Flutter để làm các dự án thực tế như LunQuiz." },
         {
           type: "list",
-          content: "Các kỹ năng chính tôi đã học:",
+          content: "Chiếc túi ba gang chứa những kỹ năng mình đã góp nhặt được:",
           items: [
-            "Ngôn ngữ lập trình: C, C#",
-            "Java & Spring Boot cho backend development",
-            "ASP.NET Core cho web applications",
-            "Database: SQL Server,MySQL, PostgreSQL",
-            "Mobile: Flutter "
+            "Ngôn ngữ cơ bản nhưng chất: C, C#",
+            "Java & Spring Boot: Chuyên trị hệ thống backend, xử lý nghiệp vụ nặng đô",
+            "ASP.NET Core: Giải pháp backend xịn sò cho các ứng dụng web doanh nghiệp",
+            "Database: SQL Server, MySQL, PostgreSQL (nơi lưu trữ đống data của mình)",
+            "Flutter & Dart: Code mobile một lần, chạy mượt trên cả Android lẫn iOS"
           ]
         },
-        { type: "heading", content: "3. Định hướng nghề nghiệp" },
-        { type: "text", content: "Tôi đang hướng tới vị trí Backend Developer, đặc biệt quan tâm đến việc xây dựng các hệ thống API hiệu quả và bảo mật. Tôi tin rằng một backend vững chắc là nền tảng cho mọi ứng dụng thành công." }
+        { type: "heading", content: "Định hướng sắp tới: Tiến lên Backend!" },
+        { type: "text", content: "Mình đang hướng tới trở thành một Backend Developer thực thụ. Với mình, xây dựng hệ thống API bảo mật, chịu tải tốt và thiết kế database chuẩn chỉnh giống như việc xây móng nhà vậy - móng có chắc thì nhà mới không sập. Hy vọng kỳ thực tập ở DUDI Software sẽ giúp mình nâng trình nhanh chóng!" }
       ]
     },
     {
       id: 2,
-      title: "Java là gì? Tổng quan cho người mới bắt đầu",
+      title: "Java - Anh thanh niên nghiêm túc, đứng đắn và chung thủy",
       excerpt:
-        "Giới thiệu ngôn ngữ Java, ưu điểm, ứng dụng thực tế và lý do Java vẫn được sử dụng rộng rãi.",
+        "Tại sao Java bị chê là dài dòng, rườm rà nhưng các doanh nghiệp lớn vẫn mê mẩn? Cùng bóc mẽ anh bạn đứng tuổi này nhé!",
       image: "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=600&h=400&fit=crop",
       date: "03/10/2025",
       category: "Java",
       content: [
-        { type: "heading", content: "1. Java là gì?" },
-        { type: "text", content: "Java là ngôn ngữ lập trình hướng đối tượng (OOP) được phát triển bởi Sun Microsystems vào năm 1995. Với phương châm 'Write Once, Run Anywhere' (Viết một lần, chạy mọi nơi), Java đã trở thành một trong những ngôn ngữ phổ biến nhất thế giới." },
-        { type: "heading", content: "2. Ưu điểm của Java" },
+        { type: "heading", content: "Java là cái chi chi?" },
+        { type: "text", content: "Sinh năm 1995 (lớn tuổi hơn cả mình), Java được tạo ra bởi Sun Microsystems với triết lý huyền thoại: 'Write Once, Run Anywhere' (Viết một lần, chạy khắp nơi - hoặc là viết một lần, debug mọi nơi tùy nhân phẩm). Nó là ngôn ngữ hướng đối tượng cực kỳ nghiêm ngặt." },
+        { type: "heading", content: "Tại sao lại yêu thương Java?" },
         {
           type: "list",
-          content: "Những ưu điểm nổi bật:",
+          content: "Một số ưu điểm khiến Java vẫn 'gừng càng già càng cay':",
           items: [
-            "Độc lập nền tảng nhờ JVM (Java Virtual Machine)",
-            "Hướng đối tượng hoàn toàn",
-            "Bảo mật cao",
-            "Cộng đồng lớn và nhiều thư viện hỗ trợ",
-            "Hiệu suất tốt với garbage collection tự động"
+            "Độc lập nền tảng: Nhờ có máy ảo JVM (Java Virtual Machine) gánh team, chạy hệ điều hành nào cũng cân được.",
+            "Hướng đối tượng hoàn toàn: Mọi thứ trong Java đều phải nằm trong Class. Không có chuyện khai báo bừa bãi!",
+            "An toàn & Bảo mật: Không cho phép can thiệp trực tiếp vào con trỏ bộ nhớ như C/C++.",
+            "Bộ thu gom rác tự động (Garbage Collection): Dọn dẹp rác bộ nhớ tự động, dev đỡ phải tự đi quét dọn."
           ]
         },
-        { type: "heading", content: "3. Ví dụ Hello World" },
+        { type: "heading", content: "Chương trình đầu đời: Hello World" },
         {
           type: "code",
           language: "java",
           content: `public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
-        System.out.println("Welcome to Java programming!");
+        System.out.println("Xin chào thế giới! Lại là Luận đây.");
+        System.out.println("Chúc các bạn code không bug nhé!");
     }
 }`
         },
-        { type: "text", content: "Đây là chương trình Java đơn giản nhất. Mọi chương trình Java đều bắt đầu từ phương thức main()." }
+        { type: "text", content: "Thấy dài dòng không? Để in ra một dòng chữ, bạn cần định nghĩa Class, rồi viết phương thức main dài ngoằng. Nhưng tin mình đi, sự dài dòng này giúp code cực kỳ tường minh và dễ bảo trì khi dự án phình to đấy!" }
       ]
     },
     {
-      "id": 3,
-      "title": "Các khái niệm OOP quan trọng trong Java",
-      "excerpt": "Tổng hợp 4 tính chất OOP trong Java: Encapsulation, Inheritance, Polymorphism và Abstraction.",
-      "image": "https://www.ennicode.com/wp-content/uploads/2023/06/4-pillar-oops.jpg.webp",
-      "date": "10/10/2025",
-      "category": "Java",
-      "content": [
+      id: 3,
+      title: "4 trụ cột OOP trong Java - Giải thích siêu dễ hiểu",
+      excerpt: "Đóng gói, Kế thừa, Đa hình và Trừu tượng. Nghe thì đao to búa lớn nhưng thực ra cực kỳ gần gũi.",
+      image: "https://www.ennicode.com/wp-content/uploads/2023/06/4-pillar-oops.jpg.webp",
+      date: "10/10/2025",
+      category: "Java",
+      content: [
         {
-          "type": "heading",
-          "content": "4 Tính chất OOP cơ bản"
+          type: "heading",
+          content: "OOP - Kim chỉ nam của Java"
         },
         {
-          "type": "text",
-          "content": "Lập trình hướng đối tượng (OOP) là nền tảng của Java. Hiểu rõ 4 tính chất này sẽ giúp bạn viết code Java hiệu quả hơn."
+          type: "text",
+          content: "Lập trình hướng đối tượng (OOP) không chỉ là lý thuyết đi thi. Nó là cách chúng ta mô hình hóa thế giới thực vào code. Cùng điểm qua 4 chiếc 'chân bàn' của OOP qua góc nhìn hài hước nhé."
         },
         {
-          "type": "heading",
-          "content": "1. Encapsulation (Đóng gói)"
+          type: "heading",
+          content: "1. Encapsulation (Tính đóng gói) - Giấu quỹ đen"
         },
         {
-          "type": "text",
-          "content": "Đóng gói là việc ẩn dữ liệu bên trong class và chỉ cho phép truy cập thông qua các phương thức public."
+          type: "text",
+          content: "Đóng gói là việc bạn che giấu các thuộc tính nhạy cảm bên trong class và chỉ cung cấp các cổng truy cập an toàn qua getter/setter. Giống như việc bạn giấu quỹ đen vậy, không ai được động vào trực tiếp ngoại trừ qua sự kiểm duyệt của bạn."
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "public class Student {\n    private String name;\n    private int age;\n    \n    public String getName() {\n        return name;\n    }\n    \n    public void setName(String name) {\n        this.name = name;\n    }\n    \n    public int getAge() {\n        return age;\n    }\n    \n    public void setAge(int age) {\n        if (age > 0) {\n            this.age = age;\n        }\n    }\n}"
+          type: "code",
+          language: "java",
+          content: "public class Student {\n    private String name;\n    private int age;\n    \n    public String getName() {\n        return name;\n    }\n    \n    public void setName(String name) {\n        this.name = name;\n    }\n    \n    public void setAge(int age) {\n        if (age > 0) { // Bộ lọc bảo vệ dữ liệu xịn sò\n            this.age = age;\n        }\n    }\n}"
         },
         {
-          "type": "heading",
-          "content": "2. Inheritance (Kế thừa)"
+          type: "heading",
+          content: "2. Inheritance (Tính kế thừa) - Con nhà tông không giống lông cũng giống cánh"
         },
         {
-          "type": "text",
-          "content": "Kế thừa cho phép class con sử dụng lại các thuộc tính và phương thức của class cha."
+          type: "text",
+          content: "Class con có thể sử dụng lại các thuộc tính và phương thức từ Class cha. Tiết kiệm thời gian gõ code đáng kể."
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "public class Animal {\n    protected String name;\n    \n    public void eat() {\n        System.out.println(name + \" is eating\");\n    }\n}\n\npublic class Dog extends Animal {\n    public void bark() {\n        System.out.println(name + \" is barking\");\n    }\n}"
+          type: "code",
+          language: "java",
+          content: "public class Animal {\n    protected String name;\n    \n    public void eat() {\n        System.out.println(name + \" đang ăn cật lực...\");\n    }\n}\n\npublic class Dog extends Animal {\n    public void bark() {\n        System.out.println(name + \" đang sủa gâu gâu!\");\n    }\n}"
         },
         {
-          "type": "heading",
-          "content": "3. Polymorphism (Đa hình)"
+          type: "heading",
+          content: "3. Polymorphism (Tính đa hình) - Biến hình như Tôn Ngộ Không"
         },
         {
-          "type": "text",
-          "content": "Đa hình cho phép một phương thức có nhiều hành vi khác nhau."
+          type: "text",
+          content: "Một phương thức nhưng có thể thực hiện theo nhiều cách khác nhau tùy thuộc vào đối tượng gọi nó. Có thể dùng nạp chồng (Overloading) hoặc ghi đè (Overriding)."
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "public class Calculator {\n    // Method overloading\n    public int add(int a, int b) {\n        return a + b;\n    }\n    \n    public double add(double a, double b) {\n        return a + b;\n    }\n    \n    public int add(int a, int b, int c) {\n        return a + b + c;\n    }\n}"
+          type: "code",
+          language: "java",
+          content: "public class Calculator {\n    // Nạp chồng phương thức (Overloading) - cùng tên nhưng khác tham số\n    public int add(int a, int b) {\n        return a + b;\n    }\n    \n    public double add(double a, double b) {\n        return a + b;\n    }\n    \n    public int add(int a, int b, int c) {\n        return a + b + c;\n    }\n}"
         },
         {
-          "type": "heading",
-          "content": "4. Abstraction (Tính trừu tượng)"
+          type: "heading",
+          content: "4. Abstraction (Tính trừu tượng) - Tập trung vào cái cốt lõi"
         },
         {
-          "type": "text",
-          "content": "Tính trừu tượng cho phép ẩn đi chi tiết phức tạp và chỉ hiển thị những tính năng cần thiết. Trong Java, abstraction được thực hiện thông qua abstract class hoặc interface."
+          type: "text",
+          content: "Ẩn đi những chi tiết triển khai phức tạp và chỉ đưa ra giao diện sử dụng. Trong Java, ta dùng abstract class hoặc interface. Giống như bạn lái xe ô tô, chỉ cần biết vô lăng, chân ga chứ không cần biết động cơ bên trong đốt xăng thế nào."
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "// Sử dụng abstract class\nabstract class Shape {\n    protected String color;\n    \n    // Phương thức abstract - không có thân phương thức\n    public abstract double calculateArea();\n    \n    // Phương thức cụ thể\n    public void setColor(String color) {\n        this.color = color;\n    }\n}\n\n// Sử dụng interface\ninterface Drawable {\n    void draw();  // Phương thức abstract mặc định\n    \n    default void printInfo() {\n        System.out.println(\"This is a drawable object\");\n    }\n}\n\n// Class kế thừa abstract class và implement interface\nclass Circle extends Shape implements Drawable {\n    private double radius;\n    \n    public Circle(double radius) {\n        this.radius = radius;\n    }\n    \n    @Override\n    public double calculateArea() {\n        return Math.PI * radius * radius;\n    }\n    \n    @Override\n    public void draw() {\n        System.out.println(\"Drawing a circle with radius: \" + radius);\n    }\n}"
+          type: "code",
+          language: "java",
+          content: "// Sử dụng abstract class\nabstract class Shape {\n    protected String color;\n    public abstract double calculateArea();\n    public void setColor(String color) {\n        this.color = color;\n    }\n}\n\n// Sử dụng interface\ninterface Drawable {\n    void draw();  // Phương thức abstract mặc định\n    default void printInfo() {\n        System.out.println(\"Đây là đối tượng có thể vẽ được!\");\n    }\n}"
         },
         {
-          "type": "heading",
-          "content": "Kết luận"
+          type: "heading",
+          content: "Kết luận"
         },
         {
-          "type": "text",
-          "content": "4 tính chất OOP trong Java không chỉ giúp code trở nên rõ ràng, dễ bảo trì mà còn tăng tính tái sử dụng. Việc nắm vững Encapsulation, Inheritance, Polymorphism và Abstraction là nền tảng để trở thành một lập trình viên Java chuyên nghiệp."
+          type: "text",
+          content: "Nắm vững 4 tính chất này, bạn đã đi được nửa chặng đường trở thành cao thủ Java rồi đó!"
         }
       ]
     },
     {
       id: 4,
-      title: "Exception Handling trong Java dễ hiểu",
+      title: "Exception Handling - Khi Java dỗi và cách dỗ dành",
       excerpt:
-        "Cách xử lý ngoại lệ trong Java với try-catch-finally và các best practice khi viết code.",
+        "Code đang chạy tự dưng lăn ra chết? Tìm hiểu cách bắt lỗi thông minh với Try-Catch-Finally để app không bay màu đột ngột.",
       image: "https://s3-hfx03.fptcloud.com/codelearnstorage/Upload/Blog/10-dieu-ve-java-exception-va-java-error-63727034762.0195.jpg",
       date: "15/10/2025",
       category: "Java",
       content: [
-        { type: "heading", content: "1. Exception là gì?" },
-        { type: "text", content: "Exception (ngoại lệ) là sự kiện bất thường xảy ra trong quá trình thực thi chương trình, làm gián đoạn luồng bình thường của chương trình." },
-        { type: "heading", content: "2. Try-Catch-Finally" },
-        { type: "text", content: "Cấu trúc try-catch-finally giúp bắt và xử lý exception một cách an toàn." },
+        { type: "heading", content: "Exception là cái gì mà đáng sợ thế?" },
+        { type: "text", content: "Exception (ngoại lệ) là những sự kiện 'ông trời tạo địa chấn' xảy ra lúc chạy app làm chương trình sập nguồn đột ngột. Ví dụ: chia cho 0, truy cập mảng vượt quá giới hạn, hay gọi một object null." },
+        { type: "heading", content: "Try-Catch: Bộ giảm xóc cho code" },
+        { type: "text", content: "Hãy bao bọc những đoạn code 'nguy hiểm' vào block try, nếu có biến cố xảy ra, block catch sẽ đứng ra chịu trận và xử lý êm đẹp." },
         {
           type: "code",
           language: "java",
@@ -479,17 +478,17 @@ export const portfolioData: PortfolioData = {
     public static void main(String[] args) {
         try {
             int[] numbers = {1, 2, 3};
-            System.out.println(numbers[5]); // ArrayIndexOutOfBoundsException
+            System.out.println(numbers[5]); // Lỗi vượt quá chỉ mục mảng!
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Lỗi: Index vượt quá kích thước mảng");
-            System.out.println("Chi tiết: " + e.getMessage());
+            System.out.println("Bình tĩnh bạn ơi! Chỉ mục mảng bị lố rồi.");
+            System.out.println("Chi tiết lỗi: " + e.getMessage());
         } finally {
-            System.out.println("Block finally luôn được thực thi");
+            System.out.println("Dù có lỗi hay không, block finally vẫn chạy nhé!");
         }
     }
 }`
         },
-        { type: "heading", content: "3. Multiple Catch Blocks" },
+        { type: "heading", content: "Bắt nhiều lỗi cùng lúc (Multiple Catch)" },
         {
           type: "code",
           language: "java",
@@ -498,545 +497,507 @@ export const portfolioData: PortfolioData = {
     System.out.println(str.length());
     int result = 10 / 0;
 } catch (NullPointerException e) {
-    System.out.println("Null pointer exception");
+    System.out.println("Lỗi Null Pointer rồi!");
 } catch (ArithmeticException e) {
-    System.out.println("Arithmetic exception");
+    System.out.println("Lỗi toán học (chia cho 0)!");
 } catch (Exception e) {
-    System.out.println("Generic exception");
+    System.out.println("Lỗi gì đó chung chung khác.");
 }`
         },
         {
           type: "list",
-          content: "Best Practices:",
+          content: "Kinh nghiệm dỗ dành Java khi dỗi:",
           items: [
-            "Luôn catch exception cụ thể trước, exception chung sau",
-            "Không để catch block rỗng",
-            "Sử dụng finally để cleanup resources",
-            "Throw exception khi cần thiết với thông điệp rõ ràng"
+            "Đừng bao giờ để catch block trống rỗng (nuốt lỗi là tội ác!)",
+            "Luôn giải phóng tài nguyên (close file, connection) trong block finally",
+            "Bắt lỗi cụ thể trước, lỗi chung (Exception) sau cùng",
+            "Sử dụng try-with-resources để tự động đóng tài nguyên xịn mịn"
           ]
         }
       ]
     },
     {
-      "id": 5,
-      "title": "JavaScript là gì? Khác gì so với Java?",
-      "excerpt": "So sánh Java và JavaScript, giúp người mới tránh nhầm lẫn và hiểu đúng vai trò từng ngôn ngữ.",
-      "image": "https://www.mygreatlearning.com/blog/wp-content/uploads/2022/06/Untitled-design-1.png",
-      "date": "25/10/2025",
-      "category": "JavaScript",
-      "content": [
+      id: 5,
+      title: "Java vs JavaScript - Mối quan hệ giữa Car và Carpet",
+      excerpt: "Bạn có hay nhầm lẫn giữa Java và JavaScript? Hãy cùng so sánh để thấy chúng khác nhau một trời một vực như thế nào.",
+      image: "https://www.mygreatlearning.com/blog/wp-content/uploads/2022/06/Untitled-design-1.png",
+      date: "25/10/2025",
+      category: "JavaScript",
+      content: [
         {
-          "type": "heading",
-          "content": "JavaScript là gì?"
+          type: "heading",
+          content: "Cú lừa thế kỷ mang tên tên gọi"
         },
         {
-          "type": "text",
-          "content": "JavaScript là ngôn ngữ lập trình kịch bản (scripting language) chủ yếu được sử dụng để tạo nội dung động trên web. Mặc dù có tên gần giống Java, nhưng hai ngôn ngữ này hoàn toàn khác nhau."
+          type: "text",
+          content: "Rất nhiều người mới học lập trình nghĩ rằng JavaScript là em ruột của Java. Nhưng sự thật là hai ngôn ngữ này chả có họ hàng gì với nhau cả! Sự giống nhau của Java và JavaScript giống hệt như sự giống nhau của 'Car' (xe hơi) và 'Carpet' (thảm trải sàn) vậy."
         },
         {
-          "type": "heading",
-          "content": "So sánh Java vs JavaScript"
+          type: "heading",
+          content: "So sánh Java vs JavaScript"
         },
         {
-          "type": "table",
-          "content": "Điểm khác biệt chính giữa Java và JavaScript",
-          "columns": ["Tiêu chí", "Java", "JavaScript"],
-          "rows": [
-            ["Kiểu ngôn ngữ", "Compiled language", "Interpreted language"],
-            ["Kiểu dữ liệu", "Strongly typed", "Dynamically typed"],
+          type: "table",
+          content: "Điểm khác biệt chính giữa Java và JavaScript",
+          columns: ["Tiêu chí", "Java", "JavaScript"],
+          rows: [
+            ["Kiểu biên dịch", "Compiled language (ra Bytecode)", "Interpreted language (Thông dịch)"],
+            ["Kiểu dữ liệu", "Strongly typed (Chặt chẽ)", "Dynamically typed (Linh hoạt)"],
             ["Môi trường chạy", "Chạy trên JVM (Java Virtual Machine)", "Chạy trên Browser/Node.js"],
             ["Ứng dụng chính", "Backend, Mobile (Android), Enterprise", "Frontend Web, Backend (Node.js)"],
-            ["Cú pháp", "Phức tạp hơn, nghiêm ngặt", "Linh hoạt, dễ học hơn"],
-            ["Mô hình lập trình", "OOP thuần túy", "Multi-paradigm (OOP, Functional, Event-driven)"],
+            ["Cú pháp", "Phức tạp hơn, nghiêm ngặt, dài dòng", "Linh hoạt, ngắn gọn, dễ học hơn"],
+            ["Mô hình lập trình", "OOP thuần túy", "Multi-paradigm (OOP, Functional, Event)"],
             ["Quản lý bộ nhớ", "Tự động (Garbage Collection)", "Tự động (Garbage Collection)"],
-            ["Hiệu năng", "Cao, ổn định", "Nhanh cho web, phụ thuộc engine"],
+            ["Hiệu năng", "Cao, ổn định khi xử lý tác vụ nặng", "Nhanh cho ứng dụng web và I/O nhẹ"],
             ["Hệ sinh thái", "Spring, Hibernate, Maven", "React, Vue, Express, npm"],
-            ["Xử lý đồng thời", "Multi-threading mạnh mẽ", "Single-threaded với Event Loop"]
+            ["Xử lý đồng thời", "Multi-threading mạnh mẽ", "Single-threaded với Event Loop thần thánh"]
           ]
         },
         {
-          "type": "heading",
-          "content": "3. Ví dụ so sánh cùng một chức năng"
+          type: "heading",
+          content: "Ví dụ so sánh cách khai báo biến"
         },
         {
-          "type": "subheading",
-          "content": "1. Khai báo và sử dụng biến"
+          type: "subheading",
+          content: "1. Khai báo biến trong Java (Cần chỉ định kiểu)"
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "// JAVA - Strongly typed, cần khai báo kiểu dữ liệu\n int total = 0;\n"
+          type: "code",
+          language: "java",
+          content: "// JAVA - Strongly typed, cần khai báo kiểu dữ liệu rõ ràng\nint total = 100;\n// total = \"một trăm\"; // Lỗi biên dịch ngay lập tức!"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// JAVASCRIPT - Dynamically typed, không cần khai báo kiểu\nlet number = 10;          // number\nlet text = \"Hello\";      // string\nlet isActive = true;      // boolean\n\n// Kiểu có thể thay đổi động\nlet variable = 10;       // number\nvariable = \"now a string\"; // chuyển thành string\nvariable = true;         // chuyển thành boolean\n\n// Có thể thực hiện phép toán với kiểu khác\nlet result = \"5\" + 3;    // \"53\" (string concatenation)\nlet sum = \"5\" - 3;       // 2 (number)"
+          type: "subheading",
+          content: "2. Khai báo biến trong JavaScript (Tự động nhận kiểu)"
         },
         {
-          "type": "subheading",
-          "content": "2. Xử lý mảng (Array)"
+          type: "code",
+          language: "javascript",
+          content: "// JAVASCRIPT - Dynamically typed, không cần khai báo kiểu trước\nlet variable = 10;       // Kiểu number\nvariable = \"now a string\"; // Chuyển thành string nhẹ nhàng\nvariable = true;         // Chuyển thành boolean luôn\n\n// Phép toán vui vẻ với kiểu dữ liệu hỗn hợp\nlet result = \"5\" + 3;    // \"53\" (Ghép chuỗi)\nlet sum = \"5\" - 3;       // 2 (Tự động ép kiểu về number để trừ)"
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "// JAVA - Mảng có kích thước cố định\nimport java.util.Arrays;\nimport java.util.ArrayList;\n\npublic class ArrayExample {\n    public static void main(String[] args) {\n        // Mảng cơ bản\n        int[] numbers = {1, 2, 3, 4, 5};\n        System.out.println(\"Length: \" + numbers.length);\n        \n        // Thêm phần tử phải dùng ArrayList\n        ArrayList<String> list = new ArrayList<>();\n        list.add(\"Java\");\n        list.add(\"is\");\n        list.add(\"cool\");\n        \n        // Duyệt mảng\n        for (int i = 0; i < numbers.length; i++) {\n            System.out.println(numbers[i]);\n        }\n    }\n}"
+          type: "subheading",
+          content: "3. Xử lý mảng (Array) khác biệt"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// JAVASCRIPT - Mảng động linh hoạt\n// Khai báo mảng\nlet fruits = [\"apple\", \"banana\", \"orange\"];\n\n// Mảng có thể chứa nhiều kiểu dữ liệu\nlet mixedArray = [1, \"hello\", true, {name: \"John\"}, [1, 2, 3]];\n\n// Thêm/xóa phần tử dễ dàng\nfruits.push(\"mango\");        // thêm vào cuối\nfruits.unshift(\"grape\");     // thêm vào đầu\nlet lastFruit = fruits.pop(); // xóa phần tử cuối\n\n// Các phương thức built-in mạnh mẽ\nlet numbers = [1, 2, 3, 4, 5];\n\n// map - biến đổi mảng\nlet doubled = numbers.map(num => num * 2); // [2, 4, 6, 8, 10]\n\n// filter - lọc mảng\nlet evenNumbers = numbers.filter(num => num % 2 === 0); // [2, 4]\n\n// reduce - tính tổng\nlet sum = numbers.reduce((total, num) => total + num, 0); // 15\n\n// forEach - duyệt mảng\nnumbers.forEach(num => console.log(num));"
+          type: "code",
+          language: "java",
+          content: "// JAVA - Mảng cố định kích thước, muốn động phải dùng ArrayList\nimport java.util.ArrayList;\nArrayList<String> list = new ArrayList<>();\nlist.add(\"Java\");\nlist.add(\"Spring Boot\");"
         },
         {
-          "type": "subheading",
-          "content": "3. Xử lý bất đồng bộ (Asynchronous)"
+          type: "code",
+          language: "javascript",
+          content: "// JAVASCRIPT - Mảng động linh hoạt, chứa gì cũng được\nlet mixedArray = [1, \"hello\", true, { name: \"Luận\" }];\nmixedArray.push(\"thêm thoải mái vào cuối\");"
         },
         {
-          "type": "code",
-          "language": "java",
-          "content": "// JAVA - Sử dụng Thread hoặc CompletableFuture\nimport java.util.concurrent.CompletableFuture;\nimport java.util.concurrent.ExecutionException;\n\npublic class AsyncExample {\n    public static void main(String[] args) {\n        // Sử dụng CompletableFuture cho bất đồng bộ\n        CompletableFuture<String> future = CompletableFuture.supplyAsync(() -> {\n            try {\n                Thread.sleep(2000); // Giả lập delay\n            } catch (InterruptedException e) {\n                e.printStackTrace();\n            }\n            return \"Kết quả từ Java\";\n        });\n        \n        future.thenAccept(result -> {\n            System.out.println(\"Nhận được: \" + result);\n        });\n        \n        // Chờ kết quả\n        try {\n            Thread.sleep(3000);\n        } catch (InterruptedException e) {\n            e.printStackTrace();\n        }\n    }\n}"
+          type: "subheading",
+          content: "4. Bất đồng bộ (Asynchronous)"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// JAVASCRIPT - Async/Await syntax gọn gàng\n// Giả lập hàm bất đồng bộ\nfunction fetchData() {\n    return new Promise((resolve) => {\n        setTimeout(() => {\n            resolve(\"Dữ liệu từ server\");\n        }, 2000);\n    });\n}\n\n// Cách 1: Dùng Promise\nfetchData()\n    .then(data => {\n        console.log(\"Nhận được:\", data);\n        return data.toUpperCase();\n    })\n    .then(processedData => {\n        console.log(\"Đã xử lý:\", processedData);\n    })\n    .catch(error => {\n        console.error(\"Lỗi:\", error);\n    });\n\n// Cách 2: Dùng async/await (hiện đại hơn)\nasync function processData() {\n    try {\n        console.log(\"Đang tải dữ liệu...\");\n        const data = await fetchData();\n        console.log(\"Đã nhận:\", data);\n        \n        // Có thể await nhiều promise song song\n        const [result1, result2] = await Promise.all([\n            fetchData(),\n            fetchData()\n        ]);\n        console.log(\"Kết quả song song:\", result1, result2);\n    } catch (error) {\n        console.error(\"Lỗi xử lý:\", error);\n    }\n}\n\nprocessData();"
+          type: "code",
+          language: "java",
+          content: "// JAVA - Dùng Thread hoặc CompletableFuture\nimport java.util.concurrent.CompletableFuture;\nCompletableFuture.supplyAsync(() -> \"Dữ liệu từ Java\");"
         },
         {
-          "type": "heading",
-          "content": "4. Khi nào dùng ngôn ngữ nào?"
+          type: "code",
+          language: "javascript",
+          content: "// JAVASCRIPT - Async/Await siêu gọn gàng\nasync function processData() {\n    const data = await fetchData();\n    console.log(\"Dữ liệu nhận về:\", data);\n}"
         },
         {
-          "type": "text",
-          "content": "Dùng Java khi cần xây dựng ứng dụng enterprise, mobile Android, hoặc hệ thống backend lớn yêu cầu ổn định cao. Dùng JavaScript khi phát triển web frontend, hoặc backend với Node.js cho các ứng dụng real-time, API nhẹ."
+          type: "heading",
+          content: "Khi nào nên dùng ngôn ngữ nào?"
         },
         {
-          "type": "list",
-          "content": "Tóm tắt sự khác biệt:",
-          "items": [
-            "Java: Strict, an toàn, phù hợp cho hệ thống lớn",
-            "JavaScript: Linh hoạt, nhanh prototype, phù hợp cho web",
-            "Java: Cần compile trước khi chạy",
-            "JavaScript: Chạy trực tiếp trên trình duyệt",
-            "Java: Hệ sinh thái mạnh với Spring, Hibernate",
-            "JavaScript: Hệ sinh thái phong phú với React, Vue, Express"
-          ]
+          type: "text",
+          content: "Dùng Java khi bạn cần xây dựng hệ thống backend lớn, ổn định, xử lý các tác vụ tài chính, ngân hàng yêu cầu độ chính xác cao. Dùng JavaScript khi bạn làm giao diện web frontend, hoặc viết các API nhẹ nhàng, nhanh chóng với Node.js. Hoặc học cả hai giống mình để làm Full Stack!"
         }
       ]
     },
     {
       id: 6,
-      title: "Các khái niệm JavaScript cơ bản cần nắm vững",
+      title: "Các khái niệm JS cơ bản - Var, Let, Const và bóng ma Hoisting",
       excerpt:
-        "Giải thích biến, scope, function, arrow function và hoisting trong JavaScript.",
+        "Hiểu rõ Scope, sự khác nhau giữa Var/Let/Const và cơ chế Hoisting kỳ bí của JavaScript để tránh mất ngủ về đêm.",
       image: "https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=600&h=400&fit=crop",
       date: "11/03/2025",
       category: "JavaScript",
       content: [
-        { type: "heading", content: "1. Variables và Scope" },
-        { type: "text", content: "JavaScript có 3 cách khai báo biến: var, let, và const. Mỗi cách có scope khác nhau." },
+        { type: "heading", content: "Var, Let, Const khác nhau chỗ nào?" },
+        { type: "text", content: "Trước ES6, JavaScript chỉ có var. Sau đó let và const ra đời để giải quyết đống rắc rối mà var mang lại." },
         {
           type: "code",
           language: "javascript",
-          content: `// var - function scope
+          content: `// var có function scope - dễ bị ghi đè ngoài ý muốn
 function testVar() {
     var x = 10;
     if (true) {
-        var x = 20; // Same variable
+        var x = 20; // Cùng một biến x!
         console.log(x); // 20
     }
     console.log(x); // 20
 }
 
-// let - block scope
+// let có block scope - an toàn hơn nhiều
 function testLet() {
     let y = 10;
     if (true) {
-        let y = 20; // Different variable
+        let y = 20; // Biến y hoàn toàn khác nằm trong block if
         console.log(y); // 20
     }
     console.log(y); // 10
 }
 
-// const - block scope, immutable
+// const có block scope và không thể gán lại giá trị mới
 const PI = 3.14159;
-// PI = 3.14; // Error!`
+// PI = 3.14; // Lỗi ngay lập tức!`
         },
-        { type: "heading", content: "2. Functions và Arrow Functions" },
+        { type: "heading", content: "Functions vs Arrow Functions" },
         {
           type: "code",
           language: "javascript",
-          content: `// Traditional function
+          content: `// Hàm truyền thống (Traditional function)
 function add(a, b) {
     return a + b;
 }
 
-// Arrow function
+// Hàm mũi tên (Arrow function) - gọn gàng và không có 'this' riêng
 const multiply = (a, b) => a * b;
 
-// Arrow function with block
-const divide = (a, b) => {
-    if (b === 0) {
-        return "Cannot divide by zero";
-    }
-    return a / b;
-};
-
 console.log(add(5, 3));        // 8
-console.log(multiply(5, 3));   // 15
-console.log(divide(10, 2));    // 5`
+console.log(multiply(5, 3));   // 15`
         },
-        { type: "heading", content: "3. Hoisting" },
-        { type: "text", content: "Hoisting là cơ chế JavaScript đưa khai báo biến và function lên đầu scope trước khi code thực thi." },
+        { type: "heading", content: "Hoisting là cái quái gì?" },
+        { type: "text", content: "Hoisting là cơ chế của JS tự động đưa khai báo biến và hàm lên đầu scope trước khi thực thi. Nó làm cho code chạy rất kỳ lạ nếu bạn dùng var." },
         {
           type: "code",
           language: "javascript",
-          content: `// Function hoisting
-greet(); // Works!
+          content: `// Gọi hàm trước khi khai báo? Vẫn chạy ngon!
+greet();
 
 function greet() {
-    console.log("Hello!");
+    console.log("Chào các bạn! Luận đây.");
 }
 
-// Variable hoisting with var
-console.log(x); // undefined (not error)
-var x = 5;
+// Gọi biến trước khi khai báo? Trả về undefined chứ không lỗi!
+console.log(myVar); // undefined
+var myVar = 5;
 
-// let và const không hoisting
-console.log(y); // ReferenceError
+// let và const thì KHÔNG bị hoisting (thực ra là nằm trong Temporal Dead Zone)
+console.log(y); // Lỗi ReferenceError!
 let y = 10;`
         }
       ]
     },
     {
-      "id": 7,
-      "title": "ES6 là gì? Những tính năng quan trọng",
-      "excerpt": "Tìm hiểu let, const, arrow functions, destructuring, spread operator và template literal trong ES6.",
-      "image": "https://images.viblo.asia/6549a9d8-f10e-4b5f-a87e-ae16631d2e52.png",
-      "date": "13/11/2025",
-      "category": "JavaScript",
-      "content": [
+      id: 7,
+      title: "ES6 - Bộ đồ chơi mới giúp code JS bớt mỏi tay",
+      excerpt: "Tìm hiểu các tính năng bá đạo của ES6 như Arrow Function, Destructuring, Spread Operator và Template Literals.",
+      image: "https://images.viblo.asia/6549a9d8-f10e-4b5f-a87e-ae16631d2e52.png",
+      date: "13/11/2025",
+      category: "JavaScript",
+      content: [
         {
-          "type": "heading",
-          "content": "ES6 (ECMAScript 2015)"
+          type: "heading",
+          content: "ES6 (ECMAScript 2015) - Bước chuyển mình vĩ đại"
         },
         {
-          "type": "text",
-          "content": "ES6 là bản cập nhật lớn của JavaScript, mang đến nhiều tính năng mới giúp code ngắn gọn hơn."
+          type: "text",
+          content: "ES6 giống như một phiên bản nâng cấp động cơ cho JavaScript. Nó mang lại một loạt cú pháp mới giúp viết code ngắn hơn, sạch hơn và chuyên nghiệp hơn hẳn."
         },
         {
-          "type": "heading",
-          "content": "1. let & const"
+          type: "heading",
+          content: "1. Let & Const - Tạm biệt Var"
         },
         {
-          "type": "text",
-          "content": "Thay thế var, giúp kiểm soát scope tốt hơn."
+          type: "text",
+          content: "Quản lý scope của biến chặt chẽ hơn, tránh những lỗi ngớ ngẩn do rò rỉ scope."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// let - có thể thay đổi\nlet age = 25;\nage = 26; // OK\n\n// const - không thể thay đổi\nconst PI = 3.14;\n// PI = 3.15; // ERROR\n\n// const với object\nconst user = { name: 'Luận' };\nuser.name = 'Nam'; // OK - thay đổi thuộc tính\n// user = {}; // ERROR - không thể gán lại"
+          type: "code",
+          language: "javascript",
+          content: "let age = 22;\nage = 23; // Thay đổi thoải mái\n\nconst user = { name: 'Luận' };\nuser.name = 'Thành Luận'; // OK - Thay đổi thuộc tính bên trong object\n// user = {}; // Lỗi! Không thể gán lại object mới."
         },
         {
-          "type": "heading",
-          "content": "2. Arrow Functions"
+          type: "heading",
+          content: "2. Arrow Functions"
         },
         {
-          "type": "text",
-          "content": "Cú pháp ngắn gọn, không có this riêng."
+          type: "text",
+          content: "Viết hàm siêu ngắn gọn, cực kỳ phù hợp khi truyền vào các hàm xử lý mảng như map, filter."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Cách viết thường\nfunction add(a, b) {\n    return a + b;\n}\n\n// Arrow function\nconst addArrow = (a, b) => {\n    return a + b;\n};\n\n// Rút gọn (implicit return)\nconst addShort = (a, b) => a + b;\n\n// Một tham số\nconst double = x => x * 2;\n\n// Không tham số\nconst sayHi = () => 'Hello!';\n\n// Dùng trong callback\nconst numbers = [1, 2, 3];\nconst doubled = numbers.map(n => n * 2); // [2, 4, 6]"
+          type: "code",
+          language: "javascript",
+          content: "// Cách viết cũ\nconst double = function(x) { return x * 2; };\n\n// ES6 Arrow Function\nconst doubleArrow = x => x * 2;\n\n// Không tham số\nconst sayHello = () => 'Hello mọi người!';"
         },
         {
-          "type": "heading",
-          "content": "3. Destructuring"
+          type: "heading",
+          content: "3. Destructuring"
         },
         {
-          "type": "text",
-          "content": "Lấy giá trị từ array/object dễ dàng."
+          type: "text",
+          content: "Bóc tách phần tử từ Array hoặc Object một cách trực quan, không cần gọi lặp đi lặp lại tên object."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Array destructuring\nconst colors = ['red', 'green', 'blue'];\nconst [firstColor, secondColor] = colors;\nconsole.log(firstColor); // 'red'\n\n// Object destructuring\nconst person = { name: 'Luận', age: 22 };\nconst { name, age } = person;\nconsole.log(name); // 'Luận'\n\n// Với tên biến khác\nconst { name: fullName } = person;\nconsole.log(fullName); // 'Luận'\n\n// Giá trị mặc định\nconst { city = 'Hanoi' } = person;\nconsole.log(city); // 'Hanoi'"
+          type: "code",
+          language: "javascript",
+          content: "const student = { name: 'Võ Thành Luận', school: 'HUTECH' };\n// Lấy ra biến name và school\nconst { name, school } = student;\nconsole.log(name + \" học tại \" + school);"
         },
         {
-          "type": "heading",
-          "content": "4. Spread Operator (...)"
+          type: "heading",
+          content: "4. Spread Operator (...)"
         },
         {
-          "type": "text",
-          "content": "Mở rộng array/object."
+          type: "text",
+          content: "Rải các phần tử của mảng hoặc thuộc tính của object. Cực kỳ hữu dụng để sao chép hoặc ghép dữ liệu."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Với array\nconst arr1 = [1, 2];\nconst arr2 = [3, 4];\nconst combined = [...arr1, ...arr2]; // [1, 2, 3, 4]\n\n// Copy array\nconst original = [1, 2, 3];\nconst copy = [...original];\n\n// Với object\nconst user = { name: 'Luận' };\nconst userWithAge = { ...user, age: 22 };\n// { name: 'Luận', age: 22 }\n\n// Merge object\nconst defaults = { theme: 'dark' };\nconst custom = { theme: 'light', fontSize: 14 };\nconst settings = { ...defaults, ...custom };\n// { theme: 'light', fontSize: 14 }"
+          type: "code",
+          language: "javascript",
+          content: "const original = [1, 2, 3];\nconst cloned = [...original]; // Sao chép mảng\n\nconst details = { ...student, age: 22 }; // Thêm thuộc tính vào object"
         },
         {
-          "type": "heading",
-          "content": "5. Template Literals"
+          type: "heading",
+          content: "5. Template Literals"
         },
         {
-          "type": "text",
-          "content": "Tạo string với biến và xuống dòng dễ dàng."
+          type: "text",
+          content: "Không còn phải cộng chuỗi bằng dấu '+' cực khổ nữa, dùng dấu backtick (`) và \${biến} để đưa biến trực tiếp vào chuỗi."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "const name = 'Luận';\nconst age = 22;\n\n// Cách cũ\nconsole.log('Tôi là ' + name + ', ' + age + ' tuổi');\n\n// Template literal\nconsole.log(`Tôi là ${name}, ${age} tuổi`);\n\n// Xuống dòng\nconst message = `\n  Xin chào,\n  Tôi tên là ${name}.\n  Năm nay ${age} tuổi.\n`;\n\n// Tính toán trong template\nconst price = 100000;\nconsole.log(`Giá: ${price} VND`);\nconsole.log(`Giảm 20%: ${price * 0.8} VND`);"
+          type: "code",
+          language: "javascript",
+          content: "const myName = 'Luận';\nconst job = 'Intern';\nconsole.log(`Tôi là \${myName}, hiện làm \${job} tại DUDI Software.`);"
         },
         {
-          "type": "heading",
-          "content": "6. Default Parameters"
+          type: "heading",
+          content: "Tóm tắt"
         },
         {
-          "type": "text",
-          "content": "Tham số mặc định cho hàm."
-        },
-        {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Cách cũ\nfunction greet(name) {\n    name = name || 'Khách';\n    return `Xin chào ${name}`;\n}\n\n// ES6\nfunction greetES6(name = 'Khách') {\n    return `Xin chào ${name}`;\n}\n\ngreetES6(); // 'Xin chào Khách'\ngreetES6('Luận'); // 'Xin chào Luận'"
-        },
-        {
-          "type": "heading",
-          "content": "Tóm tắt"
-        },
-        {
-          "type": "list",
-          "content": "Những điểm chính:",
-          "items": [
-            "Dùng const cho hằng số, let cho biến thay đổi",
-            "Arrow function ngắn gọn, phù hợp callback",
-            "Destructuring giúp lấy dữ liệu từ array/object dễ dàng",
-            "Spread operator để copy và merge",
-            "Template literal viết string dễ đọc hơn"
+          type: "list",
+          content: "Những điểm chính của ES6 cần nhớ nằm lòng:",
+          items: [
+            "Dùng const cho hằng số hoặc object/array cố định, let khi cần gán lại",
+            "Arrow function giúp code ngắn gọn, tự động bind ngữ cảnh lexical 'this'",
+            "Destructuring rút ngắn thời gian bóc tách dữ liệu",
+            "Spread operator là vũ khí đắc lực để sao chép và gộp mảng/object",
+            "Template literals giúp viết chuỗi nội suy cực kỳ sạch đẹp"
           ]
         }
       ]
     },
     {
-      "id": 8,
-      "title": "Closures trong JavaScript - Hiểu đơn giản",
-      "excerpt": "Closure là gì? Cách hoạt động và ứng dụng thực tế trong lập trình JavaScript.",
-      "image": "https://edward-huang.com/images/what-is-really-so-special-about-javascript-closure-/Closure%20JS.png",
-      "date": "15/11/2025",
-      "category": "JavaScript",
-      "content": [
+      id: 8,
+      title: "Closures trong JavaScript - Hiểu đơn giản không hack não",
+      excerpt: "Closure là gì? Làm thế nào một hàm có thể nhớ được quá khứ của nó và ứng dụng để tạo ra biến Private.",
+      image: "https://edward-huang.com/images/what-is-really-so-special-about-javascript-closure-/Closure%20JS.png",
+      date: "15/11/2025",
+      category: "JavaScript",
+      content: [
         {
-          "type": "heading",
-          "content": "Closure là gì?"
+          type: "heading",
+          content: "Định nghĩa dễ nuốt về Closure"
         },
         {
-          "type": "text",
-          "content": "Hàm nhớ và truy cập được biến từ nơi nó được tạo ra, kể cả khi chạy ở nơi khác."
+          type: "text",
+          content: "Một Closure là sự kết hợp giữa một hàm và môi trường nơi nó được tạo ra. Nói một cách dễ hiểu: Hàm con có khả năng 'ghi nhớ' và truy cập được các biến của hàm cha bên ngoài nó, ngay cả khi hàm cha đã chạy xong và biến mất khỏi bộ nhớ."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Ví dụ cơ bản\nfunction outer() {\n    const secret = 'Hello';\n    \n    function inner() {\n        console.log(secret); // Vẫn truy cập được biến secret\n    }\n    \n    return inner;\n}\n\nconst myFunc = outer();\nmyFunc(); // 'Hello'"
+          type: "code",
+          language: "javascript",
+          content: "function outer() {\n    const secretMessage = \"Luận thích code!\";\n    \n    function inner() {\n        console.log(secretMessage); // inner nhớ biến secretMessage của outer\n    }\n    \n    return inner;\n}\n\nconst myFunc = outer();\nmyFunc(); // In ra: \"Luận thích code!\""
         },
         {
-          "type": "heading",
-          "content": "Ví dụ thực tế: Counter"
+          type: "heading",
+          content: "Ví dụ thực tế: Tạo máy đếm (Counter)"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "function createCounter() {\n    let count = 0; // Biến private\n    \n    return {\n        increment: function() {\n            count++;\n            return count;\n        },\n        reset: function() {\n            count = 0;\n        }\n    };\n}\n\nconst counter = createCounter();\nconsole.log(counter.increment()); // 1\nconsole.log(counter.increment()); // 2\ncounter.reset();\nconsole.log(counter.increment()); // 1"
+          type: "code",
+          language: "javascript",
+          content: "function createCounter() {\n    let count = 0; // Biến này hoàn toàn private nhờ closure\n    \n    return {\n        increment: function() {\n            count++;\n            return count;\n        },\n        reset: function() {\n            count = 0;\n        }\n    };\n}\n\nconst counter = createCounter();\nconsole.log(counter.increment()); // 1\nconsole.log(counter.increment()); // 2\ncounter.reset();\nconsole.log(counter.increment()); // 1"
         },
         {
-          "type": "heading",
-          "content": "Vấn đề với vòng lặp"
+          type: "heading",
+          content: "Cẩn thận với vòng lặp và var"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Vấn đề\nfor (var i = 1; i <= 3; i++) {\n    setTimeout(function() {\n        console.log(i); // In ra 4, 4, 4\n    }, 100);\n}\n\n// Giải pháp: Dùng let\nfor (let i = 1; i <= 3; i++) {\n    setTimeout(function() {\n        console.log(i); // In ra 1, 2, 3\n    }, 100);\n}"
+          type: "code",
+          language: "javascript",
+          content: "// Lỗi kinh điển do var không có block scope\nfor (var i = 1; i <= 3; i++) {\n    setTimeout(function() {\n        console.log(i); // In ra 4, 4, 4 vì i đã tăng lên 4 trước khi timeout chạy\n    }, 100);\n}\n\n// Giải pháp hiện đại: Sử dụng let để tạo block scope mới cho mỗi vòng lặp\nfor (let i = 1; i <= 3; i++) {\n    setTimeout(function() {\n        console.log(i); // In ra chuẩn bài 1, 2, 3\n    }, 100);\n}"
         },
         {
-          "type": "heading",
-          "content": "Ứng dụng thực tế"
+          type: "heading",
+          content: "Ứng dụng thực tế: Tài khoản ngân hàng bảo mật"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// 1. Private variables\nfunction createBankAccount(initial) {\n    let balance = initial; // Private\n    \n    return {\n        deposit: function(amount) {\n            balance += amount;\n            return balance;\n        },\n        withdraw: function(amount) {\n            if (amount <= balance) {\n                balance -= amount;\n                return balance;\n            }\n            return 'Không đủ tiền';\n        }\n    };\n}\n\nconst account = createBankAccount(1000);\nconsole.log(account.deposit(500)); // 1500\nconsole.log(account.withdraw(200)); // 1300\n\n// 2. Function factory\nfunction createMultiplier(multiplier) {\n    return function(num) {\n        return num * multiplier;\n    };\n}\n\nconst double = createMultiplier(2);\nconst triple = createMultiplier(3);\n\nconsole.log(double(5)); // 10\nconsole.log(triple(5)); // 15"
+          type: "code",
+          language: "javascript",
+          content: "function createBankAccount(initialBalance) {\n    let balance = initialBalance; // Biến private\n    \n    return {\n        deposit: function(amount) {\n            balance += amount;\n            return balance;\n        },\n        withdraw: function(amount) {\n            if (amount <= balance) {\n                balance -= amount;\n                return balance;\n            }\n            return 'Tài khoản không đủ số dư!';\n        }\n    };\n}\n\nconst myAccount = createBankAccount(1000);\nconsole.log(myAccount.deposit(500)); // 1500\n// console.log(myAccount.balance); // undefined (không thể truy cập trực tiếp)"
         },
         {
-          "type": "heading",
-          "content": "Tóm tắt"
+          type: "heading",
+          content: "Tóm tắt"
         },
         {
-          "type": "list",
-          "content": "Điểm quan trọng:",
-          "items": [
-            "Closure giúp tạo biến private",
-            "Hàm nhớ scope nơi nó được tạo",
-            "Dùng let thay var trong vòng lặp",
-            "Ứng dụng: module pattern, function factory"
+          type: "list",
+          content: "Điểm quan trọng cần nhớ về Closure:",
+          items: [
+            "Closure giúp tạo ra các thuộc tính và phương thức private giống như trong OOP Java",
+            "Giúp hàm ghi nhớ scope bên ngoài nơi nó được định nghĩa",
+            "Luôn dùng let/const trong vòng lặp để tránh lỗi scope của var",
+            "Ứng dụng nhiều trong Module Pattern và Function Factory"
           ]
         }
       ]
     },
     {
-      "id": 9,
-      "title": "Array, Set và Map Methods trong JavaScript",
-      "excerpt": "So sánh Map vs Object, Set vs Array và các method hữu ích của Array.",
-      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-20%20174654.png?raw=true",
-      "date": "18/11/2025",
-      "category": "JavaScript",
-      "content": [
+      id: 9,
+      title: "Array, Set, Map trong JS - Bộ ba siêu đẳng xử lý dữ liệu",
+      excerpt: "Phân biệt Map vs Object, Set vs Array. Học cách sử dụng map(), filter(), reduce() để xử lý mảng mượt mà.",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-20%20174654.png?raw=true",
+      date: "18/11/2025",
+      category: "JavaScript",
+      content: [
         {
-          "type": "heading",
-          "content": "1. Map - Key/Value Collection"
+          type: "heading",
+          content: "1. Map - Khi Object chưa đủ đô"
         },
         {
-          "type": "text",
-          "content": "Map là cấu trúc dữ liệu lưu trữ cặp key-value, tương tự Object nhưng linh hoạt hơn. Map cho phép key có thể là bất kỳ kiểu dữ liệu nào (object, function, primitive), giữ nguyên thứ tự các phần tử được thêm vào và có nhiều method tiện ích để thao tác dữ liệu."
+          type: "text",
+          content: "Map lưu trữ dữ liệu dạng key-value giống Object, nhưng key của Map có thể là bất kỳ kiểu dữ liệu gì (kể cả object khác) chứ không bị giới hạn chỉ là String hay Symbol như Object. Hơn nữa, Map giữ nguyên thứ tự các phần tử khi thêm vào."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Tạo Map\nconst map = new Map();\n\n// Thêm dữ liệu\nmap.set('name', 'Luận');\nmap.set('age', 22);\nmap.set({ id: 1 }, 'Object key'); // key là object\n\n// Lấy dữ liệu\nconsole.log(map.get('name')); // 'Luận'\n\n// Kiểm tra\nconsole.log(map.has('age')); // true\nconsole.log(map.size); // 3\n\n// Duyệt Map\nfor (let [key, value] of map) {\n  console.log(key, value);\n}\n\n// Chuyển thành Array\nconsole.log([...map]); // [['name', 'Luận'], ...]"
+          type: "code",
+          language: "javascript",
+          content: "// Tạo Map\nconst map = new Map();\n\n// Thêm dữ liệu\nmap.set('name', 'Võ Thành Luận');\nmap.set('school', 'HUTECH');\nmap.set({ id: 99 }, 'Dữ liệu đặc biệt'); // Key là một object!\n\n// Kiểm tra và duyệt Map\nconsole.log(map.get('name')); // 'Võ Thành Luận'\nconsole.log(map.size); // 3"
         },
         {
-          "type": "heading",
-          "content": "2. Set - Unique Values"
+          type: "heading",
+          content: "2. Set - Thế giới không có sự trùng lặp"
         },
         {
-          "type": "text",
-          "content": "Set là collection chỉ chứa các giá trị duy nhất, không cho phép trùng lặp. Set rất hữu ích khi bạn cần loại bỏ các phần tử trùng lặp trong mảng hoặc kiểm tra sự tồn tại của một giá trị một cách nhanh chóng. Khác với Array, Set không có index và tự động bỏ qua các giá trị trùng lặp khi thêm vào."
+          type: "text",
+          content: "Set là một bộ sưu tập các phần tử duy nhất. Nếu bạn thêm một giá trị đã tồn tại vào Set, nó sẽ tự động bỏ qua. Tuyệt chiêu lọc trùng mảng cực nhanh bằng Set:"
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Tạo Set\nconst set = new Set();\n\n// Thêm giá trị\nset.add(1);\nset.add(2);\nset.add(2); // Bị bỏ qua\nset.add('hello');\n\nconsole.log(set.size); // 3 (1, 2, 'hello')\n\n// Kiểm tra\nconsole.log(set.has(2)); // true\n\n// Loại bỏ trùng lặp từ Array\nconst numbers = [1, 2, 2, 3, 3, 4];\nconst unique = [...new Set(numbers)];\nconsole.log(unique); // [1, 2, 3, 4]\n\n// Duyệt Set\nfor (let value of set) {\n  console.log(value);\n}"
+          type: "code",
+          language: "javascript",
+          content: "const numbers = [1, 2, 2, 3, 4, 4, 5];\n\n// Dùng Set để lọc trùng mảng\nconst uniqueNumbers = [...new Set(numbers)];\nconsole.log(uniqueNumbers); // [1, 2, 3, 4, 5]"
         },
         {
-          "type": "heading",
-          "content": "3. Array Methods"
+          type: "heading",
+          content: "3. Array Methods - Viết code chuẩn Declarative"
         },
         {
-          "type": "text",
-          "content": "Array trong JavaScript có rất nhiều method hữu ích giúp xử lý dữ liệu dễ dàng hơn. Các method này được chia thành nhiều nhóm theo chức năng: biến đổi dữ liệu, tìm kiếm, và các thao tác khác. Hiểu rõ từng nhóm method sẽ giúp bạn viết code ngắn gọn và dễ đọc hơn."
+          type: "text",
+          content: "Hãy bỏ các vòng lặp for truyền thống đi khi xử lý mảng, và làm quen với bộ ba map, filter, reduce để code của bạn trông chuyên nghiệp và ngắn gọn hơn."
         },
         {
-          "type": "subheading",
-          "content": "Transform Methods"
+          type: "subheading",
+          content: "Transform Methods - Biến đổi dữ liệu"
         },
         {
-          "type": "text",
-          "content": "Nhóm method này giúp biến đổi dữ liệu trong mảng. map() dùng để chuyển đổi từng phần tử, filter() để lọc các phần tử thỏa điều kiện, và reduce() để gộp tất cả phần tử thành một giá trị duy nhất (như tính tổng, tích)."
+          type: "text",
+          content: "map() dùng để biến đổi từng phần tử trong mảng, filter() để lọc các phần tử thỏa mãn điều kiện, và reduce() để gom mảng về một giá trị duy nhất."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "const nums = [1, 2, 3, 4];\n\n// map - biến đổi\nconst doubled = nums.map(n => n * 2);\nconsole.log(doubled); // [2, 4, 6, 8]\n\n// filter - lọc\nconst even = nums.filter(n => n % 2 === 0);\nconsole.log(even); // [2, 4]\n\n// reduce - tính tổng\nconst sum = nums.reduce((total, n) => total + n, 0);\nconsole.log(sum); // 10"
+          type: "code",
+          language: "javascript",
+          content: "const nums = [1, 2, 3, 4];\n\n// Nhân đôi giá trị mảng\nconst doubled = nums.map(n => n * 2); // [2, 4, 6, 8]\n\n// Lọc số chẵn\nconst even = nums.filter(n => n % 2 === 0); // [2, 4]\n\n// Tính tổng các số\nconst sum = nums.reduce((total, n) => total + n, 0); // 10"
         },
         {
-          "type": "subheading",
-          "content": "Search Methods"
+          type: "subheading",
+          content: "Search Methods - Tìm kiếm phần tử"
         },
         {
-          "type": "text",
-          "content": "Nhóm method tìm kiếm giúp bạn tìm phần tử trong mảng theo điều kiện. find() trả về phần tử đầu tiên thỏa điều kiện, findIndex() trả về vị trí của phần tử đó. some() kiểm tra có ít nhất một phần tử thỏa điều kiện hay không, còn every() kiểm tra tất cả phần tử có thỏa hay không."
+          type: "text",
+          content: "find() trả về phần tử đầu tiên thỏa mãn điều kiện, findIndex() trả về vị trí của nó, some() kiểm tra có ít nhất một phần tử đạt yêu cầu, every() kiểm tra toàn bộ phần tử."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "const users = [\n  { id: 1, name: 'Luận' },\n  { id: 2, name: 'Nam' },\n  { id: 3, name: 'Hùng' }\n];\n\n// find - tìm theo điều kiện\nconst user = users.find(u => u.id === 2);\nconsole.log(user); // { id: 2, name: 'Nam' }\n\n// findIndex - tìm vị trí\nconst index = users.findIndex(u => u.name === 'Hùng');\nconsole.log(index); // 2\n\n// some - có ít nhất 1\nconst hasNam = users.some(u => u.name === 'Nam');\nconsole.log(hasNam); // true\n\n// every - tất cả\nconst allHaveId = users.every(u => u.id > 0);\nconsole.log(allHaveId); // true"
+          type: "code",
+          language: "javascript",
+          content: "const students = [\n  { id: 1, name: 'Luận' },\n  { id: 2, name: 'Nam' }\n];\n\nconst luan = students.find(s => s.name === 'Luận'); // { id: 1, name: 'Luận' }\nconst hasLuan = students.some(s => s.name === 'Luận'); // true"
         },
         {
-          "type": "subheading",
-          "content": "Other Useful Methods"
+          type: "subheading",
+          content: "Các phương thức tiện ích khác"
         },
         {
-          "type": "text",
-          "content": "Các method hữu ích khác bao gồm: includes() để kiểm tra sự tồn tại của phần tử, slice() để cắt mảng mà không thay đổi mảng gốc, splice() để thêm/xóa phần tử và thay đổi mảng gốc, và sort() để sắp xếp mảng. Lưu ý splice() và sort() sẽ thay đổi mảng gốc, còn các method khác thường trả về mảng mới."
+          type: "text",
+          content: "includes() để kiểm tra nhanh một giá trị có nằm trong mảng hay không. slice() để trích xuất mảng con (không thay đổi mảng cũ). splice() để xóa hoặc chèn phần tử (sẽ thay đổi trực tiếp mảng gốc)."
         },
         {
-          "type": "code",
-          "language": "javascript",
-          "content": "// includes - kiểm tra có tồn tại\nconst arr = [1, 2, 3];\nconsole.log(arr.includes(2)); // true\n\n// slice - cắt mảng (không thay đổi mảng gốc)\nconst sliced = arr.slice(1, 3);\nconsole.log(sliced); // [2, 3]\n\n// splice - thay đổi mảng gốc\nconst fruits = ['apple', 'banana', 'orange'];\nfruits.splice(1, 1, 'grape'); // xóa 1 phần tử ở vị trí 1, thêm 'grape'\nconsole.log(fruits); // ['apple', 'grape', 'orange']\n\n// sort - sắp xếp\nconst unsorted = [3, 1, 4, 2];\nunsorted.sort((a, b) => a - b);\nconsole.log(unsorted); // [1, 2, 3, 4]"
+          type: "code",
+          language: "javascript",
+          content: "const arr = ['Java', 'JS', 'C#'];\nconsole.log(arr.includes('JS')); // true\n\nconst sub = arr.slice(0, 2); // ['Java', 'JS']"
         },
         {
-          "type": "heading",
-          "content": "Khi nào dùng gì?"
+          type: "heading",
+          content: "Kết luận"
         },
         {
-          "type": "list",
-          "content": "",
-          "items": [
-            "Map: Khi cần key không phải string, hoặc cần giữ thứ tự",
-            "Set: Khi cần giá trị duy nhất, hoặc kiểm tra tồn tại nhanh",
-            "Array: Khi cần danh sách có thứ tự, truy cập theo index"
+          type: "list",
+          content: "Tóm lại khi xử lý dữ liệu:",
+          items: [
+            "Dùng Map khi key phức tạp hoặc cần duy trì thứ tự chèn phần tử",
+            "Dùng Set khi cần lưu danh sách độc nhất (không trùng lặp)",
+            "Tận dụng tối đa các Array methods để code ngắn sạch, tránh vòng lặp thủ công"
           ]
-        },
-        {
-          "type": "code",
-          "language": "javascript",
-          "content": "// Ví dụ thực tế\n\n// 1. Map cho cache\nconst cache = new Map();\nfunction getUser(id) {\n  if (cache.has(id)) {\n    return cache.get(id);\n  }\n  // Lấy từ API\n  const user = { id, name: 'User' + id };\n  cache.set(id, user);\n  return user;\n}\n\n// 2. Set cho tags duy nhất\nconst articleTags = ['js', 'html', 'js', 'css', 'react'];\nconst uniqueTags = [...new Set(articleTags)];\nconsole.log(uniqueTags); // ['js', 'html', 'css', 'react']\n\n// 3. Array methods cho xử lý danh sách\nconst products = [\n  { name: 'Laptop', price: 1000 },\n  { name: 'Mouse', price: 50 },\n  { name: 'Keyboard', price: 80 }\n];\n\n// Lọc sản phẩm > 100\nconst expensive = products.filter(p => p.price > 100);\nconsole.log(expensive); // [{ name: 'Laptop', price: 1000 }]\n\n// Tính tổng giá\nconst total = products.reduce((sum, p) => sum + p.price, 0);\nconsole.log(total); // 1130"
         }
       ]
     },
     {
       id: 10,
-      title: "Kinh nghiệm tự học lập trình cho sinh viên IT",
+      title: "Bí kíp sinh tồn và tự học của sinh viên năm cuối HUTECH",
       excerpt:
-        "Chia sẻ cách tự học hiệu quả, tài liệu tham khảo và lời khuyên cho sinh viên năm cuối.",
+        "Làm sao để vừa hoàn thành việc học trên trường, vừa đi thực tập Full Stack ở DUDI Software mà không bị stress? Đây là trải nghiệm của mình.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
       date: "01/12/2025",
       category: "Chia sẻ",
       content: [
-        { type: "heading", content: "1. Lời khuyên từ kinh nghiệm cá nhân" },
-        { type: "text", content: "Sau gần 4 năm học và làm việc với code, tôi muốn chia sẻ một số kinh nghiệm giúp bạn tự học lập trình hiệu quả hơn." },
+        { type: "heading", content: "Cú sốc năm cuối: Khi lý thuyết va chạm thực tế" },
+        { type: "text", content: "Năm cuối đại học là thời điểm nhạy cảm. Bạn vừa phải lo đồ án tốt nghiệp, vừa bắt đầu đi làm thực tế. Bản thân mình khi vào thực tập Full Stack tại DUDI Software cũng từng ngợp trước khối lượng công nghệ mới." },
         {
           type: "list",
-          content: "Những điều quan trọng nhất:",
+          content: "Những bài học xương máu mình rút ra:",
           items: [
-            "Thực hành mỗi ngày, dù chỉ 30 phút",
-            "Làm dự án thực tế thay vì chỉ học lý thuyết",
-            "Đọc code của người khác trên GitHub",
-            "Tham gia cộng đồng và hỏi đáp",
-            "Không ngại làm lại từ đầu khi cần"
+            "Học qua dự án thực tế: Đừng chỉ đọc tài liệu suông. Hãy tự tay code một cái gì đó, ví dụ như trang portfolio này hay dự án LunQuiz.",
+            "Đọc code của người khác: Lên GitHub gõ từ khóa dự án bạn muốn làm, xem cách các dev dày dạn kinh nghiệm tổ chức thư mục và viết code.",
+            "Đặt câu hỏi đúng cách: Khi gặp bug, hãy tự debug trước ít nhất 30 phút, tìm trên Google/StackOverflow trước khi đi hỏi mentor.",
+            "Rèn luyện tiếng Anh: Đọc tài liệu tiếng Anh (như MDN, Spring Docs) giúp bạn tiếp cận kiến thức gốc nhanh nhất."
           ]
         },
-        { type: "heading", content: "2. Tài nguyên học tập" },
+        { type: "heading", content: "Tài nguyên học tập mình hay dùng" },
         {
           type: "list",
-          content: "Nguồn tài liệu tôi hay dùng:",
+          content: "Nguồn tham khảo chất lượng cao:",
           items: [
-            "Documentation chính thức (Java Docs, MDN)",
-            "YouTube: Traversy Media, Programming with Mosh",
-            "Courses: Udemy, Cisco",
-            "Practice: LeetCode, HackerRank",
-            "Community: Stack Overflow, Reddit"
+            "Documentation chính thức: MDN Web Docs cho JavaScript, Spring Docs cho Java Spring Boot.",
+            "Kênh YouTube: Traversy Media, Programming with Mosh, Web Dev Simplified.",
+            "Luyện thuật toán: LeetCode (mỗi ngày 1 bài cho đầu óc minh mẫn).",
+            "Cộng đồng: Reddit r/learnprogramming, các group lập trình viên Việt Nam."
           ]
         },
-        { type: "heading", content: "3. Lộ trình học của tôi" },
-        { type: "text", content: "Bắt đầu với C để hiểu cơ bản về lập trình. Sau đó học Java để nắm vững OOP. Tiếp theo là JavaScript cho web development. Cuối cùng là các framework như Spring Boot, React." },
-        { type: "heading", content: "4. Sai lầm cần tránh" },
+        { type: "heading", content: "Lộ trình tự học từ trải nghiệm cá nhân" },
+        { type: "text", content: "Mình đi từ C cơ bản để rèn luyện tư duy logic, sau đó học Java để nắm vững lập trình hướng đối tượng OOP và cơ sở dữ liệu SQL Server. Kế tiếp là học JavaScript/TypeScript để làm Frontend React. Sự kết hợp này giúp mình tự tin gánh cả Frontend lẫn Backend." },
+        { type: "heading", content: "Những sai lầm nên tránh" },
         {
           type: "list",
-          content: "",
+          content: "Hãy tránh xa những điều này nếu không muốn burn-out:",
           items: [
-            "Học quá nhiều ngôn ngữ cùng lúc",
-            "Chỉ xem hướng dẫn mà không code",
-            "Sợ làm sai nên không dám thử",
-            "Copy-paste code mà không hiểu",
-            "Bỏ qua kiến thức nền tảng để học framework"
+            "Học quá nhiều ngôn ngữ/framework cùng một lúc mà không nắm chắc cái nào.",
+            "Xem video tutorial thụ động mà không trực tiếp gõ code thực hành.",
+            "Copy-paste code từ StackOverflow hay ChatGPT mà không thèm hiểu dòng code đó làm gì.",
+            "Bỏ qua kiến thức nền tảng (cấu trúc dữ liệu, cơ sở dữ liệu) để nhảy cóc vào framework."
           ]
         }
       ]
     },
     {
       id: 11,
-      title: "TCP vs UDP – Hiểu nhanh giao thức truyền dữ liệu phổ biến nhất",
+      title: "TCP vs UDP – Giao thức mạng dưới lăng kính vui nhộn",
       excerpt:
-        "Tìm hiểu sự khác biệt giữa giao thức TCP và UDP, khi nào nên dùng từng loại và ứng dụng thực tế trong lập trình mạng.",
+        "Một bên là anh chàng cẩn thận, tỉ mỉ (TCP) và một bên là gã giao hàng bất chấp tốc độ (UDP). Khi nào dùng gì?",
       image: "https://image.vietnix.vn/wp-content/uploads/2022/07/UDP-va-TCP.webp",
       date: "15/12/2025",
       category: "Java",
@@ -1047,184 +1008,113 @@ let y = 10;`
         },
         {
           type: "text",
-          content: "Khi bạn gửi tin nhắn Zalo hay xem video YouTube, dữ liệu không tự nhiên xuất hiện mà được truyền qua các giao thức mạng, trong đó phổ biến nhất là TCP và UDP."
+          content: "Khi bạn gửi tin nhắn trên Zalo, lướt web, hay chơi game PvP đối kháng 1v1 trên dự án LunQuiz của mình, dữ liệu sẽ được truyền đi thông qua hai giao thức mạng phổ biến nhất: TCP và UDP."
         },
         {
           type: "subheading",
-          content: "TCP và UDP là gì?"
+          content: "Họ là ai?"
         },
         {
           type: "text",
-          content: "TCP (Transmission Control Protocol) và UDP (User Datagram Protocol) là hai giao thức chính ở tầng Transport (Tầng 4) trong mô hình OSI và mô hình TCP/IP. Chúng đảm nhiệm việc truyền dữ liệu giữa các ứng dụng trên mạng."
-        },
-        {
-          type: "subheading",
-          content: "Vì sao cần nhiều giao thức truyền dữ liệu?"
-        },
-        {
-          type: "text",
-          content: "Các ứng dụng khác nhau có yêu cầu khác nhau: có ứng dụng cần độ chính xác cao (ngân hàng, email), có ứng dụng cần tốc độ (game, video call). Vì vậy, việc có nhiều giao thức giúp ta lựa chọn phù hợp với từng tình huống."
+          content: "TCP (Transmission Control Protocol) và UDP (User Datagram Protocol) hoạt động ở tầng Transport (Tầng 4) của mô hình mạng. Nhiệm vụ chính của tụi nó là vận chuyển các gói dữ liệu giữa các máy tính với nhau."
         },
         {
           type: "heading",
-          content: "2. Giao thức TCP là gì?"
+          content: "2. TCP - Anh chàng shipper cẩn thận và chu đáo"
         },
         {
           type: "text",
-          content: "TCP là giao thức hướng kết nối (connection-oriented), đảm bảo dữ liệu được truyền đầy đủ và đúng thứ tự."
+          content: "TCP là giao thức hướng kết nối (connection-oriented). Trước khi gửi thư, nó bắt buộc phải thiết lập một kết nối an toàn với máy nhận thông qua cơ chế bắt tay 3 bước."
         },
         {
           type: "subheading",
-          content: "Đặc điểm TCP:"
+          content: "Tính cách của TCP:"
         },
         {
           type: "list",
-          content: "Những đặc điểm chính của TCP:",
+          content: "Những đặc điểm nổi bật của TCP:",
           items: [
-            "Có kết nối (3-way handshake)",
-            "Đảm bảo dữ liệu đầy đủ, đúng thứ tự",
-            "Có kiểm soát lỗi và kiểm soát tắc nghẽn",
-            "Chậm hơn UDP do cơ chế kiểm tra",
-            "Sử dụng cơ chế xác nhận (ACK) để đảm bảo nhận dữ liệu"
+            "Luôn bắt tay 3 bước (SYN -> SYN-ACK -> ACK) trước khi làm việc.",
+            "Đảm bảo dữ liệu đến nơi đầy đủ, không thiếu một byte nào.",
+            "Đảm bảo đúng thứ tự: Gửi gói 1, 2, 3 thì đầu nhận sẽ nhận đúng 1, 2, 3.",
+            "Có cơ chế kiểm soát lỗi và kiểm soát tắc nghẽn (quá tải đường truyền).",
+            "Chậm hơn UDP vì tốn thời gian xác nhận (ACK) cho mỗi gói tin."
           ]
         },
         {
           type: "subheading",
-          content: "TCP 3-way handshake (Bắt tay 3 bước):"
+          content: "TCP Bắt tay 3 bước dưới dạng tin nhắn đối thoại:"
         },
         {
           type: "code",
           language: "text",
-          content: "Bước 1: Client → SYN (Synchronize)\nBước 2: Server → SYN-ACK (Synchronize-Acknowledge)\nBước 3: Client → ACK (Acknowledge)\n\n→ Kết nối được thiết lập, có thể bắt đầu truyền dữ liệu"
+          content: "Client: \"Alo Server, kết nối với mình nha?\" (SYN)\nServer: \"Ok Client nhận được rồi nha, kết nối luôn!\" (SYN-ACK)\nClient: \"Ok mình bắt đầu gửi dữ liệu đây!\" (ACK)\n\n-> Kết nối an toàn đã thiết lập thành công."
         },
         {
           type: "subheading",
-          content: "Ví dụ thực tế:"
+          content: "Ứng dụng thực tế của TCP"
         },
         {
           type: "list",
-          content: "TCP được dùng trong:",
+          content: "TCP được dùng trong các dịch vụ yêu cầu tính chính xác cao:",
           items: [
-            "Web (HTTP/HTTPS)",
-            "Email (SMTP, IMAP, POP3)",
-            "Truyền file (FTP)",
-            "Giao dịch ngân hàng, thanh toán",
-            "Kết nối từ xa (SSH)"
+            "Web (giao thức HTTP/HTTPS)",
+            "Gửi Email (SMTP, IMAP)",
+            "Truyền tải file dữ liệu (FTP)",
+            "Giao dịch ngân hàng, mua sắm online"
           ]
         },
         {
           type: "heading",
-          content: "3. Giao thức UDP là gì?"
+          content: "3. UDP - Gã giao hàng siêu tốc, bất chấp mọi rủi ro"
         },
         {
           type: "text",
-          content: "UDP là giao thức không kết nối (connectionless), không đảm bảo dữ liệu nhưng rất nhanh và độ trễ thấp."
+          content: "UDP là giao thức không kết nối (connectionless). Nó không thèm bắt tay bắt chân, có dữ liệu là nó bắn đi luôn. Nó không quan tâm người nhận có nhận được hay không, có bị mất gói tin giữa đường hay không."
         },
         {
           type: "subheading",
-          content: "Đặc điểm UDP:"
+          content: "Tính cách của UDP:"
         },
         {
           type: "list",
-          content: "Những đặc điểm chính của UDP:",
+          content: "Những đặc điểm nổi bật của UDP:",
           items: [
-            "Không cần thiết lập kết nối",
-            "Không đảm bảo dữ liệu đến đủ",
-            "Nhanh, độ trễ thấp",
-            "Không kiểm soát lỗi",
-            "Đơn giản, nhẹ hơn TCP"
+            "Không cần thiết lập kết nối (bắn gói tin đi ngay lập tức).",
+            "Không đảm bảo dữ liệu đến đầy đủ (mất gói tin thì bỏ qua luôn).",
+            "Tốc độ cực nhanh và độ trễ siêu thấp.",
+            "Nhẹ nhàng, không tốn nhiều tài nguyên hệ thống."
           ]
         },
         {
-          type: "text",
-          content: "Ví dụ dễ hiểu: UDP giống như nói chuyện trực tiếp - nghe không rõ thì bỏ qua, không cần nói lại."
-        },
-        {
           type: "subheading",
-          content: "Ví dụ thực tế:"
+          content: "Ứng dụng thực tế của UDP"
         },
         {
           type: "list",
-          content: "UDP được dùng trong:",
+          content: "UDP được dùng trong các ứng dụng ưu tiên tốc độ và thời gian thực:",
           items: [
-            "Video call (Zoom, Teams)",
-            "Game online",
-            "Livestream",
-            "DNS (tra cứu tên miền)",
-            "VoIP (thoại qua IP)"
+            "Video call (Zoom, Microsoft Teams, Zalo Call)",
+            "Chơi game online thời gian thực (như các game đối kháng trên LunQuiz)",
+            "Livestream video, nghe nhạc trực tuyến",
+            "Hệ thống DNS (truy vấn tên miền nhanh)"
           ]
         },
         {
           type: "heading",
-          content: "4. Bảng so sánh TCP vs UDP"
+          content: "4. Bảng so sánh TCP vs UDP tóm tắt"
         },
         {
           type: "table",
-          content: "Sự khác biệt chính giữa TCP và UDP",
-          columns: ["Tiêu chí", "TCP", "UDP"],
+          content: "Sự khác biệt cốt lõi",
+          columns: ["Tiêu chí", "TCP (Anh cẩn thận)", "UDP (Anh nhanh nhẹn)"],
           rows: [
-            ["Kết nối", "Có kết nối", "Không kết nối"],
-            ["Đảm bảo dữ liệu", "Có", "Không"],
-            ["Tốc độ", "Chậm hơn", "Nhanh"],
-            ["Kiểm soát lỗi", "Có", "Không"],
-            ["Đảm bảo thứ tự", "Có", "Không"],
-            ["Overhead", "Cao", "Thấp"],
-            ["Ứng dụng", "Web, Email, File", "Game, Video, Streaming"]
+            ["Kết nối", "Có bắt tay thiết lập kết nối", "Không cần kết nối"],
+            ["Đảm bảo dữ liệu", "Có, gửi lại nếu mất", "Không, mất là mất luôn"],
+            ["Tốc độ", "Chậm hơn", "Nhanh hơn rất nhiều"],
+            ["Đảm bảo thứ tự", "Có đảm bảo thứ tự gói tin", "Không đảm bảo thứ tự"],
+            ["Trọng lượng gói", "Nặng (header 20 bytes)", "Nhẹ (header 8 bytes)"]
           ]
-        },
-        {
-          type: "heading",
-          content: "5. Khi nào nên dùng TCP? Khi nào dùng UDP?"
-        },
-        {
-          type: "subheading",
-          content: "Dùng TCP khi:"
-        },
-        {
-          type: "list",
-          content: "",
-          items: [
-            "Cần dữ liệu chính xác",
-            "Không được mất gói tin",
-            "Thứ tự dữ liệu quan trọng",
-            "Ví dụ: đăng nhập, thanh toán, tải file"
-          ]
-        },
-        {
-          type: "subheading",
-          content: "Dùng UDP khi:"
-        },
-        {
-          type: "list",
-          content: "",
-          items: [
-            "Cần tốc độ",
-            "Chấp nhận mất dữ liệu",
-            "Cần giao tiếp thời gian thực",
-            "Ví dụ: gọi video, game, livestream"
-          ]
-        },
-        {
-          type: "heading",
-          content: "6. Ví dụ code đơn giản"
-        },
-        {
-          type: "subheading",
-          content: "1. TCP Server (Java)"
-        },
-        {
-          type: "code",
-          language: "java",
-          content: "import java.io.*;\nimport java.net.*;\n\npublic class TCPServer {\n    public static void main(String[] args) {\n        try {\n            // Tạo server socket trên cổng 8080\n            ServerSocket serverSocket = new ServerSocket(8080);\n            System.out.println(\"TCP Server đã khởi động trên port 8080\");\n            \n            // Chờ client kết nối\n            Socket clientSocket = serverSocket.accept();\n            System.out.println(\"Client đã kết nối!\");\n            \n            // Đọc dữ liệu từ client\n            BufferedReader in = new BufferedReader(\n                new InputStreamReader(clientSocket.getInputStream())\n            );\n            \n            // Gửi dữ liệu cho client\n            PrintWriter out = new PrintWriter(\n                clientSocket.getOutputStream(), true\n            );\n            \n            String message = in.readLine();\n            System.out.println(\"Nhận được: \" + message);\n            \n            // Phản hồi lại client\n            out.println(\"Server đã nhận: \" + message);\n            \n            // Đóng kết nối\n            clientSocket.close();\n            serverSocket.close();\n        } catch (IOException e) {\n            e.printStackTrace();\n        }\n    }\n}"
-        },
-        {
-          type: "subheading",
-          content: "2. UDP Server (Java)"
-        },
-        {
-          type: "code",
-          language: "java",
-          content: "import java.net.*;\n\npublic class UDPServer {\n    public static void main(String[] args) {\n        try {\n            // Tạo UDP socket trên cổng 9090\n            DatagramSocket socket = new DatagramSocket(9090);\n            System.out.println(\"UDP Server đã khởi động trên port 9090\");\n            \n            byte[] buffer = new byte[1024];\n            \n            // Nhận dữ liệu\n            DatagramPacket receivePacket = new DatagramPacket(buffer, buffer.length);\n            socket.receive(receivePacket);\n            \n            String message = new String(receivePacket.getData(), 0, receivePacket.getLength());\n            System.out.println(\"Nhận được: \" + message);\n            \n            // Gửi phản hồi\n            String reply = \"Server đã nhận: \" + message;\n            byte[] sendData = reply.getBytes();\n            \n            DatagramPacket sendPacket = new DatagramPacket(\n                sendData, \n                sendData.length, \n                receivePacket.getAddress(), \n                receivePacket.getPort()\n            );\n            \n            socket.send(sendPacket);\n            socket.close();\n        } catch (Exception e) {\n            e.printStackTrace();\n        }\n    }\n}"
         },
         {
           type: "heading",
@@ -1232,73 +1122,47 @@ let y = 10;`
         },
         {
           type: "text",
-          content: "TCP và UDP đều có ưu điểm riêng và phù hợp với các trường hợp sử dụng khác nhau:"
-        },
-        {
-          type: "list",
-          content: "Tóm tắt:",
-          items: [
-            "TCP = chính xác, an toàn, phù hợp dữ liệu quan trọng",
-            "UDP = nhanh, linh hoạt, phù hợp ứng dụng thời gian thực",
-            "Tùy bài toán mà chọn giao thức phù hợp",
-            "Trong thực tế, nhiều ứng dụng sử dụng kết hợp cả hai giao thức"
-          ]
-        },
-        {
-          type: "text",
-          content: "Hiểu rõ TCP và UDP giúp bạn thiết kế ứng dụng mạng tốt hơn và lựa chọn giao thức phù hợp cho từng tình huống. Đây là kiến thức nền tảng quan trọng cho bất kỳ lập trình viên nào!"
+          content: "Hãy dùng TCP khi bạn cần độ chính xác tuyệt đối (như đăng nhập, thanh toán). Hãy dùng UDP khi bạn cần độ trễ thấp và tốc độ bàn thờ (như gọi video, chơi game). Việc hiểu rõ TCP vs UDP sẽ giúp bạn thiết kế kiến trúc hệ thống mạng cực kỳ tối ưu!"
         }
       ]
     },
     {
       id: 12,
-      title: "Tối ưu hiệu suất mạng với Java NIO (Non-blocking I/O)",
+      title: "Tối ưu hóa Server với Java NIO - Non-blocking I/O",
       excerpt:
-        "Tìm hiểu cách xử lý hàng nghìn kết nối đồng thời với Java NIO, Selector và Non-blocking I/O để xây dựng server hiệu suất cao.",
+        "Làm sao để 1 thread duy nhất có thể cân hàng ngàn kết nối cùng lúc? Khám phá sức mạnh của Selector và Channel trong Java NIO.",
       image: "https://i.ytimg.com/vi/FRY9BjU2W5s/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDU6kOPcqFngjUqGqf8f7PcJxv6ZQ",
       date: "20/12/2025",
       category: "Java",
       content: [
         {
           type: "text",
-          content: "Trong các hệ thống hiện đại như chat server, game server, hệ thống realtime, việc xử lý hàng nghìn kết nối đồng thời là yêu cầu bắt buộc. Nếu sử dụng Socket truyền thống (Blocking I/O), mỗi kết nối thường gắn với một thread, dẫn đến tiêu tốn rất nhiều tài nguyên. Java NIO (New I/O) ra đời để giải quyết bài toán đó bằng cơ chế Non-blocking I/O."
+          content: "Trong lập trình Socket truyền thống (Blocking I/O), mỗi khi có một client kết nối tới Server, ta phải cấp cho nó 1 Thread riêng biệt để xử lý. Nếu có 10.000 client kết nối? Server sẽ cần 10.000 thread. Kết quả là hệ thống sập vì cạn kiệt bộ nhớ (RAM) và CPU tốn quá nhiều thời gian cho việc Context Switching. Java NIO (New I/O) ra đời để giải quyết triệt để vấn đề này."
         },
         {
           type: "heading",
-          content: "1. Blocking I/O – Vấn đề của Socket truyền thống"
+          content: "1. Blocking I/O – Nỗi đau đầu của Socket truyền thống"
         },
         {
           type: "text",
-          content: "Trong Java IO truyền thống, mỗi client tương ứng với 1 thread. Thread bị block khi chờ dữ liệu hoặc chờ kết nối. Khi số lượng client tăng cao, hệ thống sẽ gặp nhiều vấn đề."
+          content: "Mô hình 'One Thread per Connection' hoạt động rất tốt với số lượng client nhỏ. Nhưng khi số lượng người dùng đồng thời tăng lên đột biến (như khi hệ thống game LunQuiz thu hút hàng ngàn người chơi cùng lúc), mô hình này sẽ bộc lộ điểm yếu chết người."
         },
         {
           type: "list",
-          content: "Các vấn đề của Blocking I/O:",
+          content: "Những hạn chế của Blocking I/O:",
           items: [
-            "Mỗi client cần 1 thread riêng biệt",
-            "Thread bị block khi chờ dữ liệu",
-            "Tốn RAM khi số client tăng cao",
-            "Context switching nhiều, giảm hiệu suất",
-            "Server dễ quá tải: 5.000 client → 5.000 thread"
+            "Thread bị block (chặn) khi đợi client gửi dữ liệu, gây lãng phí tài nguyên.",
+            "Tốn bộ nhớ RAM để duy trì các stack của thread (mỗi thread tiêu tốn khoảng 512KB - 1MB RAM).",
+            "CPU tốn nhiều thời gian cho việc chuyển đổi ngữ cảnh (Context Switching) hơn là xử lý nghiệp vụ chính."
           ]
         },
         {
           type: "heading",
-          content: "2. Java NIO là gì?"
+          content: "2. Java NIO ra đời giải cứu thế giới"
         },
         {
           type: "text",
-          content: "Java NIO (New I/O) là bộ API giúp xử lý I/O theo kiểu Non-blocking và Event-driven. Thay vì 'chờ', server sẽ 'kiểm tra xét kênh nào sẵn sàng thì mới xử lý'."
-        },
-        {
-          type: "list",
-          content: "Ưu điểm chính:",
-          items: [
-            "Non-blocking: không chặn thread",
-            "Event-driven: chỉ xử lý khi có sự kiện",
-            "Ít thread nhưng xử lý được nhiều kết nối",
-            "Tiết kiệm tài nguyên hệ thống"
-          ]
+          content: "Java NIO giới thiệu một mô hình mới: hướng sự kiện (Event-driven) và Non-blocking. Thread của Server sẽ không bao giờ bị block để ngồi chờ đợi dữ liệu nữa. Thay vào đó, nó chỉ làm việc khi có sự kiện thực sự xảy ra (ví dụ: client gửi dữ liệu đến)."
         },
         {
           type: "heading",
@@ -1306,175 +1170,69 @@ let y = 10;`
         },
         {
           type: "subheading",
-          content: "Channel – Kênh truyền dữ liệu"
+          content: "Channel (Kênh truyền dữ liệu)"
         },
         {
           type: "text",
-          content: "Channel giống như 'đường ống' truyền dữ liệu 2 chiều. Khác với Socket truyền thống, Channel có thể non-blocking và làm việc trực tiếp với Buffer."
-        },
-        {
-          type: "list",
-          content: "Các loại Channel phổ biến:",
-          items: [
-            "ServerSocketChannel: lắng nghe kết nối",
-            "SocketChannel: kết nối client",
-            "DatagramChannel: UDP",
-            "FileChannel: file I/O"
-          ]
+          content: "Channel giống như một đường ống truyền dữ liệu 2 chiều. Khác với InputStream hay OutputStream của IO truyền thống (chỉ truyền 1 chiều), Channel cho phép cả đọc lẫn ghi đồng thời."
         },
         {
           type: "subheading",
-          content: "Buffer – Vùng đệm dữ liệu"
+          content: "Buffer (Vùng đệm)"
         },
         {
           type: "text",
-          content: "Buffer dùng để ghi dữ liệu từ Channel vào và đọc dữ liệu từ Buffer ra. Quy trình: Channel đọc → Buffer → Xử lý → Buffer ghi → Channel."
+          content: "Buffer là vùng đệm bộ nhớ dùng để chứa dữ liệu. Khi làm việc với NIO, bạn không đọc ghi trực tiếp từ Channel mà phải thông qua Buffer. Luồng đi sẽ là: Channel -> Buffer -> Xử lý dữ liệu -> Buffer -> Channel."
         },
         {
           type: "code",
           language: "java",
-          content: "// Tạo buffer với kích thước 1024 bytes\nByteBuffer buffer = ByteBuffer.allocate(1024);\n\n// Đọc dữ liệu từ channel vào buffer\nchannel.read(buffer);\n\n// Chuyển sang chế độ đọc\nbuffer.flip();\n\n// Đọc dữ liệu từ buffer\nbyte[] data = new byte[buffer.remaining()];\nbuffer.get(data);\n\n// Xóa buffer cho lần sử dụng tiếp theo\nbuffer.clear();"
+          content: "// Khởi tạo Buffer có kích thước 1024 bytes\nByteBuffer buffer = ByteBuffer.allocate(1024);\n\n// Đọc dữ liệu từ Channel ghi vào Buffer\nchannel.read(buffer);\n\n// Chuyển Buffer từ chế độ ghi sang chế độ đọc\nbuffer.flip();"
         },
         {
           type: "subheading",
-          content: "Selector – Trái tim của Non-blocking I/O"
+          content: "Selector (Bộ giám sát - Trái tim của NIO)"
         },
         {
           type: "text",
-          content: "Selector cho phép 1 thread theo dõi nhiều Channel cùng lúc. Nó biết Channel nào sẵn sàng accept, có dữ liệu để read, hoặc có thể write."
-        },
-        {
-          type: "list",
-          content: "Các sự kiện (SelectionKey):",
-          items: [
-            "OP_ACCEPT: sẵn sàng chấp nhận kết nối mới",
-            "OP_CONNECT: kết nối đang hoàn tất",
-            "OP_READ: có dữ liệu để đọc",
-            "OP_WRITE: sẵn sàng ghi dữ liệu"
-          ]
+          content: "Selector là một thành phần cho phép một Thread duy nhất giám sát nhiều Channel (kết nối) cùng một lúc. Nó hoạt động như một người gác cổng, khi nào có Channel nào sẵn sàng (có dữ liệu gửi lên, có client mới kết nối) thì nó mới báo cho Thread xử lý."
         },
         {
           type: "heading",
-          content: "4. Cách Java NIO xử lý hàng nghìn kết nối"
-        },
-        {
-          type: "text",
-          content: "Mô hình hoạt động: 1 Thread → Selector → Nhiều Channel (Client). Thread không bị block, chỉ xử lý khi có sự kiện."
-        },
-        {
-          type: "list",
-          content: "Luồng xử lý:",
-          items: [
-            "Client kết nối → OP_ACCEPT",
-            "Client gửi dữ liệu → OP_READ",
-            "Server phản hồi → OP_WRITE",
-            "Chỉ 1 thread xử lý nhiều client"
-          ]
-        },
-        {
-          type: "heading",
-          content: "5. Ví dụ đơn giản: Server dùng Selector"
+          content: "4. Ví dụ code NIO Server đơn giản sử dụng Selector"
         },
         {
           type: "code",
           language: "java",
-          content: "import java.nio.channels.*;\nimport java.nio.*;\nimport java.net.*;\nimport java.util.*;\n\npublic class NIOServer {\n    public static void main(String[] args) throws Exception {\n        // Tạo Selector\n        Selector selector = Selector.open();\n        \n        // Tạo ServerSocketChannel\n        ServerSocketChannel serverChannel = ServerSocketChannel.open();\n        serverChannel.bind(new InetSocketAddress(8080));\n        serverChannel.configureBlocking(false);\n        \n        // Đăng ký với Selector\n        serverChannel.register(selector, SelectionKey.OP_ACCEPT);\n        System.out.println(\"Server khởi động tại port 8080\");\n        \n        while (true) {\n            // Chờ sự kiện\n            selector.select();\n            \n            // Duyệt các sự kiện\n            Iterator<SelectionKey> keys = selector.selectedKeys().iterator();\n            \n            while (keys.hasNext()) {\n                SelectionKey key = keys.next();\n                keys.remove();\n                \n                // Xử lý kết nối mới\n                if (key.isAcceptable()) {\n                    SocketChannel client = serverChannel.accept();\n                    client.configureBlocking(false);\n                    client.register(selector, SelectionKey.OP_READ);\n                    System.out.println(\"Client kết nối: \" + client.getRemoteAddress());\n                }\n                \n                // Xử lý đọc dữ liệu\n                if (key.isReadable()) {\n                    SocketChannel client = (SocketChannel) key.channel();\n                    ByteBuffer buffer = ByteBuffer.allocate(1024);\n                    \n                    int bytesRead = client.read(buffer);\n                    if (bytesRead == -1) {\n                        client.close();\n                    } else {\n                        buffer.flip();\n                        // Echo lại cho client\n                        client.write(buffer);\n                    }\n                }\n            }\n        }\n    }\n}"
-        },
-        {
-          type: "text",
-          content: "Chỉ với 1 thread, server có thể xử lý hàng nghìn client đồng thời một cách hiệu quả!"
+          content: "import java.nio.channels.*;\nimport java.nio.*;\nimport java.net.*;\nimport java.util.*;\n\npublic class NIOServer {\n    public static void main(String[] args) throws Exception {\n        Selector selector = Selector.open();\n        ServerSocketChannel serverChannel = ServerSocketChannel.open();\n        serverChannel.bind(new InetSocketAddress(8080));\n        serverChannel.configureBlocking(false); // Bật chế độ Non-blocking!\n        serverChannel.register(selector, SelectionKey.OP_ACCEPT);\n        System.out.println(\"NIO Server started on port 8080...\");\n        \n        while (true) {\n            selector.select(); // Chờ có sự kiện xảy ra\n            Set<SelectionKey> selectedKeys = selector.selectedKeys();\n            Iterator<SelectionKey> iter = selectedKeys.iterator();\n            \n            while (iter.hasNext()) {\n                SelectionKey key = iter.next();\n                iter.remove();\n                \n                if (key.isAcceptable()) {\n                    // Chấp nhận kết nối mới từ client\n                    SocketChannel clientChannel = serverChannel.accept();\n                    clientChannel.configureBlocking(false);\n                    clientChannel.register(selector, SelectionKey.OP_READ);\n                    System.out.println(\"Client mới kết nối: \" + clientChannel.getRemoteAddress());\n                }\n                if (key.isReadable()) {\n                    // Đọc dữ liệu từ client\n                    SocketChannel clientChannel = (SocketChannel) key.channel();\n                    ByteBuffer buffer = ByteBuffer.allocate(1024);\n                    clientChannel.read(buffer);\n                    // Xử lý dữ liệu...\n                }\n            }\n        }\n    }\n}"
         },
         {
           type: "heading",
-          content: "6. So sánh Blocking I/O vs Java NIO"
+          content: "5. So sánh nhanh Blocking IO vs Java NIO"
         },
         {
           type: "table",
-          content: "Sự khác biệt giữa Blocking I/O và Java NIO",
-          columns: ["Tiêu chí", "Blocking I/O", "Java NIO"],
+          content: "Blocking IO vs Non-blocking NIO",
+          columns: ["Tiêu chí", "Blocking IO (OIO)", "Non-blocking IO (NIO)"],
           rows: [
-            ["Cách xử lý", "1 thread / 1 client", "1 thread / nhiều client"],
-            ["Hiệu suất", "Thấp khi tải cao", "Cao"],
-            ["Khả năng mở rộng", "Kém", "Rất tốt"],
-            ["Độ phức tạp", "Dễ", "Phức tạp hơn"],
-            ["Tài nguyên", "Tốn nhiều RAM", "Tiết kiệm"],
-            ["Ứng dụng", "App nhỏ, ít kết nối", "Server lớn, nhiều kết nối"]
+            ["Mô hình xử lý", "1 Thread cho 1 Connection", "1 Thread cho nhiều Connection"],
+            ["Khả năng chịu tải", "Kém khi số kết nối cực lớn", "Cực tốt, xử lý hàng vạn kết nối"],
+            ["Tiêu hao tài nguyên", "Tốn nhiều RAM và CPU Context Switch", "Tiết kiệm RAM và tối ưu CPU"],
+            ["Độ phức tạp code", "Dễ viết, trực quan", "Khó viết hơn, hướng sự kiện"]
           ]
         },
         {
           type: "heading",
-          content: "7. Khi nào nên dùng Java NIO?"
-        },
-        {
-          type: "subheading",
-          content: "Nên dùng khi:"
-        },
-        {
-          type: "list",
-          content: "",
-          items: [
-            "Server cần xử lý nhiều kết nối đồng thời",
-            "Ứng dụng realtime (chat, game, streaming)",
-            "Xây dựng proxy, gateway, load balancer",
-            "Microservices cần hiệu suất cao",
-            "Hệ thống phân tán, event-driven"
-          ]
-        },
-        {
-          type: "subheading",
-          content: "Không cần dùng khi:"
-        },
-        {
-          type: "list",
-          content: "",
-          items: [
-            "Ứng dụng nhỏ, ít kết nối",
-            "Logic đơn giản, không cần tối ưu",
-            "Team chưa có kinh nghiệm với NIO",
-            "Thời gian phát triển hạn chế"
-          ]
-        },
-        {
-          type: "heading",
-          content: "8. Java NIO trong thực tế"
+          content: "Kết luận"
         },
         {
           type: "text",
-          content: "Nhiều framework nổi tiếng sử dụng Java NIO làm nền tảng:"
-        },
-        {
-          type: "list",
-          content: "Các framework sử dụng Java NIO:",
-          items: [
-            "Netty: framework async event-driven cho network applications",
-            "Spring WebFlux: reactive programming trong Spring",
-            "Vert.x: toolkit xây dựng reactive applications",
-            "Apache Kafka: message broker hiệu suất cao",
-            "Elasticsearch: search engine phân tán"
-          ]
-        },
-        {
-          type: "text",
-          content: "Hiểu Java NIO giúp bạn hiểu gốc rễ các framework backend hiện đại và có thể tối ưu hệ thống tốt hơn."
-        },
-        {
-          type: "heading",
-          content: "9. Kết luận"
-        },
-        {
-          type: "list",
-          content: "Tóm tắt:",
-          items: [
-            "Java NIO giúp xử lý I/O hiệu quả và scalable",
-            "Selector là chìa khóa để 1 thread xử lý nhiều kết nối",
-            "Phù hợp cho hệ thống lớn, tải cao",
-            "Là kiến thức quan trọng với Backend Developer",
-            "Java NIO = Non-blocking + Selector + Channel → Hiệu suất cao"
-          ]
+          content: "Java NIO là nền tảng cốt lõi của những framework backend hiệu suất cao như Netty, Spring WebFlux, Vert.x. Việc nắm vững Java NIO giúp bạn hiểu sâu sắc cách tối ưu hóa tài nguyên máy chủ và sẵn sàng xây dựng các hệ thống realtime lớn!"
         }
       ]
-    },
+    }
   ],
+
   certificates: [
     {
       id: 1,

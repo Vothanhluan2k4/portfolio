@@ -42,7 +42,7 @@ const HeroSection = () => {
       <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       
       <div className="container mx-auto px-6 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-[minmax(0,1.1fr)_minmax(0,0.85fr)] gap-12 items-center">
+        <div className="grid lg:grid-cols-[minmax(0,1.30fr)_minmax(0,0.85fr)] gap-12 items-center">
           {/* Left Content */}
           <div className="order-2 lg:order-1 min-w-0 lg:min-w-[720px]" data-aos="fade-up" data-aos-delay="100">
             <span className="inline-block text-accent font-semibold text-4xl mb-4 animate-bounce-gentle">

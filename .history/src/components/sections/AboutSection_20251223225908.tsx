@@ -16,7 +16,7 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 
-const skillTags = ["Business Analyst", "Web Development", "Application Development", "UI/UX Design"];
+const skillTags = ["Business Analyst", "Web Development", "Application Development", "DevOps", "UI/UX Design"];
 
 const AboutSection = () => {
   const { t, i18n } = useTranslation();

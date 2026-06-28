@@ -13,7 +13,7 @@ const ProjectDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   
   const portfolioData = i18n.language === "en" ? portfolioDataEN : portfolioDataVI;
   const project = portfolioData.projects.find((p) => p.id === Number(id));
@@ -64,10 +64,10 @@ const ProjectDetail = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-primary mb-4">Dự án không tồn tại</h1>
+          <h1 className="text-4xl font-bold text-primary mb-4">{t("portfolio.projectNotFound")}</h1>
           <Button onClick={handleBackToProjects} variant="default">
             <ArrowLeft size={20} />
-            Quay lại danh sách
+            {t("portfolio.backToList")}
           </Button>
         </div>
       </div>
@@ -87,7 +87,7 @@ const ProjectDetail = () => {
             className="mb-8 rounded-full"
           >
             <ArrowLeft size={20} />
-            Quay lại
+            {t("portfolio.back")}
           </Button>
 
           {/* Hero Section - Video, Multiple Images, or Single Image */}
@@ -201,7 +201,7 @@ const ProjectDetail = () => {
                 <section>
                   <div className="flex items-center gap-3 mb-4">
                     <div className="w-1 h-8 bg-accent rounded-full" />
-                    <h2 className="text-2xl font-bold text-primary">Mô tả dự án</h2>
+                    <h2 className="text-2xl font-bold text-primary">{t("portfolio.descriptionHeader")}</h2>
                   </div>
                   <p className="text-lg text-muted-foreground leading-relaxed">
                     {project.details.description}
@@ -212,7 +212,7 @@ const ProjectDetail = () => {
                 <section>
                   <div className="flex items-center gap-3 mb-4">
                     <Zap className="text-accent" size={24} />
-                    <h2 className="text-2xl font-bold text-primary">Hiện trạng</h2>
+                    <h2 className="text-2xl font-bold text-primary">{t("portfolio.statusHeader")}</h2>
                   </div>
                   <div className="bg-secondary/50 rounded-2xl p-6 border-l-4 border-accent">
                     <p className="text-muted-foreground leading-relaxed">
@@ -225,7 +225,7 @@ const ProjectDetail = () => {
                 <section>
                   <div className="flex items-center gap-3 mb-4">
                     <Target className="text-accent" size={24} />
-                    <h2 className="text-2xl font-bold text-primary">Mục tiêu</h2>
+                    <h2 className="text-2xl font-bold text-primary">{t("portfolio.objectivesHeader")}</h2>
                   </div>
                   <ul className="space-y-3">
                     {project.details.objectives.map((objective, index) => (
@@ -241,7 +241,7 @@ const ProjectDetail = () => {
                 <section>
                   <div className="flex items-center gap-3 mb-4">
                     <Code2 className="text-accent" size={24} />
-                    <h2 className="text-2xl font-bold text-primary">Chức năng chính</h2>
+                    <h2 className="text-2xl font-bold text-primary">{t("portfolio.featuresHeader")}</h2>
                   </div>
                   <div className="grid md:grid-cols-2 gap-4">
                     {project.details.features.map((feature, index) => (
@@ -263,7 +263,7 @@ const ProjectDetail = () => {
                   <section>
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-1 h-8 bg-accent rounded-full" />
-                      <h2 className="text-2xl font-bold text-primary">Thử thách</h2>
+                      <h2 className="text-2xl font-bold text-primary">{t("portfolio.challengesHeader")}</h2>
                     </div>
                     <div className="bg-amber-500/10 rounded-2xl p-6 border-l-4 border-amber-500">
                       <p className="text-muted-foreground leading-relaxed">
@@ -278,7 +278,7 @@ const ProjectDetail = () => {
                   <section>
                     <div className="flex items-center gap-3 mb-4">
                       <div className="w-1 h-8 bg-accent rounded-full" />
-                      <h2 className="text-2xl font-bold text-primary">Kết quả</h2>
+                      <h2 className="text-2xl font-bold text-primary">{t("portfolio.outcomesHeader")}</h2>
                     </div>
                     <div className="bg-green-500/10 rounded-2xl p-6 border-l-4 border-green-500">
                       <p className="text-muted-foreground leading-relaxed">
@@ -297,7 +297,7 @@ const ProjectDetail = () => {
                     <div className="bg-card rounded-2xl p-6 shadow-lg border border-border">
                       <h3 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">
                         <ExternalLink size={20} className="text-accent" />
-                        Demo trải nghiệm
+                        {t("portfolio.demoHeader")}
                       </h3>
                       <a
                         href={project.demoUrl}
@@ -305,7 +305,7 @@ const ProjectDetail = () => {
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2 w-full py-3 px-4 bg-accent hover:bg-accent/90 text-white rounded-xl transition-colors font-medium"
                       >
-                        Truy cập ứng dụng <ExternalLink size={16} />
+                        {t("portfolio.demoButton")} <ExternalLink size={16} />
                       </a>
                     </div>
                   )}
@@ -314,7 +314,7 @@ const ProjectDetail = () => {
                   <div className="bg-card rounded-2xl p-6 shadow-lg border border-border">
                     <h3 className="text-xl font-bold text-primary mb-4 flex items-center gap-2">
                       <Code2 size={20} className="text-accent" />
-                      Công nghệ sử dụng
+                      {t("portfolio.technologiesHeader")}
                     </h3>
                     <div className="flex flex-wrap gap-2">
                       {project.details.technologies.map((tech, index) => (
@@ -330,10 +330,10 @@ const ProjectDetail = () => {
 
                   {/* Project Info */}
                   <div className="bg-card rounded-2xl p-6 shadow-lg border border-border">
-                    <h3 className="text-xl font-bold text-primary mb-4">Thông tin dự án</h3>
+                    <h3 className="text-xl font-bold text-primary mb-4">{t("portfolio.infoHeader")}</h3>
                     <div className="space-y-3">
                       <div>
-                        <p className="text-sm text-muted-foreground mb-1">Danh mục</p>
+                        <p className="text-sm text-muted-foreground mb-1">{t("portfolio.categoryLabel")}</p>
                         <p className="font-semibold text-foreground">{project.category}</p>
                       </div>
                       <div>
@@ -357,14 +357,14 @@ const ProjectDetail = () => {
           ) : (
             <div className="text-center py-20">
               <p className="text-muted-foreground text-lg">
-                Thông tin chi tiết đang được cập nhật...
+                {t("portfolio.updating")}
               </p>
             </div>
           )}
 
           {/* Related Projects */}
           <div className="mt-16 pt-16 border-t border-border">
-            <h3 className="text-2xl font-bold text-primary mb-8">Dự án liên quan</h3>
+            <h3 className="text-2xl font-bold text-primary mb-8">{t("portfolio.relatedHeader")}</h3>
             {portfolioData.projects.filter((p) => p.category === project.category && p.id !== project.id).length > 0 ? (
               <div className="grid md:grid-cols-3 gap-6">
                 {portfolioData.projects
@@ -400,7 +400,7 @@ const ProjectDetail = () => {
             ) : (
               <div className="text-center py-12 bg-secondary/30 rounded-2xl">
                 <p className="text-muted-foreground text-lg">
-                  Không có dự án liên quan nào
+                  {t("portfolio.noRelated")}
                 </p>
               </div>
             )}

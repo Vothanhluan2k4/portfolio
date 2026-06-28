@@ -32,10 +32,10 @@ const BlogDetail = () => {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-primary mb-4">Blog không tồn tại</h1>
+          <h1 className="text-4xl font-bold text-primary mb-4">{t("blog.blogNotFound")}</h1>
           <Button onClick={handleBackToBlogs} variant="default">
             <ArrowLeft size={20} />
-            Quay lại danh sách
+            {t("blog.backToList")}
           </Button>
         </div>
       </div>
@@ -55,7 +55,7 @@ const BlogDetail = () => {
             className="mb-8 rounded-full"
           >
             <ArrowLeft size={20} />
-            Quay lại
+            {t("blog.back")}
           </Button>
 
           {/* Featured Image */}
@@ -102,7 +102,7 @@ const BlogDetail = () => {
                 ))
               ) : (
                 <p className="leading-relaxed text-muted-foreground">
-                  Nội dung đang được cập nhật...
+                  {t("blog.updating")}
                 </p>
               )}
             </div>
@@ -204,6 +204,7 @@ interface CodeBlockProps {
 
 const CodeBlock = ({ code, language }: CodeBlockProps) => {
   const [copied, setCopied] = useState(false);
+  const { t } = useTranslation();
 
   const handleCopy = async () => {
     try {
@@ -236,12 +237,12 @@ const CodeBlock = ({ code, language }: CodeBlockProps) => {
           {copied ? (
             <>
               <Check size={14} className="mr-1" />
-              Đã copy!
+              {t("blog.copied")}
             </>
           ) : (
             <>
               <Copy size={14} className="mr-1" />
-              Copy code
+              {t("blog.copy")}
             </>
           )}
         </Button>
