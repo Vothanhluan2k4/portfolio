@@ -1284,7 +1284,7 @@ let y = 10;`
   ],
 
   stats: [
-    { id: 1, value: "8+", label: "Completed Projects" },
+    { id: 1, value: "10+", label: "Completed Projects" },
     { id: 2, value: "6+", label: "Certificates" },
     { id: 3, value: "6+", label: "Technologies Used" },
   ],

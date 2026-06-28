@@ -1283,7 +1283,7 @@ let y = 10;`
     },
   ],
   stats: [
-    { id: 1, value: "8+", label: "Dự án hoàn thành" },
+    { id: 1, value: "10+", label: "Dự án hoàn thành" },
     { id: 2, value: "6+", label: "Chứng chỉ" },
     { id: 3, value: "6+", label: "Công nghệ sử dụng" },
   ],
