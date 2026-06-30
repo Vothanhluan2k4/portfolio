@@ -22,7 +22,6 @@ const ProjectDetail = () => {
   const getEmbedUrl = (url: string) => {
     if (!url) return "";
     
-    // Handle Google Drive URLs
     const driveMatch = url.match(/drive\.google\.com\/file\/d\/([^/]+)/);
     if (driveMatch) {
       const fileId = driveMatch[1];
