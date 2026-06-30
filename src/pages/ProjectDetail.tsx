@@ -30,7 +30,6 @@ const ProjectDetail = () => {
       return `https://drive.google.com/file/d/${fileId}/preview`;
     }
     
-    // Already embed URL
     if (url.includes("youtube.com/embed/")) {
       return url;
     }
