@@ -31,7 +31,7 @@ export const portfolioData: PortfolioData = {
       "id": 1,
       "title": "LunQuiz - Nơi thi đấu trắc nghiệm thời gian thực",
       "category": "Web Development",
-      "image": "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202026-06-14%20223304.png?raw=true",
+      "image": "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202026-06-14%20223304.png",
       "videoUrl": "",
       "demoUrl": "https://www.lunquiz.site/",
       "tags": ["React", "TypeScript", "Node.js", "UI/UX"],
@@ -76,7 +76,7 @@ export const portfolioData: PortfolioData = {
       id: 2,
       title: "Ứng dụng ôn luyện Tiếng Anh",
       category: "App Development",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/anh2.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/anh2.png",
       videoUrl: "https://youtu.be/V6-YM7v8DBg",
       tags: ["UI/UX", "App", "Education", "Mobile"],
       details: {
@@ -112,7 +112,7 @@ export const portfolioData: PortfolioData = {
       id: 3,
       title: "Website Cho thuê & Quản lý Phòng Trọ",
       category: "Web Development",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/avatar_webphong.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/avatar_webphong.png",
       videoUrl: "https://drive.google.com/file/d/1zrayXT4bXH46KgRGrJOgTzTqs0yrS7Xj/view?usp=sharing",
       tags: ["Web", "UI/UX", "Backend", "E-commerce"],
       details: {
@@ -152,11 +152,11 @@ export const portfolioData: PortfolioData = {
       id: 4,
       title: "Quản lý Trung tâm Tiếng Anh",
       category: "Business Analysis",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-06-22%20094251.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-06-22%20094251.png",
       images: [
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-03-05%20213827.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-03-03%20121321.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-06-22%20094251.png?raw=true",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-03-05%20213827.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-03-03%20121321.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-06-22%20094251.png",
       ],
       tags: ["Analysis", "Management"],
       details: {
@@ -193,18 +193,18 @@ export const portfolioData: PortfolioData = {
       id: 5,
       title: "Winform Bán đồ điện tử",
       category: "Winform Development",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234829.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234829.png",
       images: [
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20233902.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234647.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234639.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234535.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234505.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234455.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234429.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234353.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234408.png?raw=true",
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-18%20234608.png?raw=true"
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20233902.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234647.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234639.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234535.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234505.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234455.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234429.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234353.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234408.png",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-18%20234608.png"
       ],
       tags: ["Winform", "Backend"],
       details: {
@@ -246,13 +246,13 @@ export const portfolioData: PortfolioData = {
       id: 6,
       title: "IPsec VPN Site-to-Site",
       category: "Cybersecurity",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/A_sitetosite.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/A_sitetosite.png",
       images: [
-        "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/sitetosite.jpg?raw=true",
-        "https://raw.githubusercontent.com/Vothanhluan2k4/portfolio-assets/7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/siteA.jpg",
-        "https://raw.githubusercontent.com/Vothanhluan2k4/portfolio-assets/7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/siteB.jpg",
-        "https://raw.githubusercontent.com/Vothanhluan2k4/portfolio-assets/7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/cerSiteA.jpg",
-        "https://raw.githubusercontent.com/Vothanhluan2k4/portfolio-assets/7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/ruleA.jpg"
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/sitetosite.jpg",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/siteA.jpg",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/siteB.jpg",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/cerSiteA.jpg",
+        "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@7f8d3390568e0ec29ffaaea4e1792e1fb1c9a9aa/images/ruleA.jpg"
       ],
       tags: ["Security", "Networking"],
       "details": {
@@ -854,7 +854,7 @@ let y = 10;`
       id: 9,
       title: "Array, Set, Map trong JS - Bộ ba siêu đẳng xử lý dữ liệu",
       excerpt: "Phân biệt Map vs Object, Set vs Array. Học cách sử dụng map(), filter(), reduce() để xử lý mảng mượt mà.",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-20%20174654.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-20%20174654.png",
       date: "18/11/2025",
       category: "JavaScript",
       content: [
@@ -1239,7 +1239,7 @@ let y = 10;`
       title: "Networking Basics",
       issuer: "Cisco",
       date: "Tháng 11, 2025",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-19%20145024.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-19%20145024.png",
       credentialId: "e7935a5a-7538-4dad-b4a8-a2fc40a71c29",
       skills: [
         "Network ",
@@ -1250,7 +1250,7 @@ let y = 10;`
       title: "JavaScript Essentials 1",
       issuer: "Cisco",
       date: "Tháng 12, 2025",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-19%20150039.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-19%20150039.png",
       credentialId: "5c24284d-57cd-444c-90c1-3f22cb5812c9",
       skills: ["JavaScript"]
     },
@@ -1259,7 +1259,7 @@ let y = 10;`
       title: "JavaScript Essentials 2",
       issuer: "Cisco",
       date: "Tháng 12, 2025",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202025-12-19%20150123.png?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/Screenshot%202025-12-19%20150123.png",
       credentialId: "3d927bc9-374a-4fc7-9ad3-87cfe029829f",
       skills: ["JavaScript"]
     },
@@ -1268,7 +1268,7 @@ let y = 10;`
       title: "TOEIC 565",
       issuer: "IIG Vietnam",
       date: "Tháng 12, 2025",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/z7343453066600_27ed7a9552dfeba93b90814f58a17d54.jpg?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/z7343453066600_27ed7a9552dfeba93b90814f58a17d54.jpg",
       credentialId: "Vo Thanh Luan",
       skills: ["English"]
     },
@@ -1277,7 +1277,7 @@ let y = 10;`
       title: "Kỹ năng giao tiếp và làm việc nhóm",
       issuer: "Hutech",
       date: "Tháng 8, 2025",
-      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/z7343453059717_35847c4345af003e7b161514a0c691d7.jpg?raw=true",
+      image: "https://cdn.jsdelivr.net/gh/Vothanhluan2k4/portfolio-assets@main/images/z7343453059717_35847c4345af003e7b161514a0c691d7.jpg",
       credentialId: "0055772",
       skills: ["Communication", "Teamwork"]
     },
