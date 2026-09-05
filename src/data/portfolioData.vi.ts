@@ -286,6 +286,47 @@ export const portfolioData: PortfolioData = {
         "outcomes": "Mô hình hoạt động ổn định, dữ liệu truyền qua VPN được mã hóa an toàn. Nâng cao hiểu biết về VPN và bảo mật mạng."
       }
     },
+    {
+      id: 7,
+      title: "LunSQL - Nền tảng luyện tập SQL tương tác",
+      category: "Web Development",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202026-09-05%20231441.png?raw=true",
+      videoUrl: "",
+      demoUrl: "https://lunsql.vercel.app/",
+      tags: ["React", "TypeScript", "WebAssembly", "SQLite", "Monaco Editor", "Node.js", "MongoDB"],
+      details: {
+        description: "Nền tảng học và luyện tập truy vấn SQL trực tiếp trên trình duyệt sử dụng WebAssembly (SQLite WASM), giúp thực thi code tức thì với hơn 200 bài tập từ cơ bản đến nâng cao.",
+        currentStatus: "Dự án đã hoàn thiện và hoạt động trực tuyến với đầy đủ tính năng luyện tập, chấm điểm tự động và cấp chứng chỉ.",
+        objectives: [
+          "Xây dựng nền tảng luyện SQL trực quan, mượt mà chạy trên trình duyệt",
+          "Thực thi SQL an toàn, nhanh chóng bằng WebAssembly mà không tốn chi phí server",
+          "Cung cấp kho bài tập phong phú kèm hệ thống chấm điểm tự động",
+          "Tăng động lực học tập với chuỗi Streak, bảng xếp hạng và chứng chỉ hoàn thành"
+        ],
+        features: [
+          "Trình soạn thảo Monaco Editor hỗ trợ gợi ý cú pháp và phím tắt thông minh",
+          "Thực thi truy vấn SQL siêu tốc ngay trên trình duyệt với WebAssembly",
+          "Hơn 230 bài tập đa dạng chia theo nhiều chủ đề (SELECT, JOIN, GROUP BY...)",
+          "Hệ thống chấm điểm tự động và hiển thị so sánh kết quả trực quan",
+          "Thử thách hàng ngày (Daily Challenge) và chuỗi học tập (Streak Heatmap)",
+          "Bảng xếp hạng vinh danh học viên xuất sắc",
+          "Tự động cấp chứng chỉ PDF sau khi hoàn thành",
+          "Đăng nhập an toàn qua tài khoản Google OAuth"
+        ],
+        technologies: [
+          "React",
+          "TypeScript",
+          "WebAssembly (SQLite)",
+          "Monaco Editor",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "GSAP"
+        ],
+        challenges: "Tích hợp SQLite WebAssembly vào ứng dụng React mượt mà, quản lý bộ nhớ tốt và xây dựng logic chấm điểm tự động chính xác.",
+        outcomes: "Hoàn thiện nền tảng học SQL hiệu năng cao, tối ưu chi phí vận hành và mang lại trải nghiệm học tập tương tác cho người dùng."
+      }
+    },
   ],
   experiences: [
     {

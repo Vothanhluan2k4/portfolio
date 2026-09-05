@@ -285,6 +285,47 @@ export const portfolioDataEN: PortfolioData = {
         outcomes: "Stable working model with securely encrypted VPN data transmission. Enhanced understanding of VPN and network security."
       }
     },
+    {
+      id: 7,
+      title: "LunSQL - Interactive SQL Learning Platform",
+      category: "Web Development",
+      image: "https://github.com/Vothanhluan2k4/portfolio-assets/blob/main/images/Screenshot%202026-09-05%20231441.png?raw=true",
+      videoUrl: "",
+      demoUrl: "https://lunsql.vercel.app/",
+      tags: ["React", "TypeScript", "WebAssembly", "SQLite", "Monaco Editor", "Node.js", "MongoDB"],
+      details: {
+        description: "An interactive SQL practice platform running directly in the browser via WebAssembly (SQLite WASM), delivering instant query execution and over 200 hands-on exercises from basic to advanced.",
+        currentStatus: "The project is fully complete and live, featuring comprehensive exercises, automated grading, and PDF certificate generation.",
+        objectives: [
+          "Build a smooth, interactive SQL practice platform running client-side in the browser",
+          "Execute SQL safely and instantly via WebAssembly with near-zero server cost",
+          "Provide a rich exercise library with an automated grading system",
+          "Boost learner motivation through streaks, leaderboards, and completion certificates"
+        ],
+        features: [
+          "Monaco Editor with intelligent syntax hints and keyboard shortcuts",
+          "Instant query execution directly in browser memory via WebAssembly",
+          "Over 230 exercises covering multiple topics (SELECT, JOIN, GROUP BY...)",
+          "Automated grading system with visual result comparison",
+          "Daily Challenges and GitHub-style Streak Heatmap tracking",
+          "Global Leaderboard honoring top achievers",
+          "Automated high-resolution PDF certificate generation upon completion",
+          "Secure authentication via Google OAuth"
+        ],
+        technologies: [
+          "React",
+          "TypeScript",
+          "WebAssembly (SQLite)",
+          "Monaco Editor",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "GSAP"
+        ],
+        challenges: "Integrating SQLite WebAssembly smoothly into React, managing memory efficiently, and building an accurate automated grading engine.",
+        outcomes: "Delivered a high-performance, cost-effective EdTech platform that provides an engaging, interactive SQL learning experience."
+      }
+    },
   ],
 
   experiences: [
