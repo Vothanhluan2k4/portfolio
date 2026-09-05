@@ -44,14 +44,16 @@
     "badge": "Về tôi",
     "title": "<accent>Võ Thành Luận</accent> là ai?",
     "description": "Tôi là sinh viên năm 4 ngành Kỹ thuật Phần mềm, có niềm đam mê với phát triển ứng dụng web, app di động và hệ thống backend. Trong quá trình học tập, tôi đã tham gia nhiều đồ án và dự án cá nhân nhằm áp dụng kiến thức lý thuyết vào thực tế, đồng thời không ngừng học hỏi các công nghệ mới để nâng cao kỹ năng chuyên môn.",
-    "downloadCV": "Tải CV",
+    "downloadCV": "Xem CV",
+    "viewCV": "Xem CV",
     "skillTags": ["Business Analyst", "Web Development", "Application Development", "UI/UX Design"],
-    "cvDialog": {
-      "title": "Chọn ngôn ngữ CV",
-      "description": "Vui lòng chọn phiên bản ngôn ngữ của CV bạn muốn tải xuống.",
-      "cancel": "Hủy",
+    "cvViewer": {
+      "title": "Curriculum Vitae",
+      "subtitle": "Xem trực tiếp bản CV cá nhân",
       "vietnamese": "Tiếng Việt",
-      "english": "English"
+      "english": "English",
+      "openNewTab": "Mở tab mới",
+      "download": "Tải về"
     }
   },
   "tools": {

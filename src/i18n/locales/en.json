@@ -44,14 +44,16 @@
     "badge": "About Me",
     "title": "Who is <accent>Vo Thanh Luan</accent>?",
     "description": "I am a 4th-year Software Engineering student with a passion for developing web applications, mobile apps, and backend systems. During my studies, I have participated in many coursework and personal projects to apply theoretical knowledge into practice, while constantly learning new technologies to enhance my professional skills.",
-    "downloadCV": "Download CV",
+    "downloadCV": "View CV",
+    "viewCV": "View CV",
     "skillTags": ["Business Analyst", "Web Development", "Application Development", "UI/UX Design"],
-    "cvDialog": {
-      "title": "Choose CV Language",
-      "description": "Please select the language version of the CV you want to download.",
-      "cancel": "Cancel",
+    "cvViewer": {
+      "title": "Curriculum Vitae",
+      "subtitle": "Direct preview of personal resume",
       "vietnamese": "Vietnamese",
-      "english": "English"
+      "english": "English",
+      "openNewTab": "Open in new tab",
+      "download": "Download"
     }
   },
   "tools": {

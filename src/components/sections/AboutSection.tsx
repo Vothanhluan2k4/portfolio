@@ -1,4 +1,4 @@
-import { Download } from "lucide-react";
+import { Eye, ExternalLink, Download, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { portfolioData as portfolioDataVI } from "@/data/portfolioData.vi";
 import { portfolioDataEN } from "@/data/portfolioData.en";
@@ -6,37 +6,37 @@ import aboutImage from "@/assets/avatar3.png";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
 import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogDescription,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTitle,
-} from "@/components/ui/alert-dialog";
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from "@/components/ui/dialog";
+import { cn } from "@/lib/utils";
 
 const skillTags = ["Business Analyst", "Web Development", "Application Development", "UI/UX Design"];
 
 const AboutSection = () => {
   const { t, i18n } = useTranslation();
   const portfolioData = i18n.language === "en" ? portfolioDataEN : portfolioDataVI;
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [isCvModalOpen, setIsCvModalOpen] = useState(false);
+  const [cvLanguage, setCvLanguage] = useState<'vi' | 'en'>(i18n.language === 'en' ? 'en' : 'vi');
 
-  const handleDownloadCV = (language: 'vi' | 'en') => {
-    const cvPath = language === 'vi' 
-      ? '/cv/CV_vi.pdf' 
-      : '/cv/CV_en.pdf';
+  const currentCvPath = cvLanguage === 'vi' 
+    ? '/cv/CV_vi_VoThanhLuan.pdf' 
+    : '/cv/CV_en_VoThanhLuan.pdf';
+
+  const handleDownloadCV = (lang: 'vi' | 'en') => {
+    const cvPath = lang === 'vi' 
+      ? '/cv/CV_vi_VoThanhLuan.pdf' 
+      : '/cv/CV_en_VoThanhLuan.pdf';
     
-    // Tạo link tạm thời để download
     const link = document.createElement('a');
     link.href = cvPath;
-    link.download = `CV_VO_THANH_LUAN_${language.toUpperCase()}.pdf`;
+    link.download = `CV_VO_THANH_LUAN_${lang.toUpperCase()}.pdf`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    
-    setIsDialogOpen(false);
   };
 
   return (
@@ -111,49 +111,102 @@ const AboutSection = () => {
               ))}
             </div>
 
-            {/* Download CV Button */}
+            {/* View CV Button */}
             <Button 
               variant="default" 
               size="xl"
-              onClick={() => setIsDialogOpen(true)}
+              onClick={() => {
+                setCvLanguage(i18n.language === 'en' ? 'en' : 'vi');
+                setIsCvModalOpen(true);
+              }}
+              className="gap-2 font-medium shadow-md hover:shadow-lg transition-all"
             >
-              <Download size={20} />
-              {t("about.downloadCV")}
+              <Eye size={20} />
+              {t("about.viewCV", "Xem CV")}
             </Button>
 
-            {/* Dialog chọn ngôn ngữ CV */}
-            <AlertDialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-              <AlertDialogContent>
-                <AlertDialogHeader>
-                  <AlertDialogTitle className="text-2xl font-bold">
-                    {t("about.cvDialog.title", "Choose CV Language")}
-                  </AlertDialogTitle>
-                  <AlertDialogDescription className="text-base">
-                    {t("about.cvDialog.description", "Please select the language version of the CV you want to download.")}
-                  </AlertDialogDescription>
-                </AlertDialogHeader>
-                <AlertDialogFooter className="flex-col sm:flex-row gap-3">
-                  <AlertDialogCancel onClick={() => setIsDialogOpen(false)}>
-                    {t("about.cvDialog.cancel", "Cancel")}
-                  </AlertDialogCancel>
-                  <Button
-                    variant="outline"
-                    onClick={() => handleDownloadCV('vi')}
-                    className="w-full sm:w-auto"
+            {/* Modal Xem CV trực tiếp */}
+            <Dialog open={isCvModalOpen} onOpenChange={setIsCvModalOpen}>
+              <DialogContent className="max-w-5xl w-[95vw] h-[90vh] flex flex-col p-4 sm:p-6 gap-3">
+                <DialogHeader className="flex flex-col sm:flex-row sm:items-center sm:justify-between pb-3 border-b border-border gap-3 text-left">
+                  <div>
+                    <DialogTitle className="text-xl sm:text-2xl font-bold flex items-center gap-2 text-primary">
+                      <FileText className="text-accent" size={24} />
+                      {t("about.cvViewer.title", "Curriculum Vitae")} — Võ Thành Luận
+                    </DialogTitle>
+                    <DialogDescription className="text-xs sm:text-sm text-muted-foreground mt-0.5">
+                      {t("about.cvViewer.subtitle", "Xem trực tiếp bản CV cá nhân")}
+                    </DialogDescription>
+                  </div>
+
+                  {/* Language switch + Open New Tab + Download buttons */}
+                  <div className="flex items-center gap-2 flex-wrap pr-6 sm:pr-8">
+                    <div className="inline-flex rounded-lg border border-border p-0.5 bg-muted">
+                      <button
+                        type="button"
+                        onClick={() => setCvLanguage('vi')}
+                        className={cn(
+                          "px-3 py-1.5 text-xs font-semibold rounded-md transition-all",
+                          cvLanguage === 'vi' 
+                            ? "bg-primary text-primary-foreground shadow-sm" 
+                            : "text-muted-foreground hover:text-foreground"
+                        )}
+                      >
+                        🇻🇳 {t("about.cvViewer.vietnamese", "Tiếng Việt")}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setCvLanguage('en')}
+                        className={cn(
+                          "px-3 py-1.5 text-xs font-semibold rounded-md transition-all",
+                          cvLanguage === 'en' 
+                            ? "bg-primary text-primary-foreground shadow-sm" 
+                            : "text-muted-foreground hover:text-foreground"
+                        )}
+                      >
+                        🇬🇧 {t("about.cvViewer.english", "English")}
+                      </button>
+                    </div>
+
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => window.open(currentCvPath, '_blank')}
+                      className="h-8 px-2.5 text-xs gap-1.5"
+                    >
+                      <ExternalLink size={14} />
+                      <span className="hidden sm:inline">{t("about.cvViewer.openNewTab", "Mở tab mới")}</span>
+                    </Button>
+
+                    <Button
+                      variant="outline"
+                      size="sm"
+                      onClick={() => handleDownloadCV(cvLanguage)}
+                      className="h-8 px-2.5 text-xs gap-1.5"
+                    >
+                      <Download size={14} />
+                      <span className="hidden sm:inline">{t("about.cvViewer.download", "Tải về")}</span>
+                    </Button>
+                  </div>
+                </DialogHeader>
+
+                {/* PDF Viewer Container */}
+                <div className="flex-1 w-full min-h-0 bg-muted/40 rounded-xl overflow-hidden border border-border relative">
+                  <iframe
+                    src={`${currentCvPath}#toolbar=1`}
+                    title={`CV Võ Thành Luận - ${cvLanguage.toUpperCase()}`}
+                    className="w-full h-full border-0 rounded-xl"
                   >
-                    <Download size={18} className="mr-2" />
-                    {t("about.cvDialog.vietnamese", "Tiếng Việt")}
-                  </Button>
-                  <AlertDialogAction
-                    onClick={() => handleDownloadCV('en')}
-                    className="w-full sm:w-auto"
-                  >
-                    <Download size={18} className="mr-2" />
-                    {t("about.cvDialog.english", "English")}
-                  </AlertDialogAction>
-                </AlertDialogFooter>
-              </AlertDialogContent>
-            </AlertDialog>
+                    <p className="p-4 text-center text-sm text-muted-foreground">
+                      Trình duyệt không hỗ trợ hiển thị PDF trực tiếp.{" "}
+                      <a href={currentCvPath} target="_blank" rel="noreferrer" className="text-accent underline font-semibold">
+                        Nhấn vào đây để xem toàn màn hình
+                      </a>
+                    </p>
+                  </iframe>
+                </div>
+              </DialogContent>
+            </Dialog>
           </div>
         </div>
       </div>
