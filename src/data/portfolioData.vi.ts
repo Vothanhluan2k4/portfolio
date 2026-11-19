@@ -335,7 +335,7 @@ export const portfolioData: PortfolioData = {
       title: "Kỹ sư Công nghệ Thông tin",
       organization: "Đại học Công nghệ Thành phố Hồ Chí Minh (HUTECH)",
       period: "2021 - 11/2026",
-      description: "Học các môn nền tảng CNTT, lập trình Web,ứng dụng di động, CSDL, phân tích & thiết kế hệ thống."
+      description: "Học các môn nền tảng CNTT, lập trình Web, ứng dụng di động, CSDL, phân tích & thiết kế hệ thống, kiểm thử phần mềm."
     },
     {
       id: 2,
