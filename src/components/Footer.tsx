@@ -23,10 +23,11 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://www.linkedin.com/in/yourprofile"
+                href="https://www.linkedin.com/in/luanthanhvo04/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-all duration-300 hover:-translate-y-1"
+                aria-label="LinkedIn"
               >
                 <Linkedin size={18} />
               </a>
@@ -35,20 +36,23 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-all duration-300 hover:-translate-y-1"
+                aria-label="Twitter"
               >
                 <Twitter size={18} />
               </a>
               <a
                 href="mailto:luandangnhap@gmail.com"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-all duration-300 hover:-translate-y-1"
+                aria-label="Email"
               >
                 <Mail size={18} />
               </a>
               <a
-                href="https://x.com/VoThanhLuan2k4"
+                href="https://github.com/Vothanhluan2k4"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent transition-all duration-300 hover:-translate-y-1"
+                aria-label="GitHub"
               >
                 <Github size={18} />
               </a>
