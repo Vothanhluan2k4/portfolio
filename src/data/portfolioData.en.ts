@@ -332,9 +332,9 @@ export const portfolioDataEN: PortfolioData = {
     {
       id: 1,
       type: "education",
-      title: "IT Engineering (4th Year)",
+      title: "IT Engineering",
       organization: "Ho Chi Minh City University of Technology (HUTECH)",
-      period: "2021 - Present",
+      period: "2021 - 11/2026",
       description: "Studied IT fundamentals, web programming, mobile applications, databases, system analysis & design."
     },
     {
